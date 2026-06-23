@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stardew Valley — Ultimate Tips & Tricks Guide</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌾</text></svg>">
+  <style>
+    :root {
+      --sv-green: #5b8c3e;
+      --sv-brown: #8b5e3c;
+      --sv-gold: #f0c040;
+      --sv-blue: #4a90d9;
+      --sv-red: #c0392b;
+      --sv-cream: #fdf6e3;
+      --sv-dark: #2c1810;
+      --sv-water: #5ba0d0;
+      --sv-grass: #7ec850;
+      --sv-dirt: #c4956a;
+      --sv-wood: #a0724a;
+      --sv-stone: #8a8a8a;
+      --sv-pixel: 'Pixelify Sans', cursive;
+      --sv-body: 'Nunito', sans-serif;
+      --sv-heading: 'Fredoka', sans-serif;
+      --bg-page: #f5f0e8;
+      --text-primary: #3d2b1f;
+      --text-secondary: #6b5a4e;
+      --text-muted: #9a8a7e;
+      --bg-card: #ffffff;
+      --border-card: #8b5e3c;
+      --bg-side: #fff;
+    }
+    [data-theme="dark"] {
+      --bg-page: #1a1410;
+      --text-primary: #e8ddd0;
+      --text-secondary: #b8a99a;
+      --text-muted: #7a6b5e;
+      --bg-card: #2c221c;
+      --border-card: #5c3d2e;
+      --bg-side: #221a14;
+    }
+    * { scroll-behavior: smooth; }
+    body {
+      font-family: var(--sv-body);
+      background: var(--bg-page);
+      color: var(--text-primary);
+      background-image: radial-gradient(ellipse at 20% 10%, rgba(124,180,80,0.08) 0%, transparent 60%), radial-gradient(ellipse at 80% 90%, rgba(200,160,80,0.06) 0%, transparent 60%);
+      transition: background 0.3s, color 0.3s;
+    }
+    .pixel-border {
+      border: 3px solid var(--border-card);
+      box-shadow: 0 0 0 2px var(--sv-gold), 0 0 0 6px var(--border-card), 4px 4px 0 0 rgba(0,0,0,0.2);
+      border-radius: 8px;
+    }
+    .pixel-border-sm {
+      border: 2px solid var(--border-card);
+      box-shadow: 0 0 0 1px var(--sv-gold), 0 0 0 3px var(--border-card), 2px 2px 0 0 rgba(0,0,0,0.15);
+      border-radius: 4px;
+    }
+    .heading-pixel { font-family: var(--sv-pixel); letter-spacing: 0.05em; text-shadow: 2px 2px 0 rgba(0,0,0,0.15); }
+    .heading-fredoka { font-family: var(--sv-heading); letter-spacing: 0.02em; }
+    .callout-pro {
+      background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+      border-left: 6px solid #4caf50;
+      border-radius: 0 12px 12px 0;
+      position: relative;
+    }
+    .callout-pro::before {
+      content: '⭐ PRO TIP';
+      position: absolute; top: -12px; left: 16px;
+      background: #4caf50; color: #fff;
+      font-weight: 700; font-size: 0.75rem;
+      padding: 3px 12px; border-radius: 20px;
+      font-family: var(--sv-heading); letter-spacing: 0.05em;
+    }
+    .callout-secret {
+      background: linear-gradient(135deg, #ede7f6, #d1c4e9);
+      border-left: 6px solid #7c3aed;
+      border-radius: 0 12px 12px 0;
+      position: relative;
+    }
+    .callout-secret::before {
+      content: '🔮 SECRET';
+      position: absolute; top: -12px; left: 16px;
+      background: #7c3aed; color: #fff;
+      font-weight: 700; font-size: 0.75rem;
+      padding: 3px 12px; border-radius: 20px;
+      font-family: var(--sv-heading); letter-spacing: 0.05em;
+    }
+    .callout-mistake {
+      background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+      border-left: 6px solid #e53935;
+      border-radius: 0 12px 12px 0;
+      position: relative;
+    }
+    .callout-mistake::before {
+      content: '⚠️ COMMON MISTAKE';
+      position: absolute; top: -12px; left: 16px;
+      background: #e53935; color: #fff;
+      font-weight: 700; font-size: 0.7rem;
+      padding: 3px 12px; border-radius: 20px;
+      font-family: var(--sv-heading); letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+    [data-theme="dark"] .callout-pro { background: linear-gradient(135deg, #1b3a1e, #2a5a2e); }
+    [data-theme="dark"] .callout-secret { background: linear-gradient(135deg, #2a1a4a, #3a2a5a); }
+    [data-theme="dark"] .callout-mistake { background: linear-gradient(135deg, #3a1a1a, #5a2a2a); }
+    .farm-grid-wrap {
+      overflow-x: auto;
+      overflow-y: visible;
+      max-width: 100%;
+      margin: 0 auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .farm-grid {
+      display: grid; gap: 1px;
+      background: #8b7355;
+      border: 4px solid #5c3d2e;
+      border-radius: 8px;
+      width: fit-content;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.2), 0 0 0 2px var(--sv-gold);
+    }
+    .farm-cell {
+      display: flex; align-items: center; justify-content: center;
+      font-size: 10px; line-height: 1;
+      transition: all 0.2s;
+      cursor: default;
+      position: relative;
+      overflow: hidden;
+      user-select: none;
+    }
+    .farm-cell:hover { filter: brightness(1.2); z-index: 2; transform: scale(1.4); box-shadow: 0 0 8px rgba(0,0,0,0.3); }
+    .farm-building {
+      display: flex; align-items: center; justify-content: center;
+      z-index: 10;
+      background: rgba(160,114,74,0.2);
+      border: 1px solid #5c3d2e;
+      border-radius: 6px;
+      font-size: 1.8rem;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+      overflow: hidden;
+      pointer-events: none;
+    }
+    .farm-item {
+      display: flex; align-items: center; justify-content: center;
+      z-index: 5;
+      font-size: 10px;
+      pointer-events: none;
+    }
+    .farm-cell-grass { background: #7ec850; }
+    .farm-cell-dirt { background: #c4956a; }
+    .farm-cell-tilled { background: #8b5e3c; }
+    .farm-cell-water { background: #5ba0d0; }
+    .farm-cell-crop { background: #6a9b3c; }
+    .farm-cell-building { background: #a0724a; border: 1px solid #5c3d2e; }
+    .farm-cell-path { background: #c4a882; }
+    .farm-cell-fence { background: #8b6914; }
+    .farm-cell-sprinkler { background: #4a90d9; border-radius: 50%; border: 1px solid #2c5f8a; }
+    .farm-cell-sand { background: #d4b896; }
+    .farm-cell-quarry { background: #7a7a6a; }
+    .farm-cell-berries { background: #cc4477; }
+    .farm-cell-hardwood { background: #6b4226; }
+    .farm-cell-tree { background: #3a7a2a; }
+    .farm-cell-bridge { background: #6b4a2a; }
+    .farm-cell-cliff { background: #5a5a4a; }
+    .farm-cell-green { background: #5a9a3a; }
+    .farm-cell-blue { background: #4a8abd; }
+    .npc-portrait {
+      width: 64px; height: 64px;
+      border-radius: 12px;
+      border: 3px solid #5c3d2e;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--sv-pixel); font-size: 1.5rem;
+      background: linear-gradient(180deg, #f5d5b8, #e8c4a0);
+      box-shadow: 2px 3px 0 rgba(0,0,0,0.2);
+      color: #3d2b1f;
+      transition: transform 0.2s;
+      cursor: pointer;
+    }
+    .npc-portrait:hover { transform: translateY(-4px); box-shadow: 4px 6px 0 rgba(0,0,0,0.3); }
+    @keyframes heartbeat { 0%,100%{transform:scale(1)} 15%{transform:scale(1.25)} 30%{transform:scale(1)} 45%{transform:scale(1.15)} 60%{transform:scale(1)} }
+    .heart-beat { animation: heartbeat 1.5s ease-in-out infinite; }
+    @keyframes fishingBar { 0%,100%{left:30%} 50%{left:55%} }
+    @keyframes fishMove { 0%,100%{top:30%;left:50%} 50%{top:55%;left:60%} }
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-track { background: var(--bg-page); }
+    ::-webkit-scrollbar-thumb { background: var(--sv-brown); border-radius: 5px; }
+    @media print { body { background: white } .no-print { display: none } }
+    .modal-overlay {
+      position: fixed; inset: 0; z-index: 9999;
+      background: rgba(0,0,0,0.55);
+      display: flex; align-items: center; justify-content: center;
+      padding: 1rem;
+    }
+    .modal-content {
+      background: var(--bg-card);
+      color: var(--text-primary);
+      border: 3px solid var(--sv-gold);
+      border-radius: 16px;
+      padding: 1.5rem;
+      max-width: 480px; width: 100%;
+      max-height: 80vh; overflow-y: auto;
+      position: relative;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    .modal-close {
+      position: absolute; top: 8px; right: 12px;
+      font-size: 1.5rem; cursor: pointer;
+      background: none; border: none; color: var(--text-primary);
+      line-height: 1;
+    }
+    .expandable-content { height: 0; overflow: hidden; transition: height 0.35s ease, padding 0.35s ease; padding: 0 1rem !important; }
+    .expandable.open .expandable-content { height: auto; overflow: visible; padding: 0.5rem 1rem 1rem 1rem !important; }
+    .expandable-arrow { transition: transform 0.3s; }
+    .expandable.open .expandable-arrow { transform: rotate(180deg); }
+    .seasons-tab { cursor: pointer; transition: all 0.3s; }
+    .seasons-tab.active { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.25); }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+    .progress-bar { height: 8px; background: #e0d5c8; border-radius: 4px; overflow: hidden; }
+    .progress-bar-fill { height: 100%; background: linear-gradient(90deg, var(--sv-green), var(--sv-gold)); border-radius: 4px; transition: width 0.3s; }
+    .search-input { background: var(--bg-card); color: var(--text-primary); border: 2px solid var(--border-card); }
+    .search-input:focus { outline: none; border-color: var(--sv-gold); }
+    .filter-chip { cursor: pointer; transition: all 0.2s; }
+    .filter-chip.active { background: var(--sv-gold) !important; color: #3d2b1f !important; }
+    [data-theme="dark"] .farm-cell-grass { background: #4a7a30; }
+    [data-theme="dark"] .farm-cell-dirt { background: #8a6a3a; }
+    [data-theme="dark"] .farm-cell-tilled { background: #6a3e1c; }
+    [data-theme="dark"] .farm-cell-water { background: #3a70a0; }
+    [data-theme="dark"] .farm-cell-crop { background: #4a7a2c; }
+    [data-theme="dark"] .farm-cell-building { background: #7a523a; }
+    [data-theme="dark"] .farm-cell-path { background: #9a8872; }
+    [data-theme="dark"] .farm-cell-fence { background: #6a5904; }
+    [data-theme="dark"] .farm-cell-sand { background: #9a8872; }
+    [data-theme="dark"] .farm-cell-quarry { background: #5a5a4a; }
+    [data-theme="dark"] .farm-cell-berries { background: #8a3357; }
+    [data-theme="dark"] .farm-cell-hardwood { background: #4a321a; }
+    [data-theme="dark"] .farm-cell-tree { background: #2a5a1a; }
+    [data-theme="dark"] .farm-cell-bridge { background: #4a3a1a; }
+    [data-theme="dark"] .farm-cell-cliff { background: #4a4a3a; }
+    [data-theme="dark"] .farm-cell-green { background: #3a6a2a; }
+    [data-theme="dark"] .farm-cell-blue { background: #3a5a8a; }
+    [data-theme="dark"] .farm-cell-sprinkler { background: #3a70a0; }
+    [data-theme="dark"] .farm-grid { background: #5a4335; border-color: #8a6a4a; box-shadow: 0 8px 32px rgba(0,0,0,0.4), 0 0 0 2px var(--sv-gold); }
+
+    [data-theme="dark"] .layout-btn, [data-theme="dark"] .farmtype-btn { background: #4a4a4a !important; color: #aaa !important; }
+    [data-theme="dark"] .layout-btn.active, [data-theme="dark"] .farmtype-btn.active { background: #c47a10 !important; color: #fff !important; }
+    [data-theme="dark"] .farm-building { background: rgba(120,90,60,0.35); border-color: #7a5a3a; }
+    [data-theme="dark"] .farm-cell { color: rgba(255,255,255,0.7); }
+    .text-gold { color: var(--sv-gold); text-shadow: 0 0 1px rgba(0,0,0,0.2); }
+    [data-theme="dark"] .text-gold { color: #f5c840; text-shadow: 0 0 2px rgba(0,0,0,0.3); }
+    .item-row { cursor: pointer; transition: background 0.2s; }
+    .item-row:hover { background: rgba(240,192,64,0.15); }
+    .gift-tier-love { background: #fce4ec; }
+    .gift-tier-like { background: #e8f5e9; }
+    .gift-tier-neutral { background: #f5f5f5; }
+    .gift-tier-dislike { background: #fff3e0; }
+    .gift-tier-hate { background: #fbe9e7; }
+    [data-theme="dark"] .gift-tier-love { background: #3a1a22; }
+    [data-theme="dark"] .gift-tier-like { background: #1a3a1a; }
+    [data-theme="dark"] .gift-tier-neutral { background: #2a2a2a; }
+    [data-theme="dark"] .gift-tier-dislike { background: #3a2a1a; }
+    [data-theme="dark"] .gift-tier-hate { background: #3a1a18; }
+    .monster-card { border-left: 3px solid; transition: transform 0.2s; }
+    .monster-card:hover { transform: translateX(4px); }
+    [data-theme="dark"] .text-green-700 { color: #6fcf7f !important; }
+    [data-theme="dark"] .text-red-600, [data-theme="dark"] .text-red-500 { color: #ff6b6b !important; }
+    [data-theme="dark"] .text-green-500 { color: #5fcf6f !important; }
+    [data-theme="dark"] .text-amber-800 { color: #f5c840 !important; }
+    [data-theme="dark"] .text-purple-500, [data-theme="dark"] .text-purple-700 { color: #c084fc !important; }
+    [data-theme="dark"] .text-purple-600 { color: #d8b4fe !important; }
+    [data-theme="dark"] .text-blue-500, [data-theme="dark"] .text-blue-700 { color: #60a5fa !important; }
+    [data-theme="dark"] .text-yellow-500, [data-theme="dark"] .text-yellow-700 { color: #facc15 !important; }
+    [data-theme="dark"] .text-amber-500 { color: #fbbf24 !important; }
+    [data-theme="dark"] .text-gray-500 { color: #9ca3af !important; }
+    [data-theme="dark"] .text-gray-700 { color: #d1d5db !important; }
+    [data-theme="dark"] .text-orange-500, [data-theme="dark"] .text-orange-600, [data-theme="dark"] .text-orange-700 { color: #fb923c !important; }
+    [data-theme="dark"] .text-pink-700 { color: #f472b6 !important; }
+    [data-theme="dark"] .text-teal-700 { color: #2dd4bf !important; }
+    [data-theme="dark"] .text-violet-800 { color: #c4b5fd !important; }
+    [data-theme="dark"] .text-teal-800 { color: #5eead4 !important; }
+    [data-theme="dark"] .text-red-700 { color: #ff6b6b !important; }
+    [data-theme="dark"] .bg-green-100.dark\:bg-green-900 { background: #14532d !important; }
+    [data-theme="dark"] .bg-amber-50 { background: #451a03 !important; }
+    [data-theme="dark"] .bg-blue-50 { background: #1e3a5f !important; }
+    [data-theme="dark"] .bg-purple-50 { background: #3b0764 !important; }
+    [data-theme="dark"] .bg-pink-50 { background: #4a0e2e !important; }
+    [data-theme="dark"] .bg-red-50 { background: #3a1a22 !important; }
+    [data-theme="dark"] .bg-gray-100 { background: #1f2937 !important; }
+    [data-theme="dark"] .bg-orange-50 { background: #431407 !important; }
+    [data-theme="dark"] .bg-yellow-50 { background: #451a03 !important; }
+    [data-theme="dark"] .bg-green-50 { background: #052e16 !important; }
+    [data-theme="dark"] .bg-amber-100 { background: #78350f !important; }
+    [data-theme="dark"] .bg-yellow-100 { background: #713f12 !important; }
+    [data-theme="dark"] .bg-orange-100 { background: #7c2d12 !important; }
+    [data-theme="dark"] .bg-green-100 { background: #14532d !important; }
+    [data-theme="dark"] .bg-purple-100 { background: #4c1d95 !important; }
+    [data-theme="dark"] .bg-indigo-100 { background: #3730a3 !important; }
+    [data-theme="dark"] .bg-violet-100 { background: #4c1d95 !important; }
+    [data-theme="dark"] .bg-teal-100 { background: #115e59 !important; }
+    [data-theme="dark"] .bg-blue-100 { background: #1e3a5f !important; }
+    [data-theme="dark"] .bg-pink-100 { background: #4a0e2e !important; }
+    [data-theme="dark"] .bg-red-100 { background: #3a1a22 !important; }
+    [data-theme="dark"] .text-orange-800 { color: #fdba74 !important; }
+    [data-theme="dark"] .text-indigo-800 { color: #a5b4fc !important; }
+    [data-theme="dark"] .text-yellow-800 { color: #fde047 !important; }
+    [data-theme="dark"] .text-purple-800 { color: #d8b4fe !important; }
+    [data-theme="dark"] .text-green-800 { color: #86efac !important; }
+    [data-theme="dark"] .text-amber-800 { color: #fcd34d !important; }
+    [data-theme="dark"] .text-blue-800 { color: #93c5fd !important; }
+    [data-theme="dark"] .text-pink-800 { color: #f9a8d4 !important; }
+    [data-theme="dark"] .callout-pro, [data-theme="dark"] .callout-secret, [data-theme="dark"] .callout-mistake { color: #e5e5e5 !important; }
+    [data-theme="dark"] .callout-pro strong, [data-theme="dark"] .callout-secret strong, [data-theme="dark"] .callout-mistake strong { color: #fff !important; }
+    [data-theme="dark"] .text-green-600 { color: #4ade80 !important; }
+    [data-theme="dark"] .text-\[var\(--text-secondary\)\] { color: #d4c5b5 !important; }
+    [data-theme="dark"] .text-\[var\(--text-muted\)\] { color: #d0c0a0 !important; }
+    [data-theme="dark"] .from-green-50 { --tw-gradient-from: #052e16; --tw-gradient-to: #052e16; }
+    [data-theme="dark"] .to-emerald-50 { --tw-gradient-to: #052e16; }
+    [data-theme="dark"] .from-orange-50 { --tw-gradient-from: #431407; --tw-gradient-to: #431407; }
+    [data-theme="dark"] .to-amber-50 { --tw-gradient-to: #431407; }
+    [data-theme="dark"] .from-purple-50 { --tw-gradient-from: #3b0764; --tw-gradient-to: #3b0764; }
+    [data-theme="dark"] .to-indigo-50 { --tw-gradient-to: #3b0764; }
+    [data-theme="dark"] .from-amber-100 { --tw-gradient-from: #78350f; --tw-gradient-to: #78350f; }
+    [data-theme="dark"] .via-yellow-100 { --tw-gradient-via: #713f12; }
+    [data-theme="dark"] .to-amber-100 { --tw-gradient-to: #78350f; }
+    [data-theme="dark"] .bg-blue-50 p, [data-theme="dark"] .bg-blue-50 .font-bold { color: #93c5fd !important; }
+    [data-theme="dark"] .bg-red-50 p, [data-theme="dark"] .bg-red-50 .font-bold { color: #fca5a5 !important; }
+    [data-theme="dark"] .bg-purple-50 p, [data-theme="dark"] .bg-purple-50 .font-bold { color: #c084fc !important; }
+    [data-theme="dark"] .callout-pro { background: linear-gradient(135deg, #14532d, #1a6b3a) !important; }
+    [data-theme="dark"] .callout-secret { background: linear-gradient(135deg, #2a1a4a, #3a2a5a) !important; }
+    [data-theme="dark"] .callout-mistake { background: linear-gradient(135deg, #3a1a1a, #5a2a2a) !important; }
+    [data-theme="dark"] .callout-pro::before { background: #22c55e !important; }
+    [data-theme="dark"] .callout-secret::before { background: #a78bfa !important; }
+    [data-theme="dark"] .callout-mistake::before { background: #ef4444 !important; }
+    [data-theme="dark"] .card.text-gray-800 { color: #e5e5e5 !important; }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HERO HEADER ===== -->
+  <header class="relative overflow-hidden" style="background:var(--bg-page)">
+    <div class="absolute inset-0 opacity-[0.04]" style="background-image:repeating-linear-gradient(0deg,transparent,transparent 40px,rgba(0,0,0,0.08) 40px,rgba(0,0,0,0.08) 41px),repeating-linear-gradient(90deg,transparent,transparent 40px,rgba(0,0,0,0.08) 40px,rgba(0,0,0,0.08) 41px)"></div>
+    <div class="max-w-6xl mx-auto px-4 py-12 md:py-20 relative z-10 text-center">
+      <div class="inline-flex items-center gap-2 mb-4 bg-[var(--sv-green)]/10 backdrop-blur rounded-full px-5 py-2 border border-[var(--sv-green)]/20">
+        <span class="text-2xl">🌾</span>
+        <span class="text-[var(--sv-green)] text-sm font-semibold tracking-wider" style="font-family:var(--sv-heading)">THE ULTIMATE GUIDE</span>
+      </div>
+      <h1 class="heading-pixel text-4xl md:text-6xl lg:text-7xl text-[var(--text-primary)] mb-4" style="text-shadow:3px 3px 0 rgba(0,0,0,0.08)">
+        Stardew Valley
+      </h1>
+      <p class="heading-fredoka text-xl md:text-2xl text-[var(--sv-brown)] mb-2">Complete Tips &amp; Tricks Handbook</p>
+      <p class="text-[var(--text-secondary)] max-w-xl mx-auto text-sm md:text-base">From your first parsnip to 100% Perfection — every crop, NPC, monster, secret, and strategy.</p>
+      <div class="flex gap-3 justify-center mt-6 flex-wrap">
+        <span class="bg-[var(--sv-green)]/15 text-[var(--sv-green)] px-4 py-1.5 rounded-full text-sm font-bold shadow-sm" style="font-family:var(--sv-heading)">🌱 Early Game</span>
+        <span class="bg-[var(--sv-gold)]/20 text-yellow-800 px-4 py-1.5 rounded-full text-sm font-bold shadow-sm" style="font-family:var(--sv-heading)">🏗️ Mid Game</span>
+        <span class="bg-purple-100 text-purple-700 px-4 py-1.5 rounded-full text-sm font-bold shadow-sm" style="font-family:var(--sv-heading)">⭐ Late Game</span>
+        <span class="bg-pink-100 text-pink-700 px-4 py-1.5 rounded-full text-sm font-bold shadow-sm" style="font-family:var(--sv-heading)">💝 NPCs</span>
+      </div>
+      <button id="themeToggle" class="mt-4 bg-[var(--border-card)]/10 backdrop-blur rounded-full px-4 py-2 text-[var(--text-secondary)] text-sm hover:bg-[var(--border-card)]/20 transition border border-[var(--border-card)]/20" aria-label="Toggle theme">☀️</button>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-[var(--bg-page)] to-transparent"></div>
+  </header>
+
+  <!-- ===== STICKY NAV ===== -->
+  <nav class="sticky top-0 z-50 bg-[var(--bg-card)]/90 backdrop-blur-md shadow-lg border-b-4 border-amber-700 no-print" style="font-family:var(--sv-heading)">
+    <div class="max-w-6xl mx-auto px-4 flex items-center justify-start gap-2 py-3 overflow-x-auto">
+      <a href="#early-game" class="season-tab px-4 py-2 rounded-full text-sm font-bold bg-green-100 text-green-800 hover:bg-green-200 transition flex items-center gap-1 whitespace-nowrap"><span>🌱</span> Early</a>
+      <a href="#mid-game" class="season-tab px-4 py-2 rounded-full text-sm font-bold bg-orange-100 text-orange-800 hover:bg-orange-200 transition flex items-center gap-1 whitespace-nowrap"><span>🏗️</span> Mid</a>
+      <a href="#late-game" class="season-tab px-4 py-2 rounded-full text-sm font-bold bg-purple-100 text-purple-800 hover:bg-purple-200 transition flex items-center gap-1 whitespace-nowrap"><span>⭐</span> Late</a>
+      <a href="#farm-layouts" class="season-tab px-4 py-2 rounded-full text-sm font-bold bg-amber-100 text-amber-800 hover:bg-amber-200 transition flex items-center gap-1 whitespace-nowrap"><span>🏡</span> Layouts</a>
+      <a href="#mechanics" class="season-tab px-4 py-2 rounded-full text-sm font-bold bg-violet-100 text-violet-800 hover:bg-violet-200 transition flex items-center gap-1 whitespace-nowrap"><span>⚙️</span> Mechanics</a>
+      <a href="#seasonal" class="season-tab px-4 py-2 rounded-full text-sm font-bold bg-blue-100 text-blue-800 hover:bg-blue-200 transition flex items-center gap-1 whitespace-nowrap"><span>🎪</span> Seasonal</a>
+      <a href="#npc-guide" class="season-tab px-4 py-2 rounded-full text-sm font-bold bg-pink-100 text-pink-800 hover:bg-pink-200 transition flex items-center gap-1 whitespace-nowrap"><span>💝</span> NPCs</a>
+      <a href="#items" class="season-tab px-4 py-2 rounded-full text-sm font-bold bg-teal-100 text-teal-800 hover:bg-teal-200 transition flex items-center gap-1 whitespace-nowrap"><span>📦</span> Items</a>
+      <a href="#tutorials" class="season-tab px-4 py-2 rounded-full text-sm font-bold bg-blue-100 text-blue-800 hover:bg-blue-200 transition flex items-center gap-1 whitespace-nowrap"><span>📋</span> Tutorials</a>
+      <a href="#checklist" class="season-tab px-4 py-2 rounded-full text-sm font-bold bg-green-100 text-green-800 hover:bg-green-200 transition flex items-center gap-1 whitespace-nowrap"><span>✅</span> Checklist</a>
+    </div>
+  </nav>
+
+  <main class="max-w-6xl mx-auto px-4 py-8 space-y-16">
+
+    <!-- ================================================================== -->
+    <!-- EARLY GAME SECTION                                                 -->
+    <!-- ================================================================== -->
+    <section id="early-game" class="scroll-mt-28">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-14 h-14 rounded-2xl bg-green-200 flex items-center justify-center text-3xl shadow-md">🌱</div>
+        <div>
+          <h2 class="heading-pixel text-3xl md:text-4xl text-green-800">EARLY GAME</h2>
+          <p class="text-sm text-green-700 heading-fredoka">Spring Year 1 — Laying the Foundation</p>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 mb-8">
+        <div class="md:col-span-2 bg-[var(--bg-card)] rounded-2xl p-6 pixel-border">
+          <h3 class="heading-fredoka text-xl text-green-700 mb-3">🎯 Goals &amp; Priorities</h3>
+          <ul class="space-y-2 text-sm">
+            <li class="flex items-start gap-2"><span class="text-green-600 font-bold mt-0.5">✓</span> Unlock basic tools &amp; clear a small farming area near the farmhouse</li>
+            <li class="flex items-start gap-2"><span class="text-green-600 font-bold mt-0.5">✓</span> Establish stable money from crops (parsnips → potatoes) and fishing</li>
+            <li class="flex items-start gap-2"><span class="text-green-600 font-bold mt-0.5">✓</span> Reach at least level 5–10 in the mines to unlock elevator checkpoints</li>
+            <li class="flex items-start gap-2"><span class="text-green-600 font-bold mt-0.5">✓</span> Meet all villagers and start building friendships (2+ hearts with a few)</li>
+            <li class="flex items-start gap-2"><span class="text-green-600 font-bold mt-0.5">✓</span> Begin Community Center bundles or Joja membership path</li>
+          </ul>
+        </div>
+        <div class="bg-amber-50 dark:bg-amber-900/20 rounded-2xl p-6 pixel-border">
+          <h3 class="heading-fredoka text-lg text-amber-800 mb-3">📋 First 2–3 Weeks</h3>
+          <p class="text-xs font-bold text-green-700 mb-2">✅ DO THIS:</p>
+          <ul class="text-xs space-y-1 mb-3">
+            <li>• Hoard all resources (wood, stone, fiber)</li>
+            <li>• Focus energy on a few good crops</li>
+            <li>• Fish when crops are watered</li>
+            <li>• Visit mines on rainy days</li>
+          </ul>
+          <p class="text-xs font-bold text-red-600 mb-2">❌ AVOID:</p>
+          <ul class="text-xs space-y-1">
+            <li>• Overspending at Pierre's</li>
+            <li>• Clearing the entire farm early</li>
+            <li>• Ignoring the TV (weather &amp; luck)</li>
+            <li>• Staying out past midnight</li>
+          </ul>
+        </div>
+      </div>
+
+
+
+      <!-- Step-by-step -->
+      <div class="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 rounded-2xl p-6 pixel-border mb-8">
+        <h3 class="heading-fredoka text-lg text-green-700 mb-3">📝 Step-by-Step: Setting Up Your First Farm Plot</h3>
+        <ol class="space-y-3 text-sm">
+          <li class="flex gap-3"><span class="font-bold text-green-600 bg-green-100 dark:bg-green-900 w-7 h-7 rounded-full flex items-center justify-center shrink-0">1</span> <span><strong>Clear a small rectangle</strong> (about 6×9 tiles) right next to your farmhouse using your axe and pickaxe. Save the wood and stone!</span></li>
+          <li class="flex gap-3"><span class="font-bold text-green-600 bg-green-100 dark:bg-green-900 w-7 h-7 rounded-full flex items-center justify-center shrink-0">2</span> <span><strong>Hoe the soil</strong> in 3×3 blocks, leaving the center tile un-hoed. This pattern will perfectly fit a quality sprinkler later.</span></li>
+          <li class="flex gap-3"><span class="font-bold text-green-600 bg-green-100 dark:bg-green-900 w-7 h-7 rounded-full flex items-center justify-center shrink-0">3</span> <span><strong>Water each tilled tile</strong> with your watering can. Stand in the center (the un-hoed tile) to reach all 8 surrounding tiles efficiently.</span></li>
+          <li class="flex gap-3"><span class="font-bold text-green-600 bg-green-100 dark:bg-green-900 w-7 h-7 rounded-full flex items-center justify-center shrink-0">4</span> <span><strong>Plant your seeds</strong> — start with Parsnips (4 days, cheap) then switch to Potatoes for better profit. Place a Scarecrow nearby once you have 15+ crops.</span></li>
+          <li class="flex gap-3"><span class="font-bold text-green-600 bg-green-100 dark:bg-green-900 w-7 h-7 rounded-full flex items-center justify-center shrink-0">5</span> <span><strong>Place a chest</strong> right outside your farmhouse door to store tools, seeds, and forage items — saves huge time!</span></li>
+        </ol>
+      </div>
+
+      <!-- Callout boxes -->
+      <div class="grid md:grid-cols-3 gap-4 mb-8">
+        <div class="callout-pro p-5 pt-7 rounded-xl text-sm text-gray-800 dark:text-gray-200">
+          <strong>Upgrade your Watering Can</strong> on the 27th of Spring (check TV for rain on the 28th). Water crops on the 27th, drop the can at Clint's, rain waters on the 28th, and you pick it up on the 29th — zero missed watering days!
+        </div>
+        <div class="callout-secret p-5 pt-7 rounded-xl text-sm text-gray-800 dark:text-gray-200">
+          <strong>Spring Onions</strong> grow in the southeast forest (near the sewer pipe) and are free energy! Check daily — they're great for early mine runs when you need extra stamina.
+        </div>
+        <div class="callout-mistake p-5 pt-7 rounded-xl text-sm text-gray-800 dark:text-gray-200">
+          <strong>Don't donate your first Prismatic Shard</strong> or Dinosaur Egg to the museum! The shard unlocks the Galaxy Sword, and the egg can be incubated for unlimited dinosaurs. Keep them safe!
+        </div>
+      </div>
+
+      <!-- Skill Cards -->
+      <div class="grid md:grid-cols-2 gap-6 mb-8">
+        <div class="bg-[var(--bg-card)] rounded-2xl p-5 pixel-border">
+          <h4 class="heading-fredoka text-lg text-amber-700 flex items-center gap-2">🍄 Foraging</h4>
+          <p class="text-xs text-[var(--text-secondary)] mb-3">Pick up forageables for easy early income and energy. Each season brings unique wild items.</p>
+          <div class="flex gap-2 flex-wrap mb-3">
+            <span class="bg-pink-100 dark:bg-pink-900 text-pink-700 px-2 py-1 rounded text-xs font-bold">🌸 Spring: Daffodil, Dandelion, Leek, Wild Horseradish</span>
+            <span class="bg-yellow-100 dark:bg-yellow-900 text-yellow-700 px-2 py-1 rounded text-xs font-bold">☀️ Summer: Spice Berry, Grape, Sweet Pea</span>
+            <span class="bg-orange-100 dark:bg-orange-900 text-orange-700 px-2 py-1 rounded text-xs font-bold">🍂 Fall: Wild Plum, Hazelnut, Blackberry</span>
+          </div>
+          <p class="text-xs"><strong>Best spots:</strong> Forest south of the farm, bus stop area, mountain paths. Check daily — they respawn!</p>
+        </div>
+        <div class="bg-[var(--bg-card)] rounded-2xl p-5 pixel-border">
+          <h4 class="heading-fredoka text-lg text-blue-700 flex items-center gap-2">🎣 Fishing</h4>
+          <p class="text-xs text-[var(--text-secondary)] mb-3">The fishing mini-game takes practice — keep the fish inside the green bar by tapping (not holding) the button.</p>
+          <div class="bg-blue-50 dark:bg-blue-900/30 rounded-lg p-3 mb-3 text-center">
+            <div class="w-full h-8 bg-blue-200 dark:bg-blue-800 rounded-full relative overflow-hidden border-2 border-blue-400">
+              <div class="absolute top-0 left-1/3 w-10 h-full bg-green-400 rounded-full border border-green-600" style="animation:fishingBar 2s ease-in-out infinite;"></div>
+              <div class="absolute top-0 left-[55%] w-3 h-3 bg-red-500 rounded-full" style="animation:fishMove 1.5s ease-in-out infinite;"></div>
+            </div>
+            <p class="text-[10px] text-gray-500 dark:text-gray-400 mt-1">↑ Green bar = your catch zone | Red dot = the fish</p>
+          </div>
+          <p class="text-xs"><strong>Best early spots:</strong> Mountain Lake (carp are easy), River in town. Buy the Training Rod from Willy for easier catches!</p>
+        </div>
+        <div class="bg-[var(--bg-card)] rounded-2xl p-5 pixel-border">
+          <h4 class="heading-fredoka text-lg text-gray-700 flex items-center gap-2">⛏️ Mining</h4>
+          <p class="text-xs text-[var(--text-secondary)] mb-3">Aim to descend 5 floors per trip to unlock the next elevator checkpoint. Don't break every single rock!</p>
+          <div class="bg-gray-100 dark:bg-gray-800 rounded-lg p-3 mb-3 text-center">
+            <div class="grid grid-cols-8 gap-0.5 max-w-[200px] mx-auto">
+              <div class="aspect-square bg-gray-500 rounded"></div><div class="aspect-square bg-gray-400 rounded"></div><div class="aspect-square bg-gray-500 rounded"></div><div class="aspect-square bg-gray-300 rounded"></div><div class="aspect-square bg-gray-500 rounded"></div><div class="aspect-square bg-yellow-500 rounded"></div><div class="aspect-square bg-gray-400 rounded"></div><div class="aspect-square bg-gray-500 rounded"></div>
+              <div class="aspect-square bg-gray-300 rounded"></div><div class="aspect-square bg-gray-500 rounded"></div><div class="aspect-square bg-gray-400 rounded"></div><div class="aspect-square bg-gray-500 rounded"></div><div class="aspect-square bg-gray-300 rounded"></div><div class="aspect-square bg-gray-400 rounded"></div><div class="aspect-square bg-gray-500 rounded"></div><div class="aspect-square bg-amber-700 rounded"></div>
+            </div>
+            <p class="text-[10px] text-gray-500 dark:text-gray-400 mt-1">⬆ Ladder under a rock — break strategically! Yellow = copper ore</p>
+          </div>
+          <p class="text-xs"><strong>Strategy:</strong> Use bombs on dense rock clusters. Bring food! Upgrade pickaxe at Clint's as soon as you can afford it.</p>
+        </div>
+        <div class="bg-[var(--bg-card)] rounded-2xl p-5 pixel-border">
+          <h4 class="heading-fredoka text-lg text-red-700 flex items-center gap-2">⚔️ Combat</h4>
+          <p class="text-xs text-[var(--text-secondary)] mb-3">Timing is everything — swing your sword just as the monster enters range. Block with right-click to reduce damage.</p>
+          <div class="flex gap-3 items-center mb-3">
+            <div class="w-12 h-16 bg-gray-400 rounded-sm flex items-center justify-center text-xs font-bold text-white" style="clip-path:polygon(40% 0%,60% 0%,60% 85%,50% 100%,40% 85%)">🗡️</div>
+            <div class="text-xs">
+              <p><strong>Green Slime:</strong> Easy, just swing!</p>
+              <p><strong>Rock Crab:</strong> Wait for it to peek, then strike.</p>
+              <p><strong>Bat:</strong> Time your swing as it swoops in.</p>
+            </div>
+          </div>
+          <p class="text-xs">Upgrade your weapon at the Adventurer's Guild. Rings with glow or magnetism are huge quality-of-life boosts!</p>
+        </div>
+      </div>
+
+      <!-- Early NPCs -->
+      <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border mb-8">
+        <h3 class="heading-fredoka text-xl text-pink-700 mb-4">💝 Key Early NPCs to Meet</h3>
+        <div id="earlyNpcGrid" class="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-7 gap-3 text-center"></div>
+        <p class="text-xs text-[var(--text-muted)] mt-4 text-center">Talk to everyone daily! Gifts on birthdays (check the calendar outside Pierre's) give 8× friendship points.</p>
+      </div>
+
+      <!-- Expandable: First Week Checklist -->
+      <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border mb-4">
+        <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+          <span class="heading-fredoka text-lg text-green-700">📋 First Week Checklist</span>
+          <span class="expandable-arrow text-green-700 text-xl">▼</span>
+        </button>
+        <div class="expandable-content px-4 pb-4">
+          <div data-progress>
+            <div class="flex justify-between text-xs text-[var(--text-muted)] mb-1"><span>Progress</span><span class="progress-label">0/7 (0%)</span></div>
+            <div class="progress-bar"><div class="progress-bar-fill" style="width:0%"></div></div>
+            <div class="checklist space-y-2 text-sm mt-3" id="earlyChecklist" data-auto>
+              <label class="flex items-start gap-2 cursor-pointer checklist-item"><input type="checkbox" id="early-day1" class="mt-1"><span class="checklist-text"><b>Day 1:</b> Clear 15 tiles near farmhouse. Plant all 15 parsnips. Water them. Meet everyone.</span></label>
+              <label class="flex items-start gap-2 cursor-pointer checklist-item"><input type="checkbox" id="early-day2" class="mt-1"><span class="checklist-text"><b>Day 2:</b> Water crops. Walk to Pelican Town — visit saloon, store, beach. Meet Willy.</span></label>
+              <label class="flex items-start gap-2 cursor-pointer checklist-item"><input type="checkbox" id="early-day3" class="mt-1"><span class="checklist-text"><b>Day 3:</b> Enter Museum. Start fishing at Mountain Lake.</span></label>
+              <label class="flex items-start gap-2 cursor-pointer checklist-item"><input type="checkbox" id="early-day4" class="mt-1"><span class="checklist-text"><b>Day 4:</b> Harvest parsnips! Re-plant. Forage in Cindersap Forest.</span></label>
+              <label class="flex items-start gap-2 cursor-pointer checklist-item"><input type="checkbox" id="early-day5" class="mt-1"><span class="checklist-text"><b>Day 5:</b> Fishing Level 2. Buy Fiberglass Rod (1,800g).</span></label>
+              <label class="flex items-start gap-2 cursor-pointer checklist-item"><input type="checkbox" id="early-day6" class="mt-1"><span class="checklist-text"><b>Day 6:</b> Enter Mines. Focus on levels 1-10 for copper.</span></label>
+              <label class="flex items-start gap-2 cursor-pointer checklist-item"><input type="checkbox" id="early-day7" class="mt-1"><span class="checklist-text"><b>Day 7:</b> Check Traveling Cart. Craft Scarecrow. Save energy.</span></label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Expandable: Beginner Essentials -->
+      <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border mb-4">
+        <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+          <span class="heading-fredoka text-lg text-green-700">🌱 Beginner Crop &amp; Tool Guide</span>
+          <span class="expandable-arrow text-green-700 text-xl">▼</span>
+        </button>
+        <div class="expandable-content px-4 pb-4">
+          <div class="grid md:grid-cols-2 gap-4">
+            <div>
+              <p class="font-bold text-sm mb-2">Best Spring Crops by Profit:</p>
+              <table class="w-full text-xs">
+                <tr class="border-b border-gray-200"><th class="text-left py-1">Crop</th><th class="text-right py-1">Days</th><th class="text-right py-1">Profit/Day</th></tr>
+                <tr><td class="py-1">Potato</td><td class="text-right">6</td><td class="text-right">~17g</td></tr>
+                <tr><td class="py-1">Green Bean</td><td class="text-right">10 (regrow 3)</td><td class="text-right">~21g</td></tr>
+                <tr><td class="py-1">Kale</td><td class="text-right">6</td><td class="text-right">~14g</td></tr>
+                <tr><td class="py-1">Cauliflower</td><td class="text-right">12</td><td class="text-right">~12g</td></tr>
+                <tr><td class="py-1">Parsnip</td><td class="text-right">4</td><td class="text-right">~8g</td></tr>
+              </table>
+            </div>
+            <div>
+              <p class="font-bold text-sm mb-2">Tool Upgrade Priority:</p>
+              <ol class="text-xs space-y-1 list-decimal pl-4">
+                <li>Copper Watering Can</li>
+                <li>Copper Pickaxe</li>
+                <li>Copper Axe</li>
+                <li>Iron Pickaxe</li>
+                <li>Steel Watering Can</li>
+                <li>Steel Axe (for Secret Woods)</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="flex items-center gap-4"><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent"></div><span class="text-2xl">🌻</span><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent"></div></div>
+
+    <!-- ================================================================== -->
+    <!-- MID GAME SECTION                                                   -->
+    <!-- ================================================================== -->
+    <section id="mid-game" class="scroll-mt-28">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-14 h-14 rounded-2xl bg-orange-200 flex items-center justify-center text-3xl shadow-md">🏗️</div>
+        <div>
+          <h2 class="heading-pixel text-3xl md:text-4xl text-orange-700">MID GAME</h2>
+          <p class="text-sm text-orange-600 heading-fredoka">Late Year 1 to Year 2 — Building &amp; Expanding</p>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6 mb-8">
+        <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border">
+          <h3 class="heading-fredoka text-xl text-orange-700 mb-3">🎯 Mid-Game Goals</h3>
+          <ul class="space-y-2 text-sm">
+            <li class="flex items-start gap-2"><span class="text-orange-500 font-bold">◆</span> Stable recurring income from crops + artisan goods</li>
+            <li class="flex items-start gap-2"><span class="text-orange-500 font-bold">◆</span> All tools upgraded to at least steel/gold</li>
+            <li class="flex items-start gap-2"><span class="text-orange-500 font-bold">◆</span> Coop &amp; Barn built with animals producing daily</li>
+            <li class="flex items-start gap-2"><span class="text-orange-500 font-bold">◆</span> Mines cleared to floor 80+ (gold ore access)</li>
+            <li class="flex items-start gap-2"><span class="text-orange-500 font-bold">◆</span> First kegs &amp; preserves jars operational</li>
+            <li class="flex items-start gap-2"><span class="text-orange-500 font-bold">◆</span> 5+ hearts with key villagers; house upgraded once</li>
+          </ul>
+        </div>
+        <div class="bg-gradient-to-br from-orange-50 to-amber-50 dark:from-orange-900/20 dark:to-amber-900/20 rounded-2xl p-6 pixel-border">
+          <h3 class="heading-fredoka text-lg text-orange-700 mb-3">💰 Artisan Goods = Profit Multiplier</h3>
+          <p class="text-sm mb-3">Turning raw crops into artisan goods dramatically increases their value.</p>
+          <div class="flex gap-3 flex-wrap text-xs">
+            <span class="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-2 py-1 rounded">🍷 Keg: Fruit → Wine (3× value)</span>
+            <span class="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded">🥒 Jar: Vegetable → Pickles (2×+ value)</span>
+            <span class="bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 px-2 py-1 rounded">🧀 Press: Milk → Cheese</span>
+            <span class="bg-amber-100 dark:bg-amber-900 text-amber-800 dark:text-amber-200 px-2 py-1 rounded">🧈 Churn: Milk → Butter</span>
+            <span class="bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 px-2 py-1 rounded">🐑 Loom: Wool → Cloth</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Mid callouts -->
+      <div class="grid md:grid-cols-2 gap-4 mb-8">
+        <div class="callout-pro p-5 pt-7 rounded-xl text-sm text-gray-800 dark:text-gray-200">
+          <strong>Build a Silo BEFORE</strong> you build a Coop or Barn! The silo automatically collects hay when you cut grass. Without it, grass is wasted.
+        </div>
+        <div class="callout-secret p-5 pt-7 rounded-xl text-sm text-gray-800 dark:text-gray-200">
+          <strong>The Secret Woods</strong> (requires steel axe) has 6 hardwood stumps that respawn daily — ~12 hardwood/day. Essential for house upgrades!
+        </div>
+      </div>
+
+      <!-- Deeper Mines -->
+      <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border mb-8">
+        <h3 class="heading-fredoka text-xl text-gray-700 mb-4">⛏️ Deeper Mines &amp; New Areas</h3>
+        <div class="grid md:grid-cols-3 gap-4 text-sm">
+          <div class="bg-blue-50 dark:bg-blue-900/30 rounded-xl p-4">
+            <span class="text-2xl">❄️</span>
+            <p class="font-bold text-blue-700 mt-1">Floors 40–79: Frozen</p>
+            <p class="text-xs text-[var(--text-secondary)]">Iron ore abundant. Watch for Frost Jellies and dust sprites (best coal source!).</p>
+          </div>
+          <div class="bg-red-50 dark:bg-red-900/30 rounded-xl p-4">
+            <span class="text-2xl">🔥</span>
+            <p class="font-bold text-red-700 mt-1">Floors 80–119: Lava</p>
+            <p class="text-xs text-[var(--text-secondary)]">Gold ore appears. Shadow Brutes hit hard — bring healing food and good weapon!</p>
+          </div>
+          <div class="bg-purple-50 dark:bg-purple-900/30 rounded-xl p-4">
+            <span class="text-2xl">💀</span>
+            <p class="font-bold text-purple-700 mt-1">Skull Cavern (Desert)</p>
+            <p class="text-xs text-[var(--text-secondary)]">Iridium ore, serpents, and treasure. Bring bombs, staircases, and Spicy Eel!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mid NPC Relationships -->
+      <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border mb-8">
+        <h3 class="heading-fredoka text-xl text-pink-700 mb-4">💝 Mid-Game Relationships</h3>
+        <p class="text-sm mb-4">By now you should be building deeper friendships. <strong>Hearts unlock recipes, gifts, and story cutscenes!</strong></p>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
+          <div class="text-center bg-pink-50 dark:bg-pink-900/30 rounded-xl p-3"><span class="text-3xl">💐</span><p class="text-xs font-bold">Flowers</p><p class="text-[10px] text-[var(--text-muted)]">Loved by many</p></div>
+          <div class="text-center bg-amber-50 dark:bg-amber-900/30 rounded-xl p-3"><span class="text-3xl">💎</span><p class="text-xs font-bold">Gemstones</p><p class="text-[10px] text-[var(--text-muted)]">Emily, Abigail</p></div>
+          <div class="text-center bg-green-50 dark:bg-green-900/30 rounded-xl p-3"><span class="text-3xl">🍳</span><p class="text-xs font-bold">Cooking</p><p class="text-[10px] text-[var(--text-muted)]">Almost everyone</p></div>
+          <div class="text-center bg-yellow-50 dark:bg-yellow-900/30 rounded-xl p-3"><span class="text-3xl">🎁</span><p class="text-xs font-bold">Birthday Gifts</p><p class="text-[10px] text-[var(--text-muted)]">8× friendship!</p></div>
+        </div>
+        <div class="callout-pro p-5 pt-7 rounded-xl text-sm text-gray-800 dark:text-gray-200">
+          <strong>Check the calendar daily!</strong> Giving a loved gift on a birthday can jump you from 0 to nearly 3 hearts in a single day.
+        </div>
+      </div>
+
+      <!-- Expandable: Community Center Bundles -->
+      <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border mb-4">
+        <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+          <span class="heading-fredoka text-lg text-yellow-700">🏛️ Community Center Bundles</span>
+          <span class="expandable-arrow text-yellow-700 text-xl">▼</span>
+        </button>
+        <div class="expandable-content px-4 pb-4" id="bundlesContainer">
+          <p class="text-xs text-[var(--text-muted)] mb-3">Loading bundle data...</p>
+        </div>
+      </div>
+
+      <!-- Expandable: Money Tiers -->
+      <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border mb-4">
+        <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+          <span class="heading-fredoka text-lg text-gold">💰 Income Source Tier List</span>
+          <span class="expandable-arrow text-gold text-xl">▼</span>
+        </button>
+        <div class="expandable-content px-4 pb-4" id="moneyTiersContainer">
+          <p class="text-xs text-[var(--text-muted)]">Loading money tier data...</p>
+        </div>
+      </div>
+
+      <!-- Expandable: Progression Milestones -->
+      <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border mb-4">
+        <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+          <span class="heading-fredoka text-lg text-blue-700">📈 Progression Milestones</span>
+          <span class="expandable-arrow text-blue-700 text-xl">▼</span>
+        </button>
+        <div class="expandable-content px-4 pb-4" id="milestonesContainer">
+          <p class="text-xs text-[var(--text-muted)]">Loading milestone data...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="flex items-center gap-4"><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-purple-400 to-transparent"></div><span class="text-2xl">⭐</span><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-purple-400 to-transparent"></div></div>
+
+    <!-- ================================================================== -->
+    <!-- LATE GAME SECTION                                                  -->
+    <!-- ================================================================== -->
+    <section id="late-game" class="scroll-mt-28">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-14 h-14 rounded-2xl bg-purple-200 flex items-center justify-center text-3xl shadow-md">⭐</div>
+        <div>
+          <h2 class="heading-pixel text-3xl md:text-4xl text-purple-700">LATE GAME</h2>
+          <p class="text-sm text-purple-600 heading-fredoka">Post-Community Center &amp; Ginger Island — Mastery &amp; Perfection</p>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-r from-purple-50 to-indigo-50 dark:from-purple-900/20 dark:to-indigo-900/20 rounded-2xl p-6 pixel-border mb-8">
+        <h3 class="heading-fredoka text-xl text-purple-700 mb-3">🏆 End-Game Goals</h3>
+        <div class="grid md:grid-cols-3 gap-4 text-sm">
+          <div><span class="text-purple-500 font-bold">✦</span> Maximize profit with iridium-sprinkler fields &amp; artisan sheds</div>
+          <div><span class="text-purple-500 font-bold">✦</span> Automated farm: sprinklers, auto-petters, auto-grabbers</div>
+          <div><span class="text-purple-500 font-bold">✦</span> Unlock and develop Ginger Island farm &amp; resources</div>
+          <div><span class="text-purple-500 font-bold">✦</span> Complete all monster eradication goals &amp; collections</div>
+          <div><span class="text-purple-500 font-bold">✦</span> Achieve Perfection (100% game completion)</div>
+          <div><span class="text-purple-500 font-bold">✦</span> Decorate with obelisks, golden clock, and warp towers</div>
+        </div>
+      </div>
+
+
+
+      <!-- Ginger Island -->
+      <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border mb-8">
+        <h3 class="heading-fredoka text-xl text-teal-700 mb-4">🏝️ Ginger Island Overview</h3>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <p class="text-sm mb-3">After completing the Community Center, Willy's boat takes you to Ginger Island — a tropical paradise with year-round farming and new challenges.</p>
+            <ul class="space-y-2 text-xs">
+              <li class="flex items-start gap-2"><span class="text-teal-500">🌴</span> <strong>Island Farm:</strong> Any crop, any season — no crows!</li>
+              <li class="flex items-start gap-2"><span class="text-teal-500">🔮</span> <strong>Volcano Dungeon:</strong> 10 floors, forge weapons with gems</li>
+              <li class="flex items-start gap-2"><span class="text-teal-500">🌰</span> <strong>Golden Walnuts:</strong> Hidden collectibles unlocking new areas</li>
+              <li class="flex items-start gap-2"><span class="text-teal-500">📜</span> <strong>Qi's Walnut Room:</strong> Challenges for experienced players</li>
+              <li class="flex items-start gap-2"><span class="text-teal-500">🐟</span> <strong>Island West:</strong> Stingray, blue discus, and new forage</li>
+            </ul>
+          </div>
+          <div class="bg-teal-50 dark:bg-teal-900/30 rounded-xl p-4 text-center flex flex-col items-center justify-center">
+            <div class="text-6xl">🏝️</div>
+            <p class="text-xs text-teal-700 dark:text-teal-300 mt-2">A whole second farm awaits — with no winter!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Late game callouts -->
+      <div class="grid md:grid-cols-2 gap-4 mb-8">
+        <div class="callout-secret p-5 pt-7 rounded-xl text-sm text-gray-800 dark:text-gray-200">
+          <strong>Ancient Fruit in the Greenhouse</strong> is one of the most profitable setups. Plant once, harvest forever. Turn into wine with kegs for massive passive income all year round.
+        </div>
+        <div class="callout-pro p-5 pt-7 rounded-xl text-sm text-gray-800 dark:text-gray-200">
+          <strong>Obelisks</strong> (warp towers) let you teleport to the beach, mountains, desert, and Ginger Island instantly. Expensive but save enormous travel time.
+        </div>
+      </div>
+
+      <!-- Marriage -->
+      <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border mb-8">
+        <h3 class="heading-fredoka text-xl text-pink-700 mb-4">💒 Marriage &amp; Family Life</h3>
+        <div class="grid grid-cols-3 sm:grid-cols-6 gap-3 text-center mb-4" id="marriageNpcGrid"></div>
+        <p class="text-sm">Reach 10 hearts and give a <strong>Bouquet</strong> (from Pierre's) to start dating. At 10 hearts, give a <strong>Mermaid's Pendant</strong> (from the Old Mariner on the beach during rain) to propose. Your spouse helps with chores and gives gifts!</p>
+      </div>
+
+      <!-- Expandable: Secrets -->
+      <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border mb-4">
+        <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+          <span class="heading-fredoka text-lg text-purple-700">🔮 All Hidden Secrets</span>
+          <span class="expandable-arrow text-purple-700 text-xl">▼</span>
+        </button>
+        <div class="expandable-content px-4 pb-4" id="secretsContainer">
+          <p class="text-xs text-[var(--text-muted)]">Loading secrets...</p>
+        </div>
+      </div>
+
+      <!-- Expandable: Secret Notes -->
+      <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border mb-4">
+        <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+          <span class="heading-fredoka text-lg text-violet-700">📝 Secret Notes (All 25)</span>
+          <span class="expandable-arrow text-violet-700 text-xl">▼</span>
+        </button>
+        <div class="expandable-content px-4 pb-4" id="secretNotesContainer">
+          <p class="text-xs text-[var(--text-muted)]">Loading secret notes...</p>
+        </div>
+      </div>
+
+      <!-- Expandable: Monster Eradication -->
+      <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border mb-4">
+        <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+          <span class="heading-fredoka text-lg text-red-700">👾 Monster Eradication Goals</span>
+          <span class="expandable-arrow text-red-700 text-xl">▼</span>
+        </button>
+        <div class="expandable-content px-4 pb-4" id="monstersContainer">
+          <p class="text-xs text-[var(--text-muted)]">Loading monster data...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="flex items-center gap-4"><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent"></div><span class="text-2xl">🏡</span><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent"></div></div>
+
+    <!-- ================================================================== -->
+    <!-- FARM LAYOUTS SECTION                                               -->
+    <!-- ================================================================== -->
+    <section id="farm-layouts" class="scroll-mt-28">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-14 h-14 rounded-2xl bg-amber-200 flex items-center justify-center text-3xl shadow-md">🏡</div>
+        <div>
+          <h2 class="heading-pixel text-3xl md:text-4xl text-amber-700">FARM LAYOUTS</h2>
+          <p class="text-sm text-amber-600 heading-fredoka">Standard Farm — accurate layout with real building sizes</p>
+        </div>
+      </div>
+
+      <!-- Farm type selector -->
+      <div class="flex flex-wrap gap-2 mb-2">
+        <button class="farmtype-btn active px-3 py-1.5 rounded-lg text-xs font-bold bg-amber-500 text-white" data-farm="standard" onclick="switchFarmType('standard')">🏡 Standard</button>
+        <button class="farmtype-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-gray-200 text-gray-700" data-farm="riverland" onclick="switchFarmType('riverland')">🌊 Riverland</button>
+        <button class="farmtype-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-gray-200 text-gray-700" data-farm="forest" onclick="switchFarmType('forest')">🌲 Forest</button>
+        <button class="farmtype-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-gray-200 text-gray-700" data-farm="hilltop" onclick="switchFarmType('hilltop')">⛰️ Hilltop</button>
+        <button class="farmtype-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-gray-200 text-gray-700" data-farm="wilderness" onclick="switchFarmType('wilderness')">🌙 Wilderness</button>
+        <button class="farmtype-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-gray-200 text-gray-700" data-farm="fourCorners" onclick="switchFarmType('fourCorners')">🧩 Four Corners</button>
+        <button class="farmtype-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-gray-200 text-gray-700" data-farm="beach" onclick="switchFarmType('beach')">🏖️ Beach</button>
+        <button class="farmtype-btn px-3 py-1.5 rounded-lg text-xs font-bold bg-gray-200 text-gray-700" data-farm="meadowlands" onclick="switchFarmType('meadowlands')">🌿 Meadowlands</button>
+      </div>
+      <!-- Phase switcher -->
+      <div class="flex flex-wrap gap-2 mb-4">
+        <button class="layout-btn active px-4 py-2 rounded-lg text-sm font-bold bg-amber-500 text-white" data-layout="early" onclick="switchLayout('early')">🌱 Early Game</button>
+        <button class="layout-btn px-4 py-2 rounded-lg text-sm font-bold bg-gray-200 text-gray-700" data-layout="mid" onclick="switchLayout('mid')">🌾 Mid Game</button>
+        <button class="layout-btn px-4 py-2 rounded-lg text-sm font-bold bg-gray-200 text-gray-700" data-layout="late" onclick="switchLayout('late')">🏆 End-Game</button>
+      </div>
+
+      <!-- Layout grid -->
+      <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border mb-4">
+        <h3 class="heading-fredoka text-xl mb-1" id="layoutName">Early Game Farm</h3>
+        <p class="text-xs text-[var(--text-muted)] mb-4" id="layoutDesc">Simple setup near the farmhouse with basic crops and a starter coop.</p>
+        <div class="farm-grid-wrap"><div class="farm-grid mx-auto" id="farmGridContainer"></div></div>
+        <div class="flex flex-wrap gap-x-4 gap-y-1 mt-4 text-xs text-[var(--text-primary)]">
+          <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-[#7ec850] inline-block"></span> 🌿 Grass</span>
+          <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-[#8b5e3c] inline-block"></span> 🌱 Tilled/Crop</span>
+          <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-[#5ba0d0] inline-block"></span> 🌊 Water</span>
+          <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-[#5a5a4a] inline-block"></span> 🪨 Cliff</span>
+          <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-[#c4a882] inline-block"></span> 🟫 Path</span>
+          <span class="flex items-center gap-1"><span class="w-3 h-3 rounded bg-[#6b4a2a] inline-block"></span> 🌉 Bridge</span>
+          <span class="flex items-center gap-1 text-lg">🐄🐔🏠</span>
+          <span class="text-xs text-[var(--text-muted)]">Buildings at actual size</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="flex items-center gap-4"><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-violet-400 to-transparent"></div><span class="text-2xl">⚙️</span><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-violet-400 to-transparent"></div></div>
+
+    <!-- ================================================================== -->
+    <!-- GAME MECHANICS SECTION                                             -->
+    <!-- ================================================================== -->
+    <section id="mechanics" class="scroll-mt-28">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-14 h-14 rounded-2xl bg-violet-200 flex items-center justify-center text-3xl shadow-md">⚙️</div>
+        <div>
+          <h2 class="heading-pixel text-3xl md:text-4xl text-violet-700">GAME MECHANICS</h2>
+          <p class="text-sm text-violet-600 heading-fredoka">Professions, monsters, income tiers, and hidden secrets</p>
+        </div>
+      </div>
+
+      <!-- Professions -->
+      <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border mb-4">
+        <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+          <span class="heading-fredoka text-lg text-gold">⭐ All Professions Guide</span>
+          <span class="expandable-arrow text-gold text-xl">▼</span>
+        </button>
+        <div class="expandable-content px-4 pb-4" id="professionsContainer">
+          <p class="text-xs text-[var(--text-muted)]">Loading professions...</p>
+        </div>
+      </div>
+
+      <!-- Monsters (all zones) -->
+      <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border mb-4">
+        <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+          <span class="heading-fredoka text-lg text-red-700">👾 Complete Monster Guide</span>
+          <span class="expandable-arrow text-red-700 text-xl">▼</span>
+        </button>
+        <div class="expandable-content px-4 pb-4" id="allMonstersContainer">
+          <p class="text-xs text-[var(--text-muted)]">Loading monster data...</p>
+        </div>
+      </div>
+
+      <!-- Money Tiers -->
+      <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border mb-4">
+        <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+          <span class="heading-fredoka text-lg text-gold">💰 Money Tiers S/A/B/C/D</span>
+          <span class="expandable-arrow text-gold text-xl">▼</span>
+        </button>
+        <div class="expandable-content px-4 pb-4" id="allMoneyTiersContainer">
+          <p class="text-xs text-[var(--text-muted)]">Loading money tier data...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="flex items-center gap-4"><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-blue-400 to-transparent"></div><span class="text-2xl">🎪</span><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-blue-400 to-transparent"></div></div>
+
+    <!-- ================================================================== -->
+    <!-- SEASONAL GUIDE SECTION                                             -->
+    <!-- ================================================================== -->
+    <section id="seasonal" class="scroll-mt-28">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-14 h-14 rounded-2xl bg-blue-200 flex items-center justify-center text-3xl shadow-md">🎪</div>
+        <div>
+          <h2 class="heading-pixel text-3xl md:text-4xl text-blue-700">SEASONAL GUIDE</h2>
+          <p class="text-sm text-blue-600 heading-fredoka">Events calendar and crop profit data for every season</p>
+        </div>
+      </div>
+      <div id="eventsContainer" class="mb-8"></div>
+      <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border mb-4">
+        <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+          <span class="heading-fredoka text-lg text-green-700">🌾 Crop Profits by Season</span>
+          <span class="expandable-arrow text-green-700 text-xl">▼</span>
+        </button>
+        <div class="expandable-content px-4 pb-4" id="cropsContainer">
+          <p class="text-xs text-[var(--text-muted)]">Loading crop data...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="flex items-center gap-4"><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-pink-400 to-transparent"></div><span class="text-2xl">💝</span><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-pink-400 to-transparent"></div></div>
+
+    <!-- ================================================================== -->
+    <!-- NPC GUIDE SECTION                                                  -->
+    <!-- ================================================================== -->
+    <section id="npc-guide" class="scroll-mt-28">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-14 h-14 rounded-2xl bg-pink-200 flex items-center justify-center text-3xl shadow-md">💝</div>
+        <div>
+          <h2 class="heading-pixel text-3xl md:text-4xl text-pink-700">NPC RELATIONSHIP GUIDE</h2>
+          <p class="text-sm text-pink-600 heading-fredoka">Gift preferences, schedules, and heart events for every villager</p>
+        </div>
+      </div>
+
+      <!-- NPC Quick Grid -->
+      <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border mb-6">
+        <h3 class="heading-fredoka text-lg text-pink-700 mb-3">👋 All Villagers</h3>
+        <div id="npcQuickGrid" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3"></div>
+      </div>
+
+      <!-- NPC Detail Expandables -->
+      <div id="npcDetailsContainer"></div>
+    </section>
+
+    <!-- Divider -->
+    <div class="flex items-center gap-4"><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-teal-400 to-transparent"></div><span class="text-2xl">📦</span><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-teal-400 to-transparent"></div></div>
+
+    <!-- ================================================================== -->
+    <!-- ITEMS DATABASE SECTION                                             -->
+    <!-- ================================================================== -->
+    <section id="items" class="scroll-mt-28">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-14 h-14 rounded-2xl bg-teal-200 flex items-center justify-center text-3xl shadow-md">📦</div>
+        <div>
+          <h2 class="heading-pixel text-3xl md:text-4xl text-teal-700">ITEMS DATABASE</h2>
+          <p class="text-sm text-teal-600 heading-fredoka">Search and filter every item in Stardew Valley</p>
+        </div>
+      </div>
+
+      <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border mb-6">
+        <div class="flex flex-wrap gap-3 mb-4">
+          <input type="text" id="itemSearch" class="search-input flex-1 min-w-[200px] px-3 py-2 rounded-lg text-sm" placeholder="Search items...">
+          <div id="itemFilters" class="flex flex-wrap gap-2"></div>
+        </div>
+        <div id="itemsTableContainer">
+          <p class="text-xs text-[var(--text-muted)]">Loading items...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="flex items-center gap-4"><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-blue-400 to-transparent"></div><span class="text-2xl">📋</span><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-blue-400 to-transparent"></div></div>
+
+    <!-- ================================================================== -->
+    <!-- TUTORIALS SECTION                                                  -->
+    <!-- ================================================================== -->
+    <section id="tutorials" class="scroll-mt-28">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-14 h-14 rounded-2xl bg-blue-200 flex items-center justify-center text-3xl shadow-md">📋</div>
+        <div>
+          <h2 class="heading-pixel text-3xl md:text-4xl text-blue-700">TUTORIALS</h2>
+          <p class="text-sm text-blue-600 heading-fredoka">Step-by-step guides for every aspect of the game</p>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6 mb-8">
+        <!-- Sprinkler Layout -->
+        <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border">
+          <h4 class="heading-fredoka text-lg text-blue-700 mb-3">💧 Planning Your First Sprinkler Layout</h4>
+          <ol class="space-y-2 text-sm">
+            <li class="flex gap-2"><span class="font-bold text-blue-500">1.</span> Craft <strong>Quality Sprinklers</strong> (waters 8 tiles, 3×3 area).</li>
+            <li class="flex gap-2"><span class="font-bold text-blue-500">2.</span> Arrange crops in <strong>3×3 blocks</strong> with sprinkler in center.</li>
+            <li class="flex gap-2"><span class="font-bold text-blue-500">3.</span> Place blocks side by side — no overlap needed.</li>
+            <li class="flex gap-2"><span class="font-bold text-blue-500">4.</span> Add a <strong>Scarecrow</strong> (covers large radius) to protect crops.</li>
+            <li class="flex gap-2"><span class="font-bold text-blue-500">5.</span> Upgrade to <strong>Iridium Sprinklers</strong> (5×5) for huge fields.</li>
+          </ol>
+          <div class="bg-blue-50 dark:bg-blue-900/30 rounded-lg p-3 mt-3 text-center text-xs inline-block mx-auto">
+            <div class="inline-grid grid-cols-3 gap-0.5">
+              <div class="w-6 h-6 bg-amber-700 rounded"></div><div class="w-6 h-6 bg-amber-700 rounded"></div><div class="w-6 h-6 bg-amber-700 rounded"></div>
+              <div class="w-6 h-6 bg-amber-700 rounded"></div><div class="w-6 h-6 bg-blue-400 rounded-full"></div><div class="w-6 h-6 bg-amber-700 rounded"></div>
+              <div class="w-6 h-6 bg-amber-700 rounded"></div><div class="w-6 h-6 bg-amber-700 rounded"></div><div class="w-6 h-6 bg-amber-700 rounded"></div>
+            </div>
+            <p class="mt-1 font-medium text-gray-700 dark:text-gray-200">3×3 with Quality Sprinkler (blue)</p>
+          </div>
+        </div>
+
+        <!-- Mine Run Prep -->
+        <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border">
+          <h4 class="heading-fredoka text-lg text-gray-700 mb-3">⛏️ How to Prepare for a Mine Run</h4>
+          <ol class="space-y-2 text-sm">
+            <li class="flex gap-2"><span class="font-bold text-gray-500">1.</span> <strong>Check the TV:</strong> Good luck days = faster ladder finds!</li>
+            <li class="flex gap-2"><span class="font-bold text-gray-500">2.</span> <strong>Pack food:</strong> 10–20 healing items (salmonberries, cheese).</li>
+            <li class="flex gap-2"><span class="font-bold text-gray-500">3.</span> <strong>Clear inventory:</strong> Leave tools you won't need.</li>
+            <li class="flex gap-2"><span class="font-bold text-gray-500">4.</span> <strong>Bring bombs</strong> for dense rock clusters.</li>
+            <li class="flex gap-2"><span class="font-bold text-gray-500">5.</span> <strong>Goal:</strong> Reach next elevator checkpoint (5 floors).</li>
+            <li class="flex gap-2"><span class="font-bold text-gray-500">6.</span> <strong>Leave by 11 PM</strong> to avoid collapsing!</li>
+          </ol>
+          <div class="callout-mistake p-4 pt-6 rounded-xl text-xs mt-3 text-gray-800 dark:text-gray-200">
+            Don't break every rock! Look for ladders near rock clusters. Breaking every rock wastes energy — focus on finding the way down.
+          </div>
+        </div>
+
+        <!-- Community Center -->
+        <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border">
+          <h4 class="heading-fredoka text-lg text-yellow-700 mb-3">🏛️ Community Center Bundle Strategy</h4>
+          <ol class="space-y-2 text-sm">
+            <li class="flex gap-2"><span class="font-bold text-yellow-500">1.</span> <strong>Start early!</strong> Check bundles as soon as you unlock the CC.</li>
+            <li class="flex gap-2"><span class="font-bold text-yellow-500">2.</span> <strong>Prioritize the Pantry</strong> — unlocks the Greenhouse!</li>
+            <li class="flex gap-2"><span class="font-bold text-yellow-500">3.</span> <strong>Save one of everything:</strong> Keep 1–2 of each crop/forage/fish.</li>
+            <li class="flex gap-2"><span class="font-bold text-yellow-500">4.</span> <strong>Traveling Cart:</strong> Fridays &amp; Sundays for rare items.</li>
+            <li class="flex gap-2"><span class="font-bold text-yellow-500">5.</span> <strong>Fish Bundle:</strong> Save seasonal fish for the Fish Tank bundles.</li>
+          </ol>
+        </div>
+
+        <!-- Animal Care -->
+        <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border">
+          <h4 class="heading-fredoka text-lg text-amber-700 mb-3">🐄 Animal Care Basics</h4>
+          <ol class="space-y-2 text-sm">
+            <li class="flex gap-2"><span class="font-bold text-amber-500">1.</span> <strong>Build a Silo first</strong> — stores hay from cut grass.</li>
+            <li class="flex gap-2"><span class="font-bold text-amber-500">2.</span> <strong>Pet animals daily</strong> for higher product quality.</li>
+            <li class="flex gap-2"><span class="font-bold text-amber-500">3.</span> <strong>Open doors</strong> on sunny days so they eat fresh grass.</li>
+            <li class="flex gap-2"><span class="font-bold text-amber-500">4.</span> <strong>Heaters in winter</strong> keep animals happy.</li>
+            <li class="flex gap-2"><span class="font-bold text-amber-500">5.</span> <strong>Auto-grabbers</strong> save time collecting products.</li>
+          </ol>
+        </div>
+
+        <!-- Skill Leveling -->
+        <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border">
+          <h4 class="heading-fredoka text-lg text-green-700 mb-3">📈 Skill Leveling Order</h4>
+          <p class="text-xs text-[var(--text-secondary)] mb-3">Optimal order to level your skills for maximum early-game advantage:</p>
+          <table class="w-full text-xs">
+            <tr class="border-b border-gray-200 dark:border-gray-700"><th class="text-left py-1">Priority</th><th class="text-left py-1">Skill</th><th class="text-left py-1">Why</th></tr>
+            <tr><td class="py-1">1st</td><td>🌾 Farming</td><td>Unlocks sprinklers, kegs, artisan gear</td></tr>
+            <tr><td class="py-1">2nd</td><td>⛏️ Mining</td><td>Better ores, bombs, elevator access</td></tr>
+            <tr><td class="py-1">3rd</td><td>🌲 Foraging</td><td>Double harvest, iridium quality forage</td></tr>
+            <tr><td class="py-1">4th</td><td>🎣 Fishing</td><td>Best early gold, bait, tackle</td></tr>
+            <tr><td class="py-1">5th</td><td>⚔️ Combat</td><td>Weapon skills, ring crafting</td></tr>
+          </table>
+        </div>
+
+        <!-- Fish Pond Guide -->
+        <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border">
+          <h4 class="heading-fredoka text-lg text-blue-700 mb-3">🐟 Fish Pond Guide</h4>
+          <p class="text-xs text-[var(--text-secondary)] mb-3">Best fish to raise in ponds for profit and resources:</p>
+          <table class="w-full text-xs">
+            <tr class="border-b border-gray-200 dark:border-gray-700"><th class="text-left py-1">Fish</th><th class="text-left py-1">Roe Value</th><th class="text-left py-1">Special Drops</th></tr>
+            <tr><td class="py-1">Lava Eel</td><td>760g (aged)</td><td>Spicy Eel, Magma Geodes</td></tr>
+            <tr><td class="py-1">Sturgeon</td><td>500g (Caviar)</td><td>—</td></tr>
+            <tr><td class="py-1">Blobfish</td><td>1,050g (aged)</td><td>Pearls (rare)</td></tr>
+            <tr><td class="py-1">Rainbow Trout</td><td>—</td><td>Prismatic Shard (rare!)</td></tr>
+            <tr><td class="py-1">Stingray</td><td>—</td><td>Dragon Tooth, Battery Pack</td></tr>
+          </table>
+        </div>
+
+        <!-- Crop Profit Formula -->
+        <div class="bg-[var(--bg-card)] rounded-2xl p-6 pixel-border md:col-span-2">
+          <h4 class="heading-fredoka text-lg text-gold mb-3">💰 Crop Profit Formula</h4>
+          <p class="text-sm text-[var(--text-secondary)]">
+            <strong>Profit</strong> = (Sell Price − Seed Cost) × Harvests per Season<br>
+            <strong>Regrow crops</strong> = (Season Days ÷ Regrow Days) × Sell Price<br><br>
+            <strong>Wine multiplier:</strong> Wine ≈ 3× base crop price. With Artisan: ×4.2 effective multiplier vs raw crop.<br>
+            <strong>Preserves Jar:</strong> ≈ 2× base crop price + 50g. Better for low-value / fast-growing crops.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="flex items-center gap-4"><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-green-400 to-transparent"></div><span class="text-2xl">✅</span><div class="flex-1 h-1 bg-gradient-to-r from-transparent via-green-400 to-transparent"></div></div>
+
+    <!-- ================================================================== -->
+    <!-- CHECKLIST SECTION                                                  -->
+    <!-- ================================================================== -->
+    <section id="checklist" class="scroll-mt-28">
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-14 h-14 rounded-2xl bg-green-200 flex items-center justify-center text-3xl shadow-md">✅</div>
+        <div>
+          <h2 class="heading-pixel text-3xl md:text-4xl text-green-700">COMPLETION CHECKLIST</h2>
+          <p class="text-sm text-green-600 heading-fredoka">Track your progress toward 100% Perfection</p>
+        </div>
+      </div>
+
+      <div class="space-y-4">
+        <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border">
+          <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+            <span class="heading-fredoka text-lg">🏆 Achievements <span class="text-xs text-[var(--text-muted)]" id="achvCount"></span></span>
+            <span class="expandable-arrow text-xl">▼</span>
+          </button>
+          <div class="expandable-content px-4 pb-4" id="achievementsContainer">
+            <div data-progress><div class="flex justify-between text-xs text-[var(--text-muted)] mb-1"><span>Progress</span><span class="progress-label" id="achvProgressLabel">0/0 (0%)</span></div><div class="progress-bar"><div class="progress-bar-fill" id="achvProgressBar" style="width:0%"></div></div>
+            <div class="checklist mt-3 space-y-1 text-sm" id="achievementsChecklist"></div></div>
+          </div>
+        </div>
+
+        <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border">
+          <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+            <span class="heading-fredoka text-lg">🏛️ Community Center <span class="text-xs text-[var(--text-muted)]" id="bundleCount"></span></span>
+            <span class="expandable-arrow text-xl">▼</span>
+          </button>
+          <div class="expandable-content px-4 pb-4" id="bundlesChecklistContainer">
+            <div data-progress><div class="flex justify-between text-xs text-[var(--text-muted)] mb-1"><span>Progress</span><span class="progress-label" id="bundleProgressLabel">0/0 (0%)</span></div><div class="progress-bar"><div class="progress-bar-fill" id="bundleProgressBar" style="width:0%"></div></div>
+            <div class="checklist mt-3 space-y-1 text-sm" id="bundlesChecklist"></div></div>
+          </div>
+        </div>
+
+        <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border">
+          <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+            <span class="heading-fredoka text-lg">🐟 Fish Collection <span class="text-xs text-[var(--text-muted)]" id="fishCount"></span></span>
+            <span class="expandable-arrow text-xl">▼</span>
+          </button>
+          <div class="expandable-content px-4 pb-4" id="fishChecklistContainer">
+            <div data-progress><div class="flex justify-between text-xs text-[var(--text-muted)] mb-1"><span>Progress</span><span class="progress-label" id="fishProgressLabel">0/0 (0%)</span></div><div class="progress-bar"><div class="progress-bar-fill" id="fishProgressBar" style="width:0%"></div></div>
+            <p class="text-xs text-[var(--text-muted)] mt-2">Track every fish you've caught. Covers all legendary fish, night fish, and seasonal catches.</p>
+            <div class="checklist mt-3 space-y-1 text-sm" id="fishChecklist"></div></div>
+          </div>
+        </div>
+
+        <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border">
+          <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+            <span class="heading-fredoka text-lg">🦴 Museum Donations <span class="text-xs text-[var(--text-muted)]" id="museumCount"></span></span>
+            <span class="expandable-arrow text-xl">▼</span>
+          </button>
+          <div class="expandable-content px-4 pb-4" id="museumChecklistContainer">
+            <div data-progress><div class="flex justify-between text-xs text-[var(--text-muted)] mb-1"><span>Progress</span><span class="progress-label" id="museumProgressLabel">0/0 (0%)</span></div><div class="progress-bar"><div class="progress-bar-fill" id="museumProgressBar" style="width:0%"></div></div>
+            <p class="text-xs text-[var(--text-muted)] mt-2">Track mineral and artifact donations to Gunther's museum.</p>
+            <div class="checklist mt-3 space-y-1 text-sm" id="museumChecklist"></div></div>
+          </div>
+        </div>
+
+        <div class="expandable bg-[var(--bg-card)] rounded-2xl pixel-border">
+          <button class="expandable-trigger w-full flex items-center justify-between p-4 text-left" onclick="this.parentElement.classList.toggle('open')">
+            <span class="heading-fredoka text-lg">🌟 Stardrops <span class="text-xs text-[var(--text-muted)]" id="stardropCount"></span></span>
+            <span class="expandable-arrow text-xl">▼</span>
+          </button>
+          <div class="expandable-content px-4 pb-4" id="stardropChecklistContainer">
+            <p class="text-xs text-[var(--text-muted)]">All 7 Stardrops that permanently increase your max energy.</p>
+            <div class="checklist mt-3 space-y-1 text-sm" id="stardropChecklist"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FINAL WORDS ===== -->
+    <section class="bg-[var(--bg-card)] rounded-2xl p-8 pixel-border text-center">
+      <h3 class="heading-pixel text-2xl text-[var(--text-primary)] mb-4">🌟 Final Words of Wisdom</h3>
+      <p class="text-sm max-w-2xl mx-auto mb-4 text-[var(--text-primary)]">Stardew Valley is a game about <strong>enjoying the journey</strong>. There's no "wrong" way to play — some players min-max profits, others spend all day fishing or decorating. The best tip? <strong>Play at your own pace and have fun!</strong></p>
+      <div class="flex justify-center gap-4 flex-wrap">
+        <span class="bg-[var(--bg-card)] text-[var(--text-primary)] border-2 border-[var(--border-card)] px-4 py-2 rounded-full text-sm font-bold shadow">🌾 Farm happy!</span>
+        <span class="bg-[var(--bg-card)] text-[var(--text-primary)] border-2 border-[var(--border-card)] px-4 py-2 rounded-full text-sm font-bold shadow">🎣 Tight lines!</span>
+        <span class="bg-[var(--bg-card)] text-[var(--text-primary)] border-2 border-[var(--border-card)] px-4 py-2 rounded-full text-sm font-bold shadow">⛏️ Stay safe underground!</span>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-16 py-8 text-center text-xs text-[var(--text-muted)] border-t border-gray-200 dark:border-gray-700">
+    <p>🌾 Stardew Valley Ultimate Guide — Comprehensive fan resource for the farming community</p>
+    <p class="mt-1">This is an unofficial fan guide. Stardew Valley is &copy; ConcernedApe. Not affiliated with Eric Barone.</p>
+  </footer>
+
+  <!-- module script -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

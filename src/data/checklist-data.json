@@ -1,0 +1,115 @@
+[
+  {
+    "id": "spring",
+    "label": "🌸 Spring Y1",
+    "color": "#5fa83a",
+    "weeks": [
+      {
+        "w": "Week 1 (Days 1–7)",
+        "tasks": [
+          { "p": "🔴", "t": "Plant ALL starting gold on Parsnips", "d": "Buy from Pierre's shop. Till soil and plant immediately. Harvest on Day 5 for your first profit." },
+          { "p": "🔴", "t": "Get Bamboo Rod from Willy (Day 2)", "d": "Walk to the beach pier — he gives it free. Start fishing immediately. Day 2 fishing beats farming income." },
+          { "p": "🔴", "t": "Begin mining by Day 3", "d": "The Mines entrance is northeast of town. Goal: floor 10+ by Day 7. Bring Fried Eggs for health." },
+          { "p": "🟡", "t": "Pick up ALL forage items daily", "d": "Daffodils, Dandelions, Leeks — free money AND bundle items. Walk every path before mining." },
+          { "p": "🟡", "t": "Craft your first Chest (50 Wood)", "d": "Organize loot immediately. Keep ore, seeds, and bundle items. Sorted inventory = faster daily flow." },
+          { "p": "🟢", "t": "Watch TV every single morning", "d": "Fortune Teller at 6 AM (plan mining days). Queen of Sauce Sunday/Wednesday (free recipes forever)." }
+        ]
+      },
+      {
+        "w": "Week 2 (Days 8–14)",
+        "tasks": [
+          { "p": "🔴", "t": "Collect 5 Copper Bars → Upgrade Watering Can", "d": "2,000g + 5 Copper Bars at Clint. Waters 3 tiles per swing. Halves daily watering energy cost." },
+          { "p": "🔴", "t": "Egg Festival (Spring 13) — BUY STRAWBERRY SEEDS", "d": "100g each. Buy as many as you can. Plant immediately after festival. They regrow every 4 days." },
+          { "p": "🔴", "t": "Push Mines to floor 40+", "d": "Iron Ore unlocks here. You need it for the Fiberglass Rod and watering can upgrade chain." },
+          { "p": "🟡", "t": "Pick EVERY Salmonberry bush (Spring 15–18)", "d": "30 energy each. Stock 30–50 for mine trips. Best free energy food in Spring." },
+          { "p": "🟡", "t": "Buy Fiberglass Rod from Willy (1,800g)", "d": "Lets you use Bait. 5 Bug Meat = 1 Bait. Catch fish 30% faster starting immediately." },
+          { "p": "🟢", "t": "Donate first of each mineral to Gunther", "d": "60 total donations unlocks Rusty Key → Sewers → Krobus (Iridium Band for 500g!)." }
+        ]
+      },
+      {
+        "w": "Week 3–4 (Days 15–28)",
+        "tasks": [
+          { "p": "🔴", "t": "Harvest Strawberries every 4 days", "d": "Main income driver now. Sell Gold/Iridium quality. Keep normal quality for bundles." },
+          { "p": "🔴", "t": "Push Mines to floor 80+", "d": "Gold Ore available here. Gold Bars needed for Quality Sprinklers and Kegs later." },
+          { "p": "🟡", "t": "Attend Flower Dance (Spring 24)", "d": "Cindersap Forest, 9 AM. Talk to EVERY NPC for free friendship boosts. Dance if 4+ hearts." },
+          { "p": "🟡", "t": "Gift NPCs twice per week", "d": "Pick two villagers to befriend seriously. Forage items work as liked gifts for most villagers." },
+          { "p": "🟢", "t": "Plan Summer crop budget", "d": "Blueberries (80g/seed from Pierre) should be your main Summer crop. Save gold now." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "summer",
+    "label": "☀ Summer Y1",
+    "color": "#e07820",
+    "weeks": [
+      {
+        "w": "Day 1–7 priorities",
+        "tasks": [
+          { "p": "🔴", "t": "Plant Blueberries on Summer Day 1", "d": "Best Summer crop — 3 berries every 4 days. Spend most of your gold on Blueberry seeds." },
+          { "p": "🔴", "t": "Buy Starfruit seeds from Sandy in Calico Desert", "d": "200g/seed. Requires bus repair (Vault Bundle). High-reward investment." },
+          { "p": "🟡", "t": "Build first Keg ASAP", "d": "30 Wood + 1 Copper Bar + 1 Iron Bar + 1 Oak Resin. Start turning Strawberry Wine now." },
+          { "p": "🟡", "t": "Build Coop (4,000g + Wood + Stone)", "d": "Start animal products. Chickens→Eggs→Mayo. Animals take time to level up, start early." },
+          { "p": "🟢", "t": "Attend Luau (Summer 11)", "d": "Beach, 9 AM. Add a Gold or Iridium quality item to the potluck soup for best outcome." }
+        ]
+      },
+      {
+        "w": "Mid–Late Summer (Days 8–28)",
+        "tasks": [
+          { "p": "🔴", "t": "Harvest Blueberries every 4 days", "d": "3 berries × many plants = large batches. Sell Gold quality, keep Silver for bundles." },
+          { "p": "🔴", "t": "Push Mines to floor 120", "d": "Goal: beat the Shadow Lord at floor 120 before winter. Skull Key unlocks Skull Cavern." },
+          { "p": "🟡", "t": "Set up 10+ Kegs", "d": "More Kegs = more wine batches running simultaneously. Oak Resin from Tappers on Oak Trees." },
+          { "p": "🟡", "t": "Craft Lightning Rods if you have 99 Bat Wings", "d": "Place 6–8 around farm. Every thunderstorm creates a Battery Pack — needed for Iridium Sprinklers." },
+          { "p": "🟢", "t": "Dance of Moonlight Jellies (Summer 28)", "d": "Beach at 10 PM. Just show up — cinematic event, no action needed. All NPCs present." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fall",
+    "label": "🍂 Fall Y1",
+    "color": "#c05020",
+    "weeks": [
+      {
+        "w": "Day 1–7 priorities",
+        "tasks": [
+          { "p": "🔴", "t": "Plant Cranberries + Pumpkins on Fall Day 1", "d": "Cranberries: best Fall regrow (2 berries every 5 days). Pumpkins: Giant Crop + bundle + Abigail's gift." },
+          { "p": "🔴", "t": "Clear Summer crops the night before Fall 1", "d": "Summer crops die overnight. Clear field on Summer Day 27–28 so you're ready to plant Fall Day 1." },
+          { "p": "🟡", "t": "Finish Community Center Pantry bundles if possible", "d": "Spring + Summer + Fall + Quality crop bundles → Greenhouse. This is the biggest Y1 goal." },
+          { "p": "🟡", "t": "Pick Blackberries (Fall 8–11)", "d": "Pick every bush in town. 20 energy each — stock 50+ for winter mining energy." },
+          { "p": "🟢", "t": "Upgrade Axe to Steel (if not done)", "d": "Needed to access Secret Woods (6 Hardwood/day). Essential for Hardwood buildings." }
+        ]
+      },
+      {
+        "w": "Mid–Late Fall (Days 8–28)",
+        "tasks": [
+          { "p": "🔴", "t": "Stardew Valley Fair (Fall 16) — Grange Display", "d": "9 items of different categories (Gold/Iridium quality). Win 1st place → 2,000 Star Tokens → Stardrop!" },
+          { "p": "🔴", "t": "Beat Mines floor 120 before winter", "d": "Shadow Lord boss. Get Skull Key for Skull Cavern access." },
+          { "p": "🟡", "t": "Spirit's Eve maze (Fall 27)", "d": "Navigate the haunted maze for Golden Pumpkin (2,500g / rare gift item)." },
+          { "p": "🟡", "t": "Process Fall harvest into Kegs/Jars", "d": "Cranberry Wine or Pickles carry you through winter with no crop income." },
+          { "p": "🟢", "t": "Hit 8+ hearts with your future spouse", "d": "Start the marriage process in winter. Need 10 hearts → Bouquet → Mermaid Pendant." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "winter",
+    "label": "❄ Winter Y1",
+    "color": "#4488bb",
+    "weeks": [
+      {
+        "w": "All Winter Goals",
+        "tasks": [
+          { "p": "🔴", "t": "Skull Cavern on HIGH LUCK days", "d": "Check Fortune Teller at 6 AM. Only go on very good or good luck days. Bring Bombs + Stairs + food." },
+          { "p": "🔴", "t": "Reach 60 Museum donations → Get Rusty Key", "d": "Krobus sells Iridium Band for 500g on Mondays — the best ring in the game at incredible value." },
+          { "p": "🔴", "t": "Save 60,000–100,000g for Year 2 buildings", "d": "Deluxe Barn: 25,000g. Deluxe Coop: 20,000g. Big Barn: 12,000g. Queue Robin early." },
+          { "p": "🟡", "t": "Festival of Ice (Winter 8)", "d": "Ice fishing contest. Use Iridium Rod + Bait for best catch. Win for Star Token prizes." },
+          { "p": "🟡", "t": "Night Market (Winter 15–17)", "d": "ALL 3 nights! Magic Boat sells Pearl and rare furniture. Submarine gives unique fish. Stock rotates nightly." },
+          { "p": "🟡", "t": "Feast of Winter Star (Winter 25)", "d": "Give a universally loved gift to your assigned partner: Golden Pumpkin, Pearl, or Prismatic Shard." },
+          { "p": "🟡", "t": "Upgrade tools to Gold tier at Clint", "d": "Gold Pickaxe (mines faster), Gold Axe (chops faster), Gold Watering Can (waters 5 tiles)." },
+          { "p": "🟢", "t": "Max friendship with spouse candidate", "d": "Gift twice/week all winter. Hit 10 hearts → buy Bouquet from Pierre (200g) to start dating." }
+        ]
+      }
+    ]
+  }
+]

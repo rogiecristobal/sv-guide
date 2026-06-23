@@ -1,0 +1,245 @@
+[
+  {
+    "id": "abigail",
+    "name": "Abigail", "icon": "🎮", "bday": "Fall 13", "color": "#9060d0", "home": "Pierre's General Store",
+    "loves": ["Amethyst","Blackberry Cobbler","Chocolate Cake","Pufferfish","Pumpkin","Spicy Eel","Banana Pudding"],
+    "likes": ["Quartz","Gold Bar","Universal Likes (wine, gems, etc.)"],
+    "hates": ["Salmonberry","Fried Egg","Wild Horseradish"],
+    "sched": [
+      {"w":"Morning","l":"Pierre's shop or her bedroom"},
+      {"w":"Afternoon","l":"Around town / graveyard area"},
+      {"w":"Rainy Days","l":"Her room, playing video games"},
+      {"w":"Friday Eve","l":"Saloon with friends"},
+      {"w":"Late Night","l":"Graveyard (occasionally)"}
+    ],
+    "hearts":[
+      {"h":2,"loc":"Pierre's Shop","tri":"Enter shop 9 AM–12 PM any weekday","story":"Abigail feels overshadowed by Caroline in the family shop. She vents about wanting freedom and adventure."},
+      {"h":4,"loc":"Abigail's Room","tri":"Enter her room when she's home (mornings)","story":"She's deep in a video game and invites you to play. A relaxed, fun bonding moment that shows her true personality."},
+      {"h":6,"loc":"The Mines","tri":"Enter The Mines on a non-rainy day (8 AM–5 PM)","story":"You find Abigail alone in the mines — not scared, but sword-fighting for practice. You team up to fight monsters together."},
+      {"h":8,"loc":"Mountain Lake","tri":"Visit the lake at 8 PM–12 AM on a clear night","story":"A quiet, romantic moment by the water under the stars. Feelings begin to surface between you both."},
+      {"h":10,"loc":"Abigail's Room","tri":"Enter her room when she's home (any time)","story":"She plays her ocarina for you by moonlight. An intimate and memorable scene that cements your bond."}
+    ]
+  },
+  {
+    "id": "alex",
+    "name": "Alex", "icon": "🏈", "bday": "Summer 13", "color": "#e07820", "home": "1 Willow Lane",
+    "loves": ["Complete Breakfast","Salmon Dinner"],
+    "likes": ["Eggs (most types)","Universal Likes"],
+    "hates": ["Bok Choy","Quartz","Salmonberry"],
+    "sched":[
+      {"w":"Morning","l":"In front of his house or exercising"},
+      {"w":"Summer Mornings","l":"Beach (great time to gift!)"},
+      {"w":"Afternoon","l":"Town square area"},
+      {"w":"Eve (Fri/Sun)","l":"Saloon"},
+      {"w":"Winter","l":"Ice rink near Community Center"}
+    ],
+    "hearts":[
+      {"h":2,"loc":"Alex's House","tri":"Enter 1 Willow Lane between 9 AM–7 PM","story":"Alex plays with his dog Dusty and opens up about his difficult childhood and his absent father."},
+      {"h":4,"loc":"Alex's Room","tri":"Enter his room upstairs","story":"He's looking at old family photos. You see a vulnerable side behind the confident jock exterior."},
+      {"h":6,"loc":"Saloon","tri":"Enter Saloon on Friday or Saturday evening","story":"Alex shares his dreams of going pro. You can encourage or challenge him — he takes it seriously either way."},
+      {"h":8,"loc":"Hospital","tri":"Triggered on a specific Saturday after prior events","story":"Alex visits his late mother's grave at the hospital. A deeply emotional scene about loss and healing."},
+      {"h":10,"loc":"Alex's House","tri":"Enter his house any time","story":"He confides his real goals and how knowing you has helped him grow. He says he's ready for a real future."}
+    ]
+  },
+  {
+    "id": "elliott",
+    "name": "Elliott", "icon": "📚", "bday": "Fall 5", "color": "#3d8bbf", "home": "Beach Cabin (East Beach)",
+    "loves": ["Crab Cakes","Duck Feather","Lobster","Pomegranate","Tom Kha Soup"],
+    "likes": ["Squid Ink","Wine","Octopus","Universal Likes"],
+    "hates": ["Salmonberry","Joja Cola"],
+    "sched":[
+      {"w":"Morning","l":"His beach cabin writing"},
+      {"w":"Noon","l":"Walking the beach for inspiration"},
+      {"w":"Afternoon","l":"Library or Saloon"},
+      {"w":"Evening","l":"Saloon (most evenings/weekends)"}
+    ],
+    "hearts":[
+      {"h":2,"loc":"Elliott's Cabin","tri":"Enter cabin between 9 AM–4 PM","story":"Elliott reads you a poem he wrote. He's clearly talented but uncertain about his path as a writer."},
+      {"h":4,"loc":"Library/Museum","tri":"Enter library Tue/Thu afternoons when he's there","story":"He shares his literary influences and dreams of writing a truly great novel someday."},
+      {"h":6,"loc":"Saloon","tri":"Enter Saloon Friday/Saturday evening","story":"Elliott plays piano beautifully. His music and presence captivate the room — and you."},
+      {"h":8,"loc":"Elliott's Cabin","tri":"Enter cabin after he announces his novel is complete","story":"He finishes his novel and celebrates with champagne. He's overjoyed and shows you the dedication page."},
+      {"h":10,"loc":"Beach","tri":"Visit the beach on a clear day (his schedule day)","story":"Elliott recites the novel's dedication on the shoreline — it's about you. A grand romantic gesture."}
+    ]
+  },
+  {
+    "id": "emily",
+    "name": "Emily", "icon": "💎", "bday": "Spring 27", "color": "#e91e63", "home": "2 Willow Lane (with Haley)",
+    "loves": ["Amethyst","Aquamarine","Cloth","Emerald","Jade","Ruby","Sapphire","Topaz","Wool","Survival Burger"],
+    "likes": ["Most Gems","Universal Likes","Duck Feather"],
+    "hates": ["Salmonberry","Holly","Fried Egg"],
+    "sched":[
+      {"w":"Weekday Morning","l":"Home or walking town"},
+      {"w":"Weekdays 4 PM+","l":"Working at the Saloon"},
+      {"w":"Saturday","l":"Home sewing/crafting"},
+      {"w":"Sunday Morning","l":"Pierre's General Store"}
+    ],
+    "hearts":[
+      {"h":2,"loc":"Emily's House","tri":"Enter 2 Willow Lane when she's home (morning/Saturday)","story":"Emily chats with her parrot about crystal energy and dreams. She's quirky, spiritual, and genuine."},
+      {"h":4,"loc":"Emily's House","tri":"Enter house in the evening when she's home","story":"She shows you her clothing-making hobby and sews magical outfits with her own creative flair."},
+      {"h":6,"loc":"Calico Desert","tri":"Enter the Desert any time after unlocking the bus","story":"A mystical dream sequence — Emily appears as a dancer in a surreal vision. Personal and enchanting."},
+      {"h":8,"loc":"Emily's House","tri":"Enter house on a specific night","story":"Emily performs a crystal-inspired dance just for you. Magical and wonderfully intimate."},
+      {"h":10,"loc":"Mountain","tri":"Visit mountain at night on a clear evening","story":"She invites you stargazing. She talks about the universe, meaning, and where you fit in her world."}
+    ]
+  },
+  {
+    "id": "harvey",
+    "name": "Harvey", "icon": "🩺", "bday": "Winter 14", "color": "#795548", "home": "Medical Clinic (upstairs)",
+    "loves": ["Coffee","Pickles","Super Meal","Truffle Oil","Wine"],
+    "likes": ["Salad","Fried Egg","Hashbrowns","Universal Likes"],
+    "hates": ["Quartz","Holly","Salmonberry"],
+    "sched":[
+      {"w":"Weekdays 9–3","l":"Medical Clinic (treating patients)"},
+      {"w":"Afternoons","l":"Walking around Pelican Town"},
+      {"w":"Tuesday Eve","l":"Saloon"},
+      {"w":"Weekend Early AM","l":"Airstrip north of farm watching planes"}
+    ],
+    "hearts":[
+      {"h":2,"loc":"Medical Clinic","tri":"Enter clinic any open weekday (9 AM–3 PM)","story":"Harvey talks about his passion for preventive care and concern for the health of the whole village."},
+      {"h":4,"loc":"Harvey's Room","tri":"Enter his room above the clinic","story":"You see miniature planes on his desk. He sheepishly confesses his secret dream: to learn to fly."},
+      {"h":6,"loc":"Saloon","tri":"Enter Saloon on Tuesday evening","story":"Harvey and Maru discuss a difficult patient case. You glimpse his professional dedication."},
+      {"h":8,"loc":"Mountain Airstrip","tri":"Visit airstrip area at 6 AM–9 AM on weekends","story":"Harvey takes you on a hot air balloon ride despite being terrified of heights. Endearing and hilarious."},
+      {"h":10,"loc":"Medical Clinic","tri":"Enter clinic on a specific day","story":"Harvey gives you a check-up, flustered the whole time, and finally confesses his feelings for you."}
+    ]
+  },
+  {
+    "id": "haley",
+    "name": "Haley", "icon": "📸", "bday": "Spring 14", "color": "#f48fb1", "home": "2 Willow Lane (with Emily)",
+    "loves": ["Coconut","Fruit Salad","Pink Cake","Sunflower"],
+    "likes": ["Universal Likes"],
+    "hates": ["Wild Horseradish","Holly","Quartz","Salmonberry"],
+    "sched":[
+      {"w":"Until 11 AM","l":"Home (sleeping in)"},
+      {"w":"Afternoon","l":"Town square / fountain area"},
+      {"w":"Rainy Days","l":"Stays home all day"},
+      {"w":"Evening","l":"Home by 6 PM"}
+    ],
+    "hearts":[
+      {"h":2,"loc":"Town Square","tri":"Walk through town when Haley is there (11 AM–4 PM)","story":"Haley asks you to carry her groceries — very entitled about it. But she surprises you with a quick thanks."},
+      {"h":4,"loc":"Haley's Room","tri":"Enter her room when she's home (afternoons)","story":"She's looking at old family photos and softens considerably. A glimpse of her vulnerable, nostalgic side."},
+      {"h":6,"loc":"Farm / Backwoods Path","tri":"Walk the south path on a sunny day (her schedule day)","story":"Haley drops her bracelet into a dry well. You help retrieve it — she's genuinely and unexpectedly grateful."},
+      {"h":8,"loc":"Beach","tri":"Visit the beach on a sunny morning (9 AM–4 PM)","story":"Haley takes your portrait at the beach. Her photography is surprisingly thoughtful and artistic."},
+      {"h":10,"loc":"Haley's House","tri":"Enter her house any afternoon","story":"She's set up a professional darkroom. Her photos are beautiful. She thanks you for believing in her creative side."}
+    ]
+  },
+  {
+    "id": "leah",
+    "name": "Leah", "icon": "🎨", "bday": "Winter 23", "color": "#8bc34a", "home": "Leah's Cottage (Cindersap Forest)",
+    "loves": ["Goat Cheese","Poppyseed Muffin","Salad","Stir Fry","Truffle","Vegetable Medley","Wine"],
+    "likes": ["All Vegetables","Most Cooked Food","Universal Likes"],
+    "hates": ["Salmonberry","Holly","Joja Cola"],
+    "sched":[
+      {"w":"Morning","l":"Her cottage, sculpting or painting"},
+      {"w":"Afternoon","l":"Forest or beach for inspiration"},
+      {"w":"Friday Eve","l":"Saloon with friends"},
+      {"w":"Winter","l":"Library or town more often"}
+    ],
+    "hearts":[
+      {"h":2,"loc":"Leah's Cottage","tri":"Enter her cottage any afternoon","story":"She shows you a wood carving she's working on. Passionate but uncertain if her art has real value."},
+      {"h":4,"loc":"Leah's Cottage","tri":"Enter cottage in the morning","story":"Leah stares at a blank canvas, frustrated. She's struggling with creative block and self-doubt."},
+      {"h":6,"loc":"Saloon","tri":"Enter Saloon on Friday evening","story":"Her ex, Kel, shows up unexpectedly. A tense confrontation about whether she's throwing her life away on art."},
+      {"h":8,"loc":"Town Square","tri":"Visit on her art show event day (specific date)","story":"Leah holds a sculpture exhibition. The whole town attends — a triumphant, joyful moment for her."},
+      {"h":10,"loc":"Leah's Cottage","tri":"Enter her cottage any time","story":"She asks if you'd spend your life with her. She envisions a quiet, creative life together in the valley."}
+    ]
+  },
+  {
+    "id": "maru",
+    "name": "Maru", "icon": "🔭", "bday": "Summer 10", "color": "#00bcd4", "home": "Robin & Demetrius's House",
+    "loves": ["Battery Pack","Cauliflower","Cheese Cauliflower","Diamond","Gold Bar","Iridium Bar","Miner's Treat","Pepper Poppers","Rhubarb Pie","Strawberry"],
+    "likes": ["Quartz","All Ores/Bars","Universal Likes"],
+    "hates": ["Salmonberry","Holly"],
+    "sched":[
+      {"w":"Tue/Thu 10–3","l":"Harvey's Clinic (assisting)"},
+      {"w":"Other Mornings","l":"Robin's workshop at mountain house"},
+      {"w":"Afternoon","l":"Around town or inventing at home"},
+      {"w":"Sunday","l":"Mountain area with Demetrius"}
+    ],
+    "hearts":[
+      {"h":2,"loc":"Harvey's Clinic","tri":"Enter clinic on Tuesday or Thursday (10 AM–3 PM)","story":"Maru is assisting Harvey. She explains her dual passion for medicine and mechanical engineering."},
+      {"h":4,"loc":"Robin's House","tri":"Enter mountain house any day she's there","story":"Maru shows you a robot she's built in her spare time. It malfunctions a little — she laughs it off."},
+      {"h":6,"loc":"Mountain / Observatory","tri":"Visit mountain at night (9 PM–12 AM) on a clear day","story":"Maru invites you to look at Jupiter through her telescope. A sweet, wonderfully nerdy stargazing date."},
+      {"h":8,"loc":"Robin's Workshop","tri":"Enter the house on a specific day","story":"Her completed robot runs wild around the workshop. Chaotic, funny, and ends in a sweet moment."},
+      {"h":10,"loc":"Mountain Observatory","tri":"Visit at night on a clear evening","story":"Maru has prepared a special light show using her inventions. She projects her feelings across the night sky."}
+    ]
+  },
+  {
+    "id": "penny",
+    "name": "Penny", "icon": "📖", "bday": "Fall 2", "color": "#ff9800", "home": "Pam's Trailer (south of town)",
+    "loves": ["Diamond","Emerald","Melon","Poppy","Red Plate","Roots Platter","Sandfish","Tom Kha Soup"],
+    "likes": ["Most Cooked Dishes","Universal Likes"],
+    "hates": ["Beer","Grape","Hops","Holly","Joja Cola","Pale Ale"],
+    "sched":[
+      {"w":"Morning","l":"Pam's Trailer (cooking/cleaning)"},
+      {"w":"Mon/Wed/Fri Afternoon","l":"Playground — tutoring Jas & Vincent"},
+      {"w":"Thursday","l":"Library, researching education"},
+      {"w":"Evening","l":"Trailer or walking home"}
+    ],
+    "hearts":[
+      {"h":2,"loc":"Trailer Area","tri":"Walk past the trailer on a weekday afternoon","story":"Penny is cooking for Pam who hasn't come home. She's clearly used to waiting and quietly taking care of things."},
+      {"h":4,"loc":"Library/Museum","tri":"Enter library when Penny is there (Thursdays)","story":"She's researching education methods. She dreams earnestly of being a proper, certified teacher someday."},
+      {"h":6,"loc":"Trailer","tri":"Enter or walk near trailer on a specific evening","story":"Pam comes home drunk. Penny is deeply embarrassed. A heavy but honest scene about a complicated home life."},
+      {"h":8,"loc":"Bathhouse / Spa","tri":"Enter the spa on her schedule day","story":"A peaceful spa day together. Penny opens up about dreaming of a stable, warm home environment."},
+      {"h":10,"loc":"Town or Farm","tri":"Varies by day and time","story":"Penny talks about the home she's always imagined. She wonders if you two could build that life together."}
+    ]
+  },
+  {
+    "id": "sam",
+    "name": "Sam", "icon": "🎸", "bday": "Summer 17", "color": "#f9ca24", "home": "1 Willow Lane (with Jodi)",
+    "loves": ["Cactus Fruit","Maple Bar","Pizza","Tigerseye"],
+    "likes": ["Egg","Joja Cola (oddly!)","Universal Likes"],
+    "hates": ["Fried Egg","Sashimi","Artichoke Dip","Salmonberry"],
+    "sched":[
+      {"w":"Morning","l":"Home until noon"},
+      {"w":"Afternoon","l":"Town or Sebastian's basement"},
+      {"w":"Eve (Fri/Sat)","l":"Saloon"},
+      {"w":"Winter","l":"Ice skating near Community Center"}
+    ],
+    "hearts":[
+      {"h":2,"loc":"Jodi's House","tri":"Enter 1 Willow Lane in the morning","story":"Sam is playing guitar when Jodi scolds him about responsibility. He's frustrated but keeps his good-natured spirit."},
+      {"h":4,"loc":"Sam's Room","tri":"Enter his room upstairs","story":"He excitedly talks about forming a band with Sebastian. He hums you a riff he just wrote."},
+      {"h":6,"loc":"Jodi's House","tri":"Enter around 3–5 PM on a specific weekday","story":"Sam got busted for skateboarding near the clinic. Jodi is furious. You choose how to respond."},
+      {"h":8,"loc":"Town Square","tri":"Walk through town on a specific event day","story":"Sam's band finally performs live in town. The crowd loves it — a huge, victorious moment of growth."},
+      {"h":10,"loc":"Sam's House","tri":"Enter the house any time","story":"Sam plays you a song he wrote specifically about you. Heartfelt and sweet underneath his easygoing exterior."}
+    ]
+  },
+  {
+    "id": "sebastian",
+    "name": "Sebastian", "icon": "💻", "bday": "Winter 10", "color": "#607d8b", "home": "Robin's House Basement",
+    "loves": ["Frozen Tear","Obsidian","Pumpkin Soup","Sashimi","Void Egg"],
+    "likes": ["Quartz","Universal Likes (limited)"],
+    "hates": ["Salmonberry","Clay"],
+    "sched":[
+      {"w":"Morning","l":"Basement room (sleeping or coding)"},
+      {"w":"Sunny Afternoons","l":"Mountain lake (reading/smoking)"},
+      {"w":"Rainy Days","l":"Basement coding"},
+      {"w":"Fri/Sat Eve","l":"Saloon with Sam & Abigail"}
+    ],
+    "hearts":[
+      {"h":2,"loc":"Sebastian's Basement","tri":"Enter Robin's house and go to basement (any time)","story":"He's deep in code and barely acknowledges you at first, then cautiously shows you his programming work."},
+      {"h":4,"loc":"Sebastian's Room","tri":"Enter basement room on a weekend","story":"He lets you join his tabletop RPG session. A rare glimpse of him socializing, relaxed and genuinely enjoying himself."},
+      {"h":6,"loc":"Mountain Lake","tri":"Visit mountain lake at 8 PM–12 AM on a clear night","story":"You find Sebastian smoking alone. He opens up about feeling trapped and misunderstood in the valley."},
+      {"h":8,"loc":"Mountain Road","tri":"Triggered on a specific weekend morning","story":"Sebastian takes you on a motorcycle ride through the mountain pass. Fast, thrilling, and surprisingly romantic."},
+      {"h":10,"loc":"Sebastian's Room","tri":"Enter his basement room on a specific day","story":"He tells you he loves you and wants to leave Pelican Town — but only if you'll come with him."}
+    ]
+  },
+  {
+    "id": "shane",
+    "name": "Shane", "icon": "🐔", "bday": "Spring 20", "color": "#4caf50", "home": "Marnie's Ranch",
+    "loves": ["Beer","Hot Pepper","Pepper Poppers","Pizza"],
+    "likes": ["Egg (standard)","Universal Likes"],
+    "hates": ["Salmonberry","Bok Choy","Salad","Pickles"],
+    "sched":[
+      {"w":"Weekdays","l":"JojaMart (until 5 PM)"},
+      {"w":"Evenings","l":"Saloon (most nights until midnight)"},
+      {"w":"Weekends","l":"Marnie's Ranch or cliff behind it"},
+      {"w":"After 7♥","l":"More time near the chicken coop"}
+    ],
+    "hearts":[
+      {"h":2,"loc":"JojaMart","tri":"Enter JojaMart on a weekday (9 AM–5 PM)","story":"Shane is miserable at work. He snaps at you but quickly apologizes — he's just exhausted and broken."},
+      {"h":4,"loc":"Cliff behind Marnie's Ranch","tri":"Walk behind the ranch to the cliffside","story":"Shane sits at the cliff edge, staring down. He speaks about hating his life. Dark, serious, important scene."},
+      {"h":6,"loc":"Hospital","tri":"Automatically triggered after the 4-heart event","story":"Shane is hospitalized after a very serious episode. A heavy moment dealing honestly with depression."},
+      {"h":7,"loc":"Marnie's Ranch","tri":"Enter ranch shortly after hospital event","story":"Shane thanks you quietly. He says he's starting to get real help. He's more open and genuinely grateful."},
+      {"h":8,"loc":"Saloon","tri":"Visit Saloon on a specific evening","story":"Shane orders a Pepper Popper instead of beer. A small but powerful moment — he's actively working on himself."},
+      {"h":10,"loc":"Marnie's Ranch","tri":"Enter ranch or talk to Shane near the coop","story":"He shows you the baby chicks he's been caring for. His eyes light up — this is who he truly is without the pain."}
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  { "season": "🌸", "name": "Parsnip", "cost": 20, "sellBase": 35, "days": 4, "regrow": false, "note": "Best Day 1 crop" },
+  { "season": "🌸", "name": "Strawberry", "cost": 100, "sellBase": 120, "days": 8, "regrow": 4, "note": "Best Spring crop (Festival only)" },
+  { "season": "🌸", "name": "Cauliflower", "cost": 80, "sellBase": 175, "days": 12, "regrow": false, "note": "Giant Crop chance" },
+  { "season": "🌸", "name": "Coffee Bean", "cost": 2500, "sellBase": 15, "days": 10, "regrow": 2, "note": "4 beans/harvest, make Coffee!" },
+  { "season": "☀", "name": "Blueberry", "cost": 80, "sellBase": 50, "days": 13, "regrow": 4, "note": "3 berries/harvest, best Summer" },
+  { "season": "☀", "name": "Starfruit", "cost": 400, "sellBase": 750, "days": 13, "regrow": false, "note": "Wine = 6,300g Artisan!" },
+  { "season": "☀", "name": "Melon", "cost": 80, "sellBase": 250, "days": 12, "regrow": false, "note": "Giant Crop chance" },
+  { "season": "☀", "name": "Red Cabbage", "cost": 100, "sellBase": 260, "days": 9, "regrow": false, "note": "Y2+ from Pierre only" },
+  { "season": "🍂", "name": "Cranberry", "cost": 240, "sellBase": 75, "days": 7, "regrow": 5, "note": "2 berries/harvest, best Fall" },
+  { "season": "🍂", "name": "Pumpkin", "cost": 100, "sellBase": 320, "days": 13, "regrow": false, "note": "Giant Crop, needed for bundle" },
+  { "season": "🍂", "name": "Sweet Gem Berry", "cost": 1000, "sellBase": 3000, "days": 24, "regrow": false, "note": "Use for Stardrop secret!" },
+  { "season": "🌿", "name": "Ancient Fruit", "cost": "Seed Maker", "sellBase": 550, "days": 28, "regrow": 7, "note": "Best Greenhouse crop, wine=3,465g" },
+  { "season": "🌿", "name": "Coffee Bean (GH)", "cost": 2500, "sellBase": 15, "days": 10, "regrow": 2, "note": "Year-round in Greenhouse" }
+]

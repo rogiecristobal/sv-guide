@@ -1,0 +1,6420 @@
+[
+  {
+    "id": "abigail",
+    "name": "Abigail",
+    "slug": "abigail",
+    "birthday": {
+      "season": "fall",
+      "day": 13
+    },
+    "family": [
+      "Pierre",
+      "Caroline"
+    ],
+    "residence": "Pierre's General Store",
+    "marriageable": true,
+    "bio": "Abigail lives at Pierre's General Store with her parents. She has a dark, adventurous spirit and loves the occult.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Amethyst",
+        "Banana Pudding",
+        "Blackberry Cobbler",
+        "Chocolate Cake",
+        "Pufferfish",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Spicy Eel"
+      ],
+      "like": [
+        "Blueberry",
+        "Cherry",
+        "Quartz",
+        "Sweet Pea"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Daffodil",
+        "Egg",
+        "Fried Egg"
+      ],
+      "dislike": [
+        "Clay",
+        "Poppy",
+        "Salmonberry",
+        "Wild Horseradish"
+      ],
+      "hate": [
+        "Artichoke",
+        "Baked Fish",
+        "Seaweed",
+        "Truffle"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Home (Room)",
+              "mapX": 0,
+              "mapY": 0
+            },
+            {
+              "time": "9:30 AM",
+              "location": "Pierre's General Store",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Town (South of Saloon)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "3:30 PM",
+              "location": "Home (Room)",
+              "mapX": 0,
+              "mapY": 0
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Home (Room) Sleeping",
+              "mapX": 0,
+              "mapY": 0
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Home (Room)",
+              "mapX": 0,
+              "mapY": 0
+            },
+            {
+              "time": "11:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 0,
+              "mapY": 0
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Home (Room)",
+              "mapX": 0,
+              "mapY": 0
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Home (Room) Sleeping",
+              "mapX": 0,
+              "mapY": 0
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Home (Room)",
+              "mapX": 0,
+              "mapY": 0
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Pierre's General Store",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "11:00 PM",
+              "location": "Home (Room) Sleeping",
+              "mapX": 0,
+              "mapY": 0
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 2,
+        "trigger": "Enter Pierre's General Store while Abigail is there",
+        "title": "A Game Night",
+        "description": "Abigail asks you to play a game of Praetorian Edition. She's competitive and very spirited."
+      },
+      {
+        "hearts": 4,
+        "trigger": "Enter the Mountain Lake area on a sunny day",
+        "title": "Flute Practice",
+        "description": "Abigail is playing her flute by the mountain lake. She shares her love for music."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter Town on a rainy day",
+        "title": "Ouija Board",
+        "description": "Abigail asks if you believe in ghosts. She reveals she has an Ouija board and wants to contact the spirits."
+      },
+      {
+        "hearts": 8,
+        "trigger": "Enter the Graveyard at night",
+        "title": "Grave Investigation",
+        "description": "Abigail wants to explore the graveyard at night looking for paranormal activity."
+      },
+      {
+        "hearts": 10,
+        "trigger": "Enter the Bus Stop after receiving letter",
+        "title": "Ten Heart Event",
+        "description": "Abigail shares her feelings about her place in the world and her relationship with you."
+      }
+    ],
+    "romance": {
+      "bouquetRequired": true,
+      "mermaidPendant": true,
+      "roomChanges": "Abigail's room has purple walls, a computer, and alt-girl vibes.",
+      "scheduleAfterMarriage": "Helps on the farm, visits town occasionally."
+    },
+    "img": "https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png"
+  },
+  {
+    "id": "alex",
+    "name": "Alex",
+    "slug": "alex",
+    "birthday": {
+      "season": "summer",
+      "day": 13
+    },
+    "family": [
+      "Evelyn",
+      "George"
+    ],
+    "residence": "1 River Road",
+    "marriageable": true,
+    "bio": "Alex lives with his grandparents Evelyn and George. He is athletic, cocky, and dreams of becoming a professional gridball player.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Complete Breakfast",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Salmon Dinner"
+      ],
+      "like": [
+        "Daffodil",
+        "Egg",
+        "Fried Egg",
+        "Joja Cola",
+        "Milk"
+      ],
+      "neutral": [
+        "Bread",
+        "Clay",
+        "Coconut",
+        "Crab",
+        "Glazed Yams"
+      ],
+      "dislike": [
+        "Cauliflower",
+        "Foraged Mushrooms",
+        "Pickles",
+        "Quartz",
+        "Seaweed"
+      ],
+      "hate": [
+        "Amaranth",
+        "Artichoke",
+        "Broken Glasses",
+        "Rotten Plant",
+        "Soggy Newspaper"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Town (Dog Park)",
+              "mapX": 4,
+              "mapY": 3
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Beach",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 0,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 0,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "wednesday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Spa",
+              "mapX": 6,
+              "mapY": 1
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 0,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 2,
+        "trigger": "Visit Alex's house when he is home",
+        "title": "Gridball Practice",
+        "description": "Alex talks about his gridball practice and shows off his athletic skills."
+      },
+      {
+        "hearts": 4,
+        "trigger": "Visit the Beach on a sunny day",
+        "title": "Beach Day",
+        "description": "Alex is at the beach working out. He opens up about his parents."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter the Town on a sunny morning",
+        "title": "Breakfast with George",
+        "description": "Alex shows a softer side as he cares for his grandfather George."
+      },
+      {
+        "hearts": 8,
+        "trigger": "Enter the Town in the afternoon",
+        "title": "Dirty Talk",
+        "description": "Alex reveals his vulnerability and questions his future in sports."
+      },
+      {
+        "hearts": 10,
+        "trigger": "Enter the Bus Stop after receiving letter",
+        "title": "Ten Heart Event",
+        "description": "Alex confesses his love and talks about building a future together."
+      }
+    ],
+    "romance": {
+      "bouquetRequired": true,
+      "mermaidPendant": true,
+      "roomChanges": "Alex brings gridball decor and sports equipment to the farmhouse.",
+      "scheduleAfterMarriage": "Helps on the farm, visits his grandparents on Sundays."
+    },
+    "img": "https://stardewvalleywiki.com/mediawiki/images/0/04/Alex.png"
+  },
+  {
+    "id": "elliott",
+    "name": "Elliott",
+    "slug": "elliott",
+    "birthday": {
+      "season": "fall",
+      "day": 5
+    },
+    "family": [],
+    "residence": "Elliott's Cabin",
+    "marriageable": true,
+    "bio": "Elliott is a writer who lives alone in a cabin on the beach. He is romantic, eloquent, and searching for inspiration for his novel.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Crab Cakes",
+        "Duck Feather",
+        "Lobster",
+        "Pomegranate",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Tom Kha Soup"
+      ],
+      "like": [
+        "Blueberry",
+        "Cherry",
+        "Coconut",
+        "Fried Egg",
+        "Octopus",
+        "Squid"
+      ],
+      "neutral": [
+        "Bread",
+        "Chanterelle",
+        "Common Mushroom",
+        "Daffodil",
+        "Egg"
+      ],
+      "dislike": [
+        "Amaranth",
+        "Artichoke",
+        "Baked Fish",
+        "Fish Taco",
+        "Mango"
+      ],
+      "hate": [
+        "Beet",
+        "Horseradish",
+        "Pizza",
+        "Salmonberry",
+        "Spicy Eel"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Elliott's Cabin",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Elliott's Cabin (Writing)",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Beach (Near Dock)",
+              "mapX": 2,
+              "mapY": 6
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Elliott's Cabin",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Elliott's Cabin Sleeping",
+              "mapX": 2,
+              "mapY": 5
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Elliott's Cabin",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Elliott's Cabin (Writing)",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Elliott's Cabin",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Elliott's Cabin Sleeping",
+              "mapX": 2,
+              "mapY": 5
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Elliott's Cabin",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Elliott's Cabin",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Elliott's Cabin Sleeping",
+              "mapX": 2,
+              "mapY": 5
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 2,
+        "trigger": "Enter Elliott's Cabin when he is home",
+        "title": "Writer's Block",
+        "description": "Elliott struggles with writer's block and discusses his novel."
+      },
+      {
+        "hearts": 4,
+        "trigger": "Enter the Beach on a sunny day",
+        "title": "The Piano",
+        "description": "Elliott plays a piece on the piano and shares his love of music."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter the Beach in the evening",
+        "title": "A Night at the Beach",
+        "description": "Elliott reads poetry to you by the sea."
+      },
+      {
+        "hearts": 8,
+        "trigger": "Enter Elliott's Cabin after receiving his letter",
+        "title": "The Novel",
+        "description": "Elliott reveals he's finished his novel and dedicates it to you."
+      },
+      {
+        "hearts": 10,
+        "trigger": "Enter the Bus Stop after receiving letter",
+        "title": "Ten Heart Event",
+        "description": "Elliott expresses his deep feelings and asks you to be with him forever."
+      }
+    ],
+    "romance": {
+      "bouquetRequired": true,
+      "mermaidPendant": true,
+      "roomChanges": "Elliott brings a bookshelf and writing desk to the farmhouse.",
+      "scheduleAfterMarriage": "Writes at home, visits the beach for inspiration."
+    },
+    "img": "https://stardewvalleywiki.com/mediawiki/images/b/bd/Elliott.png"
+  },
+  {
+    "id": "emily",
+    "name": "Emily",
+    "slug": "emily",
+    "birthday": {
+      "season": "spring",
+      "day": 27
+    },
+    "family": [
+      "Haley"
+    ],
+    "residence": "2 Willow Lane",
+    "marriageable": true,
+    "bio": "Emily lives with her sister Haley. She works at the Stardrop Saloon and is deeply spiritual, passionate about gemstones, and loves making her own clothes.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Amethyst",
+        "Aquamarine",
+        "Cloth",
+        "Emerald",
+        "Jade",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Ruby",
+        "Survival Burger",
+        "Topaz",
+        "Wool"
+      ],
+      "like": [
+        "Daffodil",
+        "Dandelion",
+        "Honey",
+        "Milk",
+        "Sweet Pea"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Coconut",
+        "Egg",
+        "Fried Egg"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Carp Surprise",
+        "Fried Eel",
+        "Ice Cream",
+        "Rice Pudding",
+        "Salmonberry"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Home (Living Room)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon (Work)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "4:30 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 2,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Home (Living Room)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon (Work)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "4:30 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 2,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon (Work)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 2,
+              "mapY": 2
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 2,
+        "trigger": "Enter Emily's house when she is home",
+        "title": "Gemstones",
+        "description": "Emily shows you her gemstone collection and explains their spiritual meanings."
+      },
+      {
+        "hearts": 4,
+        "trigger": "Enter the Town on a sunny day",
+        "title": "Clothing Therapy",
+        "description": "Emily talks about her passion for making clothes and expressing yourself through fashion."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter the Stardrop Saloon at night",
+        "title": "Dance of the Moonlight Jellies",
+        "description": "Emily invites you to watch the Moonlight Jellies with her."
+      },
+      {
+        "hearts": 8,
+        "trigger": "Enter Emily's house after receiving letter",
+        "title": "Crystal Healing",
+        "description": "Emily reveals her deep spiritual connection to nature and crystals."
+      },
+      {
+        "hearts": 10,
+        "trigger": "Enter the Bus Stop after receiving letter",
+        "title": "Ten Heart Event",
+        "description": "Emily shares her vision of a beautiful future together."
+      }
+    ],
+    "romance": {
+      "bouquetRequired": true,
+      "mermaidPendant": true,
+      "roomChanges": "Emily's room has a crystal garden, gemstone display, and a sewing machine.",
+      "scheduleAfterMarriage": "Works at the Saloon on busy days, does yoga at home."
+    },
+    "img": "https://stardewvalleywiki.com/mediawiki/images/2/28/Emily.png"
+  },
+  {
+    "id": "haley",
+    "name": "Haley",
+    "slug": "haley",
+    "birthday": {
+      "season": "spring",
+      "day": 14
+    },
+    "family": [
+      "Emily"
+    ],
+    "residence": "2 Willow Lane",
+    "marriageable": true,
+    "bio": "Haley lives with her older sister Emily. She is initially shallow and obsessed with fashion and photography, but grows kinder over time.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Coconut",
+        "Fruit Salad",
+        "Pink Cake",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Sunflower"
+      ],
+      "like": [
+        "Daffodil",
+        "Sweet Pea",
+        "Tulip"
+      ],
+      "neutral": [
+        "Bread",
+        "Cheese",
+        "Milk",
+        "Quartz"
+      ],
+      "dislike": [
+        "Clay",
+        "Common Mushroom",
+        "Dandelion",
+        "Egg",
+        "Prune"
+      ],
+      "hate": [
+        "Amaranth",
+        "Artichoke",
+        "Broken Glasses",
+        "Joja Cola",
+        "Soggy Newspaper"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Home (Living Room)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Town (Fountain)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Town (Museum)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 2,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Home (Living Room)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 2,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "monday",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Town (Fountain)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Beach",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 2,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 2,
+              "mapY": 2
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 2,
+        "trigger": "Enter Haley's house when she is home",
+        "title": "Photography",
+        "description": "Haley shows you her photography collection. She's passionate about capturing moments."
+      },
+      {
+        "hearts": 4,
+        "trigger": "Enter the Town on a sunny day",
+        "title": "Lost Bracelet",
+        "description": "Haley loses her bracelet and asks for your help finding it."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter the Beach on a sunny day",
+        "title": "Beach Photos",
+        "description": "Haley is taking photos at the beach and asks for your opinion."
+      },
+      {
+        "hearts": 8,
+        "trigger": "Enter Haley's house after receiving letter",
+        "title": "Pie Baking",
+        "description": "Haley attempts to bake a pie and shows her vulnerable, growing side."
+      },
+      {
+        "hearts": 10,
+        "trigger": "Enter the Bus Stop after receiving letter",
+        "title": "Ten Heart Event",
+        "description": "Haley confesses how much you've changed her for the better."
+      }
+    ],
+    "romance": {
+      "bouquetRequired": true,
+      "mermaidPendant": true,
+      "roomChanges": "Haley brings a photo studio setup and fashion items to the farmhouse.",
+      "scheduleAfterMarriage": "Takes photos around the farm, helps with chores."
+    },
+    "img": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Haley.png"
+  },
+  {
+    "id": "harvey",
+    "name": "Harvey",
+    "slug": "harvey",
+    "birthday": {
+      "season": "winter",
+      "day": 14
+    },
+    "family": [],
+    "residence": "Harvey's Clinic",
+    "marriageable": true,
+    "bio": "Harvey is the town doctor. He is a bit timid and anxious but deeply caring. He lives alone in a small apartment above his clinic.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Coffee",
+        "Pickles",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Super Meal",
+        "Truffle Oil",
+        "Wine"
+      ],
+      "like": [
+        "Bread",
+        "Common Mushroom",
+        "Daffodil",
+        "Egg",
+        "Milk"
+      ],
+      "neutral": [
+        "Cheese",
+        "Coconut",
+        "Crab",
+        "Fried Egg",
+        "Quartz"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Chanterelle",
+        "Pizza"
+      ],
+      "hate": [
+        "Carp Surprise",
+        "Pale Broth",
+        "Salmonberry",
+        "Seaweed",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Harvey's Clinic (Apartment)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Harvey's Clinic (Exam Room)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Harvey's Clinic (Office)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Town (Wandering)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Harvey's Clinic (Apartment)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Harvey's Clinic (Apartment) Sleeping",
+              "mapX": 1,
+              "mapY": 3
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Harvey's Clinic (Apartment)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Harvey's Clinic (Exam Room)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Harvey's Clinic (Office)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Harvey's Clinic (Apartment)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Harvey's Clinic (Apartment) Sleeping",
+              "mapX": 1,
+              "mapY": 3
+            }
+          ]
+        },
+        {
+          "day": "tuesday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Harvey's Clinic (Apartment)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Harvey's Clinic (Exam Room)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Harvey's Clinic (Office)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Harvey's Clinic (Apartment)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Harvey's Clinic (Apartment) Sleeping",
+              "mapX": 1,
+              "mapY": 3
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 2,
+        "trigger": "Enter Harvey's Clinic",
+        "title": "Check-Up",
+        "description": "Harvey gives you a free check-up and talks about his passion for medicine."
+      },
+      {
+        "hearts": 4,
+        "trigger": "Enter the Stardrop Saloon on a rainy day",
+        "title": "Model Planes",
+        "description": "Harvey reveals his hobby of building model planes."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter the Town on a sunny day",
+        "title": "Hot Air Balloon",
+        "description": "Harvey talks about his dream of riding in a hot air balloon."
+      },
+      {
+        "hearts": 8,
+        "trigger": "Enter Harvey's Clinic after receiving letter",
+        "title": "Medical Skills",
+        "description": "Harvey shows you his medical equipment and shares his insecurities."
+      },
+      {
+        "hearts": 10,
+        "trigger": "Enter the Bus Stop after receiving letter",
+        "title": "Ten Heart Event",
+        "description": "Harvey nervously confesses his love and asks to be together."
+      }
+    ],
+    "romance": {
+      "bouquetRequired": true,
+      "mermaidPendant": true,
+      "roomChanges": "Harvey brings medical textbooks and a model plane collection to the farmhouse.",
+      "scheduleAfterMarriage": "Works at the clinic, helps on the farm in the evenings."
+    },
+    "img": "https://stardewvalleywiki.com/mediawiki/images/9/95/Harvey.png"
+  },
+  {
+    "id": "leah",
+    "name": "Leah",
+    "slug": "leah",
+    "birthday": {
+      "season": "winter",
+      "day": 23
+    },
+    "family": [],
+    "residence": "Leah's Cottage",
+    "marriageable": true,
+    "bio": "Leah is an artist who lives alone in a cottage outside of town. She loves nature, foraging, and creating sculptures from driftwood.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Goat Cheese",
+        "Poppyseed Muffin",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Salad",
+        "Stir Fry",
+        "Truffle",
+        "Vegetable Medley",
+        "Wine"
+      ],
+      "like": [
+        "Bread",
+        "Daffodil",
+        "Dandelion",
+        "Egg",
+        "Milk",
+        "Sweet Pea"
+      ],
+      "neutral": [
+        "Blueberry",
+        "Cherry",
+        "Common Mushroom",
+        "Fried Egg",
+        "Quartz"
+      ],
+      "dislike": [
+        "Amaranth",
+        "Artichoke",
+        "Baked Fish",
+        "Pizza",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Carp Surprise",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Leah's Cottage",
+              "mapX": 7,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Leah's Cottage (Sculpting)",
+              "mapX": 7,
+              "mapY": 2
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Forest (South of Farm)",
+              "mapX": 7,
+              "mapY": 3
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Forest (Foraging)",
+              "mapX": 7,
+              "mapY": 3
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Leah's Cottage",
+              "mapX": 7,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Leah's Cottage Sleeping",
+              "mapX": 7,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Leah's Cottage",
+              "mapX": 7,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Leah's Cottage (Sculpting)",
+              "mapX": 7,
+              "mapY": 2
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Leah's Cottage",
+              "mapX": 7,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Leah's Cottage Sleeping",
+              "mapX": 7,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Leah's Cottage",
+              "mapX": 7,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Leah's Cottage (Sculpting)",
+              "mapX": 7,
+              "mapY": 2
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "11:00 PM",
+              "location": "Leah's Cottage Sleeping",
+              "mapX": 7,
+              "mapY": 2
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 2,
+        "trigger": "Enter Leah's Cottage when she is home",
+        "title": "Wood Sculpture",
+        "description": "Leah shows you her latest driftwood sculpture and talks about her art."
+      },
+      {
+        "hearts": 4,
+        "trigger": "Enter the Forest on a sunny day",
+        "title": "Nature Walk",
+        "description": "Leah invites you for a walk in the forest to forage and gather inspiration."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter Leah's Cottage in the evening",
+        "title": "Ex-Boyfriend",
+        "description": "Leah's ex-boyfriend Kel visits and causes tension. She stands up for herself."
+      },
+      {
+        "hearts": 8,
+        "trigger": "Enter the Forest after receiving letter",
+        "title": "Art Show",
+        "description": "Leah prepares for an art show and asks for your support."
+      },
+      {
+        "hearts": 10,
+        "trigger": "Enter the Bus Stop after receiving letter",
+        "title": "Ten Heart Event",
+        "description": "Leah expresses her love in a romantic forest setting."
+      }
+    ],
+    "romance": {
+      "bouquetRequired": true,
+      "mermaidPendant": true,
+      "roomChanges": "Leah turns a corner of the farmhouse into an art studio.",
+      "scheduleAfterMarriage": "Continues sculpting at home, forages in the forest."
+    },
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/e6/Leah.png"
+  },
+  {
+    "id": "maru",
+    "name": "Maru",
+    "slug": "maru",
+    "birthday": {
+      "season": "summer",
+      "day": 10
+    },
+    "family": [
+      "Robin",
+      "Demetrius",
+      "Sebastian"
+    ],
+    "residence": "24 Mountain Road",
+    "marriageable": true,
+    "bio": "Maru lives in the mountains with her parents Robin and Demetrius, and her half-brother Sebastian. She is a brilliant inventor and works at Harvey's Clinic.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Battery Pack",
+        "Cauliflower",
+        "Cheese Cauliflower",
+        "Miner's Treat",
+        "Pepper Poppers",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Rhubarb Pie",
+        "Strawberry"
+      ],
+      "like": [
+        "Copper Bar",
+        "Gold Bar",
+        "Iron Bar",
+        "Iridium Bar",
+        "Purple Mushroom",
+        "Radioactive Bar"
+      ],
+      "neutral": [
+        "Bread",
+        "Daffodil",
+        "Egg",
+        "Fried Egg",
+        "Milk"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Carp Surprise",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Laboratory)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Harvey's Clinic (Work)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Laboratory)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 4,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Home (Laboratory)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Harvey's Clinic (Work)",
+              "mapX": 1,
+              "mapY": 3
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 4,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "tuesday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Laboratory)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Home (Laboratory)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 4,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 2,
+        "trigger": "Enter the Mountain Road area",
+        "title": "The Telescope",
+        "description": "Maru shows you her telescope and talks about astronomy."
+      },
+      {
+        "hearts": 4,
+        "trigger": "Enter the Town on a sunny day",
+        "title": "Gadget Demo",
+        "description": "Maru demonstrates her latest invention."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter the Mountain Lake at night",
+        "title": "Stargazing",
+        "description": "Maru invites you to stargaze at the mountain lake."
+      },
+      {
+        "hearts": 8,
+        "trigger": "Enter Maru's room after receiving letter",
+        "title": "Robot Project",
+        "description": "Maru reveals her secret robot project and asks for your opinion."
+      },
+      {
+        "hearts": 10,
+        "trigger": "Enter the Bus Stop after receiving letter",
+        "title": "Ten Heart Event",
+        "description": "Maru shares her dreams for the future and confesses her love."
+      }
+    ],
+    "romance": {
+      "bouquetRequired": true,
+      "mermaidPendant": true,
+      "roomChanges": "Maru sets up a workshop with gadgets and science equipment.",
+      "scheduleAfterMarriage": "Works on inventions at home, visits the clinic periodically."
+    },
+    "img": "https://stardewvalleywiki.com/mediawiki/images/f/f8/Maru.png"
+  },
+  {
+    "id": "penny",
+    "name": "Penny",
+    "slug": "penny",
+    "birthday": {
+      "season": "fall",
+      "day": 2
+    },
+    "family": [
+      "Pam"
+    ],
+    "residence": "Trailer",
+    "marriageable": true,
+    "bio": "Penny lives in a small trailer with her alcoholic mother Pam. She is shy, kind, and teaches the town's children Jas and Vincent.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Diamond",
+        "Emerald",
+        "Melon",
+        "Poppy",
+        "Poppyseed Muffin",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Red Plate",
+        "Roots Platter",
+        "Sandfish",
+        "Tom Kha Soup"
+      ],
+      "like": [
+        "Blueberry",
+        "Cherry",
+        "Daffodil",
+        "Milk",
+        "Sweet Pea"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Egg",
+        "Fried Egg",
+        "Quartz"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Beer",
+        "Mead",
+        "Pale Ale",
+        "Salmonberry",
+        "Wine"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:30 AM",
+              "location": "Trailer",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Town (School Area)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Museum (Teaching)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Trailer",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Town (Garden)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Trailer",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Trailer Sleeping",
+              "mapX": 3,
+              "mapY": 5
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:30 AM",
+              "location": "Trailer",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Museum (Teaching)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Trailer",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Trailer (Reading)",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Trailer Sleeping",
+              "mapX": 3,
+              "mapY": 5
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "6:30 AM",
+              "location": "Trailer",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Town (Garden)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Town (Graveyard)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Trailer",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Trailer Sleeping",
+              "mapX": 3,
+              "mapY": 5
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 2,
+        "trigger": "Enter the Trailer when Penny is home",
+        "title": "Cleaning Up",
+        "description": "Penny cleans up the messy trailer and shares her frustrations about her home life."
+      },
+      {
+        "hearts": 4,
+        "trigger": "Enter the Town on a sunny day",
+        "title": "Helping Others",
+        "description": "Penny talks about teaching Jas and Vincent and her love for education."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter the Museum after receiving letter",
+        "title": "Library Visit",
+        "description": "Penny asks you to meet her at the museum. She shares her favorite books."
+      },
+      {
+        "hearts": 8,
+        "trigger": "Enter the Spa in the afternoon",
+        "title": "Pool Day",
+        "description": "Penny opens up about her mother's drinking and her dreams of a better life."
+      },
+      {
+        "hearts": 10,
+        "trigger": "Enter the Bus Stop after receiving letter",
+        "title": "Ten Heart Event",
+        "description": "Penny confesses her love and hopes for a future away from the trailer."
+      }
+    ],
+    "romance": {
+      "bouquetRequired": true,
+      "mermaidPendant": true,
+      "roomChanges": "Penny adds bookshelves, plants, and cozy decor to the farmhouse.",
+      "scheduleAfterMarriage": "Continues teaching children, keeps the farmhouse cozy."
+    },
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/ab/Penny.png"
+  },
+  {
+    "id": "sam",
+    "name": "Sam",
+    "slug": "sam",
+    "birthday": {
+      "season": "summer",
+      "day": 17
+    },
+    "family": [
+      "Jodi",
+      "Kent",
+      "Vincent"
+    ],
+    "residence": "1 Willow Lane",
+    "marriageable": true,
+    "bio": "Sam lives with his mother Jodi, father Kent, and little brother Vincent. He is energetic, loves music, skateboarding, and dreams of being a musician.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Cactus Fruit",
+        "Maple Bar",
+        "Pizza",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Tigerseye"
+      ],
+      "like": [
+        "Bread",
+        "Blueberry",
+        "Cherry",
+        "Egg",
+        "Fried Egg",
+        "Joja Cola"
+      ],
+      "neutral": [
+        "Coconut",
+        "Common Mushroom",
+        "Daffodil",
+        "Milk",
+        "Quartz"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Amaranth",
+        "Broken Glasses",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "10:30 AM",
+              "location": "Town (Skateboarding)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 1,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Home (Living Room)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Home (Bedroom - Guitar)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Kitchen)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 1,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "monday",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Town (Skateboarding)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Home (Bedroom - Guitar)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Town (Mayor's Manor)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 1,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 2,
+        "trigger": "Enter Sam's house when he is home",
+        "title": "Band Practice",
+        "description": "Sam is practicing guitar in his room. He talks about his band."
+      },
+      {
+        "hearts": 4,
+        "trigger": "Enter the Town on a sunny day",
+        "title": "Skateboarding",
+        "description": "Sam shows off his skateboarding tricks and talks about his dreams."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter the Beach in the afternoon",
+        "title": "Band Practice",
+        "description": "Sam's band plays at the beach. He invites you to listen."
+      },
+      {
+        "hearts": 8,
+        "trigger": "Enter Sam's house after receiving letter",
+        "title": "Dad's Return",
+        "description": "Sam opens up about his father Kent returning from war and his anxieties."
+      },
+      {
+        "hearts": 10,
+        "trigger": "Enter the Bus Stop after receiving letter",
+        "title": "Ten Heart Event",
+        "description": "Sam expresses his love and promises to always be there for you."
+      }
+    ],
+    "romance": {
+      "bouquetRequired": true,
+      "mermaidPendant": true,
+      "roomChanges": "Sam sets up a music corner with his guitar and band memorabilia.",
+      "scheduleAfterMarriage": "Continues playing music, helps on the farm."
+    },
+    "img": "https://stardewvalleywiki.com/mediawiki/images/9/94/Sam.png"
+  },
+  {
+    "id": "sebastian",
+    "name": "Sebastian",
+    "slug": "sebastian",
+    "birthday": {
+      "season": "winter",
+      "day": 10
+    },
+    "family": [
+      "Robin",
+      "Demetrius",
+      "Maru"
+    ],
+    "residence": "24 Mountain Road (Basement)",
+    "marriageable": true,
+    "bio": "Sebastian lives in the basement of his mother Robin's house. He is introverted, moody, enjoys programming, tabletop RPGs, and motorcycles.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Frozen Tear",
+        "Obsidian",
+        "Prismatic Shard",
+        "Pumpkin",
+        "Rabbit's Foot",
+        "Sashimi",
+        "Void Egg"
+      ],
+      "like": [
+        "Flounder",
+        "Quartz",
+        "Rainbow Trout",
+        "Sweet Pea",
+        "Void Mayonnaise"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Daffodil",
+        "Egg",
+        "Fried Egg"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Clay",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Home (Basement Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "10:30 AM",
+              "location": "Home (Basement - Computer)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Home (Basement Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Mountain Lake (Smoking)",
+              "mapX": 4,
+              "mapY": 2
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Home (Basement Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "10:30 PM",
+              "location": "Home (Basement Bedroom) Sleeping",
+              "mapX": 4,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Home (Basement Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Home (Basement - Computer)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Basement Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "10:30 PM",
+              "location": "Home (Basement Bedroom) Sleeping",
+              "mapX": 4,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Home (Basement Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Home (Basement - Computer)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "10:30 PM",
+              "location": "Home (Basement Bedroom) Sleeping",
+              "mapX": 4,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 2,
+        "trigger": "Enter Sebastian's basement room",
+        "title": "Tabletop RPGs",
+        "description": "Sebastian is playing Solitaire Chronicles and invites you to join."
+      },
+      {
+        "hearts": 4,
+        "trigger": "Enter the Mountain Lake on a sunny day",
+        "title": "Cigarette Break",
+        "description": "Sebastian is by the lake and opens up about his life."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter the Town on a rainy day",
+        "title": "Motorcycle",
+        "description": "Sebastian shows you his motorcycle and talks about his desire to travel."
+      },
+      {
+        "hearts": 8,
+        "trigger": "Enter Sebastian's room after receiving letter",
+        "title": "Programming",
+        "description": "Sebastian shows you his programming project and shares his ambitions."
+      },
+      {
+        "hearts": 10,
+        "trigger": "Enter the Bus Stop after receiving letter",
+        "title": "Ten Heart Event",
+        "description": "Sebastian confesses his love and decides to stay in the valley."
+      }
+    ],
+    "romance": {
+      "bouquetRequired": true,
+      "mermaidPendant": true,
+      "roomChanges": "Sebastian brings a computer setup and frog terrarium to the farmhouse.",
+      "scheduleAfterMarriage": "Works on programming, helps on the farm, visits his mother."
+    },
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/a8/Sebastian.png"
+  },
+  {
+    "id": "shane",
+    "name": "Shane",
+    "slug": "shane",
+    "birthday": {
+      "season": "spring",
+      "day": 20
+    },
+    "family": [
+      "Marnie",
+      "Jas"
+    ],
+    "residence": "Marnie's Ranch",
+    "marriageable": true,
+    "bio": "Shane lives with his aunt Marnie and god-daughter Jas. He struggles with depression and alcoholism but is passionate about chickens and hot peppers.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Beer",
+        "Hot Pepper",
+        "Pepper Poppers",
+        "Pizza",
+        "Prismatic Shard",
+        "Rabbit's Foot"
+      ],
+      "like": [
+        "Bread",
+        "Blueberry",
+        "Cherry",
+        "Egg",
+        "Fried Egg",
+        "Milk"
+      ],
+      "neutral": [
+        "Coconut",
+        "Common Mushroom",
+        "Daffodil",
+        "Quartz",
+        "Sweet Pea"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Clay",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Marnie's Ranch (Kitchen)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "11:00 AM",
+              "location": "Marnie's Ranch (Coop)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Marnie's Ranch (Bedroom) Sleeping",
+              "mapX": 5,
+              "mapY": 4
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Marnie's Ranch (Kitchen)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Marnie's Ranch (Coop)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Marnie's Ranch (Bedroom) Sleeping",
+              "mapX": 5,
+              "mapY": 4
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Marnie's Ranch (Coop)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Marnie's Ranch (Bedroom) Sleeping",
+              "mapX": 5,
+              "mapY": 4
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 2,
+        "trigger": "Enter Marnie's Ranch when Shane is home",
+        "title": "Chicken Talk",
+        "description": "Shane shows you his chickens, especially his favorite blue chicken Charlie."
+      },
+      {
+        "hearts": 4,
+        "trigger": "Enter the Stardrop Saloon on a rainy day",
+        "title": "Hitting Rock Bottom",
+        "description": "Shane is drunk at the saloon and opens up about his struggles."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter the Town on a sunny day",
+        "title": "Microwave Dinner",
+        "description": "Shane invites you over for a microwaved dinner and reveals more about his past."
+      },
+      {
+        "hearts": 8,
+        "trigger": "Enter Marnie's Ranch after receiving letter",
+        "title": "Recovery",
+        "description": "Shane shows you his progress in getting better and thanks you for your support."
+      },
+      {
+        "hearts": 10,
+        "trigger": "Enter the Bus Stop after receiving letter",
+        "title": "Ten Heart Event",
+        "description": "Shane confesses his love and shows you his blue chicken."
+      }
+    ],
+    "romance": {
+      "bouquetRequired": true,
+      "mermaidPendant": true,
+      "roomChanges": "Shane brings chicken memorabilia and a messy corner to the farmhouse.",
+      "scheduleAfterMarriage": "Helps with farm animals, visits Marnie's Ranch."
+    },
+    "img": "https://stardewvalleywiki.com/mediawiki/images/8/8b/Shane.png"
+  },
+  {
+    "id": "caroline",
+    "name": "Caroline",
+    "slug": "caroline",
+    "birthday": {
+      "season": "winter",
+      "day": 7
+    },
+    "family": [
+      "Pierre",
+      "Abigail"
+    ],
+    "residence": "Pierre's General Store",
+    "marriageable": false,
+    "bio": "Caroline is Pierre's wife and Abigail's mother. She runs a community garden project and enjoys tea ceremonies in her sunroom.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Fish Taco",
+        "Green Tea",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Summer Spangle"
+      ],
+      "like": [
+        "Crocus",
+        "Daffodil",
+        "Sweet Pea",
+        "Tea Leaves",
+        "Tulip"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Egg",
+        "Fried Egg",
+        "Milk"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Pierre's General Store (Upstairs)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Pierre's General Store (Counter)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "11:00 AM",
+              "location": "Pierre's General Store (Sunroom)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Town (Community Garden)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Pierre's General Store (Upstairs)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Pierre's General Store (Upstairs) Sleeping",
+              "mapX": 1,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Pierre's General Store (Upstairs)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Pierre's General Store (Sunroom)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Pierre's General Store (Upstairs)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Pierre's General Store (Upstairs) Sleeping",
+              "mapX": 1,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "tuesday",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Pierre's General Store (Upstairs)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Pierre's General Store (Sunroom)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Pierre's General Store (Counter)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Pierre's General Store (Upstairs) Sleeping",
+              "mapX": 1,
+              "mapY": 2
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 2,
+        "trigger": "Enter Caroline's sunroom",
+        "title": "Tea Ceremony",
+        "description": "Caroline invites you to a tea ceremony in her sunroom and shares her knowledge of herbs."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter Pierre's General Store",
+        "title": "Community Garden",
+        "description": "Caroline talks about her community garden project and asks for your help."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/8/87/Caroline.png"
+  },
+  {
+    "id": "clint",
+    "name": "Clint",
+    "slug": "clint",
+    "birthday": {
+      "season": "winter",
+      "day": 26
+    },
+    "family": [],
+    "residence": "Clint's Blacksmith",
+    "marriageable": false,
+    "bio": "Clint is the town blacksmith. He is shy, socially awkward, and has a secret crush on Emily. He spends most of his time at the forge.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Amethyst",
+        "Aquamarine",
+        "Artichoke Dip",
+        "Emerald",
+        "Jade",
+        "Omni Geode",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Ruby",
+        "Topaz"
+      ],
+      "like": [
+        "Copper Bar",
+        "Gold Bar",
+        "Iron Bar",
+        "Iridium Bar",
+        "Quartz"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Daffodil",
+        "Egg",
+        "Fried Egg"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Clint's Blacksmith (Apartment)",
+              "mapX": 1,
+              "mapY": 4
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Clint's Blacksmith (Forge)",
+              "mapX": 1,
+              "mapY": 4
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Clint's Blacksmith (Counter)",
+              "mapX": 1,
+              "mapY": 4
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "11:00 PM",
+              "location": "Clint's Blacksmith (Apartment) Sleeping",
+              "mapX": 1,
+              "mapY": 4
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Clint's Blacksmith (Apartment)",
+              "mapX": 1,
+              "mapY": 4
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Clint's Blacksmith (Forge)",
+              "mapX": 1,
+              "mapY": 4
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Clint's Blacksmith (Counter)",
+              "mapX": 1,
+              "mapY": 4
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Clint's Blacksmith (Apartment)",
+              "mapX": 1,
+              "mapY": 4
+            },
+            {
+              "time": "11:00 PM",
+              "location": "Clint's Blacksmith (Apartment) Sleeping",
+              "mapX": 1,
+              "mapY": 4
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Clint's Blacksmith (Apartment)",
+              "mapX": 1,
+              "mapY": 4
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Clint's Blacksmith (Forge)",
+              "mapX": 1,
+              "mapY": 4
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Clint's Blacksmith (Forge)",
+              "mapX": 1,
+              "mapY": 4
+            },
+            {
+              "time": "11:00 PM",
+              "location": "Clint's Blacksmith (Apartment) Sleeping",
+              "mapX": 1,
+              "mapY": 4
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter Clint's Blacksmith",
+        "title": "Geode Processing",
+        "description": "Clint shows you how he processes geodes and talks about his craft."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter the Stardrop Saloon on a Friday",
+        "title": "Advice on Emily",
+        "description": "Clint asks for your advice on how to talk to Emily."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/31/Clint.png"
+  },
+  {
+    "id": "demetrius",
+    "name": "Demetrius",
+    "slug": "demetrius",
+    "birthday": {
+      "season": "summer",
+      "day": 19
+    },
+    "family": [
+      "Robin",
+      "Maru",
+      "Sebastian"
+    ],
+    "residence": "24 Mountain Road",
+    "marriageable": false,
+    "bio": "Demetrius is a biologist and researcher living in the mountains. He is married to Robin and is the father of Maru and step-father of Sebastian.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Bean Hotpot",
+        "Ice Cream",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Rice Pudding",
+        "Strawberry"
+      ],
+      "like": [
+        "Blueberry",
+        "Cherry",
+        "Melon",
+        "Purple Mushroom",
+        "Wild Plum"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Daffodil",
+        "Egg",
+        "Fried Egg"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Laboratory)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Mountain (Research Area)",
+              "mapX": 4,
+              "mapY": 2
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Home (Laboratory)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 4,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Home (Laboratory)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Home (Laboratory)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 4,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "wednesday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Laboratory)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Mountain (Research Area)",
+              "mapX": 4,
+              "mapY": 2
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 4,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter Demetrius's laboratory",
+        "title": "Research",
+        "description": "Demetrius shows you his latest biological research and experiments."
+      },
+      {
+        "hearts": 7,
+        "trigger": "Enter the Mountain area",
+        "title": "Tomato Debate",
+        "description": "Demetrius and Robin argue about whether tomatoes are fruits. He asks for your opinion."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Demetrius.png"
+  },
+  {
+    "id": "evelyn",
+    "name": "Evelyn",
+    "slug": "evelyn",
+    "birthday": {
+      "season": "winter",
+      "day": 20
+    },
+    "family": [
+      "George",
+      "Alex"
+    ],
+    "residence": "1 River Road",
+    "marriageable": false,
+    "bio": "Evelyn is the kindly grandmother of the valley. She lives with her husband George and grandson Alex. She loves baking and gardening.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Beet",
+        "Chocolate Cake",
+        "Diamond",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Raisins",
+        "Stuffing",
+        "Tulip"
+      ],
+      "like": [
+        "Bread",
+        "Daffodil",
+        "Milk",
+        "Sweet Pea",
+        "Wild Plum"
+      ],
+      "neutral": [
+        "Common Mushroom",
+        "Egg",
+        "Fried Egg",
+        "Quartz"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Town (Garden)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Home (Kitchen)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 0,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Kitchen)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 0,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "thursday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "11:00 AM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 0,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter Evelyn's house",
+        "title": "Baking Cookies",
+        "description": "Evelyn teaches you her secret cookie recipe and shares stories of the old days."
+      },
+      {
+        "hearts": 7,
+        "trigger": "Enter the Town Garden",
+        "title": "Gardening Tips",
+        "description": "Evelyn shares her gardening wisdom and gives you a rare seed."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/8/8e/Evelyn.png"
+  },
+  {
+    "id": "george",
+    "name": "George",
+    "slug": "george",
+    "birthday": {
+      "season": "fall",
+      "day": 24
+    },
+    "family": [
+      "Evelyn",
+      "Alex"
+    ],
+    "residence": "1 River Road",
+    "marriageable": false,
+    "bio": "George is Evelyn's husband and Alex's grandfather. He uses a wheelchair and can be grumpy, but has a warm heart underneath.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Fried Mushroom",
+        "Leek",
+        "Prismatic Shard",
+        "Rabbit's Foot"
+      ],
+      "like": [
+        "Bread",
+        "Daffodil",
+        "Milk",
+        "Sweet Pea"
+      ],
+      "neutral": [
+        "Common Mushroom",
+        "Egg",
+        "Fried Egg",
+        "Quartz"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Home (Living Room - TV)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 0,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Home (Living Room - TV)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 0,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Home (Living Room - TV)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 0,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 0,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 4,
+        "trigger": "Enter George's house",
+        "title": "Grumpy Old Man",
+        "description": "George complains about modern times but eventually shares stories of his youth."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/7/78/George.png"
+  },
+  {
+    "id": "gus",
+    "name": "Gus",
+    "slug": "gus",
+    "birthday": {
+      "season": "summer",
+      "day": 4
+    },
+    "family": [],
+    "residence": "Stardrop Saloon",
+    "marriageable": false,
+    "bio": "Gus runs the Stardrop Saloon. He is a friendly, generous man who loves cooking and always serves the best food in town.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Diamond",
+        "Escargot",
+        "Fish Taco",
+        "Orange",
+        "Prismatic Shard",
+        "Rabbit's Foot"
+      ],
+      "like": [
+        "Bread",
+        "Common Mushroom",
+        "Daffodil",
+        "Egg",
+        "Milk"
+      ],
+      "neutral": [
+        "Coconut",
+        "Fried Egg",
+        "Quartz",
+        "Sweet Pea"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Stardrop Saloon (Apartment)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Stardrop Saloon (Kitchen)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon (Bar)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Stardrop Saloon (Kitchen)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Stardrop Saloon (Bar)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "12:00 AM",
+              "location": "Stardrop Saloon (Apartment) Sleeping",
+              "mapX": 3,
+              "mapY": 4
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Stardrop Saloon (Apartment)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Stardrop Saloon (Kitchen)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon (Bar)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Stardrop Saloon (Kitchen)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "12:00 AM",
+              "location": "Stardrop Saloon (Apartment) Sleeping",
+              "mapX": 3,
+              "mapY": 4
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Stardrop Saloon (Apartment)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Stardrop Saloon (Kitchen)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon (Bar)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Stardrop Saloon (Bar)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "2:00 AM",
+              "location": "Stardrop Saloon (Apartment) Sleeping",
+              "mapX": 3,
+              "mapY": 4
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter the Stardrop Saloon",
+        "title": "Cooking Lesson",
+        "description": "Gus shows you how to make one of his signature dishes."
+      },
+      {
+        "hearts": 7,
+        "trigger": "Enter the Stardrop Saloon at night",
+        "title": "Community Support",
+        "description": "Gus talks about how the saloon brings the community together."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/52/Gus.png"
+  },
+  {
+    "id": "jas",
+    "name": "Jas",
+    "slug": "jas",
+    "birthday": {
+      "season": "summer",
+      "day": 4
+    },
+    "family": [
+      "Marnie",
+      "Shane"
+    ],
+    "residence": "Marnie's Ranch",
+    "marriageable": false,
+    "bio": "Jas is a young girl who lives with her aunt Marnie and godfather Shane. She is shy but playful, loves dolls, and attends Penny's lessons.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Fairy Rose",
+        "Pink Cake",
+        "Plum Pudding",
+        "Prismatic Shard",
+        "Rabbit's Foot"
+      ],
+      "like": [
+        "Crocus",
+        "Daffodil",
+        "Sweet Pea",
+        "Tulip"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Egg",
+        "Fried Egg",
+        "Milk"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Town (School Area)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Museum (Lessons)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Marnie's Ranch (Outside)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "7:00 PM",
+              "location": "Marnie's Ranch (Bedroom) Sleeping",
+              "mapX": 5,
+              "mapY": 4
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Museum (Lessons)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Marnie's Ranch (Living Room)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "7:00 PM",
+              "location": "Marnie's Ranch (Bedroom) Sleeping",
+              "mapX": 5,
+              "mapY": 4
+            }
+          ]
+        },
+        {
+          "day": "sunday",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Town (Playground)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Marnie's Ranch (Outside)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "7:00 PM",
+              "location": "Marnie's Ranch (Bedroom) Sleeping",
+              "mapX": 5,
+              "mapY": 4
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter Marnie's Ranch",
+        "title": "Doll Collection",
+        "description": "Jas shows you her doll collection and talks about her friends."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/55/Jas.png"
+  },
+  {
+    "id": "jodi",
+    "name": "Jodi",
+    "slug": "jodi",
+    "birthday": {
+      "season": "fall",
+      "day": 11
+    },
+    "family": [
+      "Kent",
+      "Sam",
+      "Vincent"
+    ],
+    "residence": "1 Willow Lane",
+    "marriageable": false,
+    "bio": "Jodi is a caring mother of two boys, Sam and Vincent. She manages the household while her husband Kent is away serving in the military.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Chocolate Cake",
+        "Crispy Bass",
+        "Diamond",
+        "Eggplant Parmesan",
+        "Fried Eel",
+        "Pancakes",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Vegetable Medley"
+      ],
+      "like": [
+        "Bread",
+        "Daffodil",
+        "Milk",
+        "Sweet Pea",
+        "Tulip"
+      ],
+      "neutral": [
+        "Common Mushroom",
+        "Egg",
+        "Fried Egg",
+        "Quartz"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Home (Living Room)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Pierre's General Store",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Home (Kitchen)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 1,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Home (Living Room)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Home (Kitchen)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 1,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "wednesday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Town (Fountain)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 1,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter Jodi's house",
+        "title": "Family Duties",
+        "description": "Jodi talks about the challenges of raising two boys while her husband is away."
+      },
+      {
+        "hearts": 7,
+        "trigger": "Enter the Kitchen at Jodi's house",
+        "title": "Cooking Help",
+        "description": "Jodi asks for help with dinner and shares her favorite recipes."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/4/41/Jodi.png"
+  },
+  {
+    "id": "kent",
+    "name": "Kent",
+    "slug": "kent",
+    "birthday": {
+      "season": "spring",
+      "day": 4
+    },
+    "family": [
+      "Jodi",
+      "Sam",
+      "Vincent"
+    ],
+    "residence": "1 Willow Lane",
+    "marriageable": false,
+    "bio": "Kent is Jodi's husband and father to Sam and Vincent. He recently returned from military service and struggles with PTSD.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Crispy Bass",
+        "Fiddlehead Risotto",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Roasted Hazelnuts"
+      ],
+      "like": [
+        "Bread",
+        "Daffodil",
+        "Egg",
+        "Milk",
+        "Sweet Pea"
+      ],
+      "neutral": [
+        "Common Mushroom",
+        "Fried Egg",
+        "Quartz"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Town (Wandering)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Town (Graveyard)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 1,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 1,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Kitchen)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "11:00 AM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 1,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter Kent's house",
+        "title": "War Stories",
+        "description": "Kent shares some of his experiences from the war. He seems troubled."
+      },
+      {
+        "hearts": 7,
+        "trigger": "Enter the Town on a sunny day",
+        "title": "Popcorn Popping",
+        "description": "Kent is startled by the sound of popcorn popping, showing his PTSD."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/9/99/Kent.png"
+  },
+  {
+    "id": "lewis",
+    "name": "Lewis",
+    "slug": "lewis",
+    "birthday": {
+      "season": "spring",
+      "day": 7
+    },
+    "family": [],
+    "residence": "Mayor's Manor",
+    "marriageable": false,
+    "bio": "Lewis is the mayor of Stardew Valley. He has served for over 20 years and takes pride in the community, though he has a secret relationship with Marnie.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Autumn's Bounty",
+        "Glazed Yams",
+        "Green Tea",
+        "Hot Pepper",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Vegetable Medley"
+      ],
+      "like": [
+        "Bread",
+        "Daffodil",
+        "Milk",
+        "Sweet Pea"
+      ],
+      "neutral": [
+        "Common Mushroom",
+        "Egg",
+        "Fried Egg",
+        "Quartz"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Mayor's Manor",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Mayor's Manor (Office)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "11:00 AM",
+              "location": "Town (Wandering)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Pierre's General Store",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Mayor's Manor (Office)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Mayor's Manor Sleeping",
+              "mapX": 3,
+              "mapY": 3
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Mayor's Manor",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Mayor's Manor (Office)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Mayor's Manor",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Mayor's Manor Sleeping",
+              "mapX": 3,
+              "mapY": 3
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Mayor's Manor",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Mayor's Manor (Office)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Mayor's Manor",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Mayor's Manor Sleeping",
+              "mapX": 3,
+              "mapY": 3
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter the Mayor's Manor",
+        "title": "Town Projects",
+        "description": "Lewis discusses upcoming town projects and asks for your input."
+      },
+      {
+        "hearts": 7,
+        "trigger": "Enter Marnie's Ranch",
+        "title": "Secret Affair",
+        "description": "You catch Lewis sneaking out of Marnie's ranch. He asks you to keep it secret."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/2/2b/Lewis.png"
+  },
+  {
+    "id": "linus",
+    "name": "Linus",
+    "slug": "linus",
+    "birthday": {
+      "season": "winter",
+      "day": 3
+    },
+    "family": [],
+    "residence": "Tent (North of Town)",
+    "marriageable": false,
+    "bio": "Linus lives in a tent north of town. He chooses a simple life close to nature and is kind-hearted despite being misunderstood by the townsfolk.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Blueberry Tart",
+        "Cactus Fruit",
+        "Coconut",
+        "Dish O' The Sea",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Yam"
+      ],
+      "like": [
+        "Bread",
+        "Common Mushroom",
+        "Daffodil",
+        "Egg",
+        "Sweet Pea"
+      ],
+      "neutral": [
+        "Fried Egg",
+        "Milk",
+        "Quartz"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Tent",
+              "mapX": 8,
+              "mapY": 2
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Forest (Foraging)",
+              "mapX": 7,
+              "mapY": 3
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Mountain Lake",
+              "mapX": 4,
+              "mapY": 2
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Forest (South)",
+              "mapX": 7,
+              "mapY": 3
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Tent",
+              "mapX": 8,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Tent Sleeping",
+              "mapX": 8,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Tent",
+              "mapX": 8,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Tent (Inside)",
+              "mapX": 8,
+              "mapY": 2
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Spa",
+              "mapX": 6,
+              "mapY": 1
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Tent",
+              "mapX": 8,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Tent Sleeping",
+              "mapX": 8,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Tent",
+              "mapX": 8,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Forest (Foraging)",
+              "mapX": 7,
+              "mapY": 3
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Town (Trash Cans)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Tent",
+              "mapX": 8,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Tent Sleeping",
+              "mapX": 8,
+              "mapY": 2
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Visit Linus's tent",
+        "title": "Wilderness Living",
+        "description": "Linus explains his philosophy of living in harmony with nature."
+      },
+      {
+        "hearts": 7,
+        "trigger": "Enter the Mountain area at night",
+        "title": "Bait and Switch",
+        "description": "Someone sets a prank on Linus. He handles it with grace and dignity."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/31/Linus.png"
+  },
+  {
+    "id": "marnie",
+    "name": "Marnie",
+    "slug": "marnie",
+    "birthday": {
+      "season": "fall",
+      "day": 18
+    },
+    "family": [
+      "Shane",
+      "Jas"
+    ],
+    "residence": "Marnie's Ranch",
+    "marriageable": false,
+    "bio": "Marnie runs a ranch outside of town where she raises animals. She is kind and nurturing, and has a secret romance with Mayor Lewis.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Diamond",
+        "Farmer's Lunch",
+        "Pink Cake",
+        "Prismatic Shard",
+        "Pumpkin Pie",
+        "Rabbit's Foot",
+        "Sweet Pea"
+      ],
+      "like": [
+        "Daffodil",
+        "Milk",
+        "Tulip",
+        "Wool"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Egg",
+        "Fried Egg"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Marnie's Ranch (Kitchen)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "9:30 AM",
+              "location": "Marnie's Ranch (Counter)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Marnie's Ranch (Barn)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Marnie's Ranch (Kitchen)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Marnie's Ranch (Bedroom) Sleeping",
+              "mapX": 5,
+              "mapY": 4
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Marnie's Ranch (Kitchen)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "11:00 AM",
+              "location": "Marnie's Ranch (Counter)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Marnie's Ranch (Barn)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Marnie's Ranch (Bedroom) Sleeping",
+              "mapX": 5,
+              "mapY": 4
+            }
+          ]
+        },
+        {
+          "day": "tuesday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Marnie's Ranch (Bedroom)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Marnie's Ranch (Counter)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Mayor's Manor",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Marnie's Ranch (Kitchen)",
+              "mapX": 5,
+              "mapY": 4
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Marnie's Ranch (Bedroom) Sleeping",
+              "mapX": 5,
+              "mapY": 4
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter Marnie's Ranch",
+        "title": "Animal Care",
+        "description": "Marnie shows you how she cares for her animals and gives you a petting guide."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter Marnie's Ranch in the evening",
+        "title": "Secret Romance",
+        "description": "Marnie hints at her secret relationship and asks if you can keep a secret."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/52/Marnie.png"
+  },
+  {
+    "id": "pam",
+    "name": "Pam",
+    "slug": "pam",
+    "birthday": {
+      "season": "spring",
+      "day": 18
+    },
+    "family": [
+      "Penny"
+    ],
+    "residence": "Trailer",
+    "marriageable": false,
+    "bio": "Pam lives in a trailer with her daughter Penny. She drives the bus to the desert and struggles with alcoholism, but cares deeply for her daughter.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Beer",
+        "Cactus Fruit",
+        "Glazed Yams",
+        "Pale Ale",
+        "Parsnip Soup",
+        "Pineapple",
+        "Prismatic Shard",
+        "Rabbit's Foot"
+      ],
+      "like": [
+        "Bread",
+        "Daffodil",
+        "Milk",
+        "Sweet Pea"
+      ],
+      "neutral": [
+        "Common Mushroom",
+        "Egg",
+        "Fried Egg",
+        "Quartz"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Trailer",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "9:30 AM",
+              "location": "Bus Stop (Working)",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "11:00 PM",
+              "location": "Trailer Sleeping",
+              "mapX": 3,
+              "mapY": 5
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Trailer",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Trailer",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "11:00 PM",
+              "location": "Trailer Sleeping",
+              "mapX": 3,
+              "mapY": 5
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Trailer",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "9:30 AM",
+              "location": "Bus Stop (Working)",
+              "mapX": 3,
+              "mapY": 5
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "11:00 PM",
+              "location": "Trailer Sleeping",
+              "mapX": 3,
+              "mapY": 5
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter the Trailer",
+        "title": "TV Time",
+        "description": "Pam invites you to watch TV with her and shares stories about her younger days."
+      },
+      {
+        "hearts": 7,
+        "trigger": "Enter the Stardrop Saloon at night",
+        "title": "Motherly Concerns",
+        "description": "Pam expresses her worries about Penny and hopes for a better life for her."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/d/da/Pam.png"
+  },
+  {
+    "id": "pierre",
+    "name": "Pierre",
+    "slug": "pierre",
+    "birthday": {
+      "season": "spring",
+      "day": 26
+    },
+    "family": [
+      "Caroline",
+      "Abigail"
+    ],
+    "residence": "Pierre's General Store",
+    "marriageable": false,
+    "bio": "Pierre runs the local general store. He is a proud businessman who competes with JojaMart and can sometimes be possessive of his family.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Fried Calamari",
+        "Prismatic Shard",
+        "Rabbit's Foot"
+      ],
+      "like": [
+        "Bread",
+        "Daffodil",
+        "Egg",
+        "Milk",
+        "Sweet Pea"
+      ],
+      "neutral": [
+        "Common Mushroom",
+        "Fried Egg",
+        "Quartz"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Pierre's General Store (Upstairs)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Pierre's General Store (Counter)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Pierre's General Store (Stock Room)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Pierre's General Store (Counter)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Pierre's General Store (Closed)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Pierre's General Store (Upstairs) Sleeping",
+              "mapX": 1,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Pierre's General Store (Upstairs)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Pierre's General Store (Counter)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Pierre's General Store (Stock Room)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Pierre's General Store (Counter)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Pierre's General Store (Upstairs) Sleeping",
+              "mapX": 1,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "wednesday",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Pierre's General Store (Upstairs)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Pierre's General Store (Counter)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Pierre's General Store (Counter)",
+              "mapX": 1,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Pierre's General Store (Upstairs) Sleeping",
+              "mapX": 1,
+              "mapY": 2
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter Pierre's General Store",
+        "title": "Business Rivalry",
+        "description": "Pierre complains about JojaMart and his struggle to keep the local store afloat."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Enter Pierre's store on a Wednesday",
+        "title": "Family Drama",
+        "description": "Pierre expresses frustration about his family not appreciating his hard work."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Pierre.png"
+  },
+  {
+    "id": "robin",
+    "name": "Robin",
+    "slug": "robin",
+    "birthday": {
+      "season": "fall",
+      "day": 21
+    },
+    "family": [
+      "Demetrius",
+      "Maru",
+      "Sebastian"
+    ],
+    "residence": "24 Mountain Road",
+    "marriageable": false,
+    "bio": "Robin is the town carpenter and runs her own shop. She is married to Demetrius and mother to Maru and Sebastian. She loves woodworking.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Goat Cheese",
+        "Peach",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Spaghetti"
+      ],
+      "like": [
+        "Bread",
+        "Daffodil",
+        "Milk",
+        "Sweet Pea",
+        "Wild Plum"
+      ],
+      "neutral": [
+        "Common Mushroom",
+        "Egg",
+        "Fried Egg",
+        "Quartz"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Carpentry Shop)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Home (Carpentry Shop - Counter)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Home (Kitchen)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 4,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Carpentry Shop)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Home (Carpentry Shop - Counter)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 4,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "tuesday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Home (Carpentry Shop)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Home (Carpentry Shop)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Home (Kitchen)",
+              "mapX": 4,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 4,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter Robin's Carpentry Shop",
+        "title": "Woodworking",
+        "description": "Robin shows you her latest woodworking project and talks about her craft."
+      },
+      {
+        "hearts": 7,
+        "trigger": "Enter Robin's house in the evening",
+        "title": "Family Dinner",
+        "description": "Robin invites you to a family dinner and shares stories about her kids."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Robin.png"
+  },
+  {
+    "id": "sandy",
+    "name": "Sandy",
+    "slug": "sandy",
+    "birthday": {
+      "season": "fall",
+      "day": 15
+    },
+    "family": [],
+    "residence": "Sandy's Oasis",
+    "marriageable": false,
+    "bio": "Sandy runs the Oasis shop in the Calico Desert. She is cheerful and bright, always happy to see visitors from the valley.",
+    "gender": "female",
+    "gifts": {
+      "love": [
+        "Crocus",
+        "Daffodil",
+        "Mango Sticky Rice",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Sweet Pea"
+      ],
+      "like": [
+        "Blueberry",
+        "Cherry",
+        "Coconut",
+        "Melon",
+        "Pineapple"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Egg",
+        "Fried Egg",
+        "Milk"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Sandy's Oasis",
+              "mapX": 9,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Sandy's Oasis (Counter)",
+              "mapX": 9,
+              "mapY": 1
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Sandy's Oasis (Back Room)",
+              "mapX": 9,
+              "mapY": 1
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Sandy's Oasis (Counter)",
+              "mapX": 9,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Sandy's Oasis Sleeping",
+              "mapX": 9,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Sandy's Oasis",
+              "mapX": 9,
+              "mapY": 1
+            },
+            {
+              "time": "11:00 AM",
+              "location": "Sandy's Oasis (Counter)",
+              "mapX": 9,
+              "mapY": 1
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Sandy's Oasis (Back Room)",
+              "mapX": 9,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Sandy's Oasis Sleeping",
+              "mapX": 9,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Visit Sandy's Oasis",
+        "title": "Desert Life",
+        "description": "Sandy talks about living in the desert and how much she misses the valley."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Sandy.png"
+  },
+  {
+    "id": "vincent",
+    "name": "Vincent",
+    "slug": "vincent",
+    "birthday": {
+      "season": "spring",
+      "day": 10
+    },
+    "family": [
+      "Jodi",
+      "Kent",
+      "Sam"
+    ],
+    "residence": "1 Willow Lane",
+    "marriageable": false,
+    "bio": "Vincent is a young boy who lives with his parents Jodi and Kent, and his older brother Sam. He is playful, curious, and loves bugs and frogs.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Coconut",
+        "Cranberry Candy",
+        "Grapes",
+        "Pink Cake",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Snail"
+      ],
+      "like": [
+        "Daffodil",
+        "Sweet Pea",
+        "Tulip"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Egg",
+        "Fried Egg",
+        "Milk"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Town (School Area)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Museum (Lessons)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Town (Playground)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "7:30 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 1,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "7:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Museum (Lessons)",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Home (Bedroom - Toys)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "7:30 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 1,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "sunday",
+          "entries": [
+            {
+              "time": "8:00 AM",
+              "location": "Home (Bedroom)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Town (Playground)",
+              "mapX": 3,
+              "mapY": 3
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Beach (Tide Pools)",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Home (Living Room)",
+              "mapX": 1,
+              "mapY": 1
+            },
+            {
+              "time": "7:30 PM",
+              "location": "Home (Bedroom) Sleeping",
+              "mapX": 1,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter Vincent's house",
+        "title": "Bug Collection",
+        "description": "Vincent shows you his bug collection and tells you fun facts about each one."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Vincent.png"
+  },
+  {
+    "id": "willy",
+    "name": "Willy",
+    "slug": "willy",
+    "birthday": {
+      "season": "summer",
+      "day": 24
+    },
+    "family": [],
+    "residence": "Willy's Fish Shop",
+    "marriageable": false,
+    "bio": "Willy is the town fisherman. He lives alone in his fish shop on the beach and spends his days fishing and repairing boats. He has a mysterious past.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Catfish",
+        "Diamond",
+        "Iridium Bar",
+        "Prismatic Shard",
+        "Pumpkin",
+        "Rabbit's Foot",
+        "Sea Cucumber",
+        "Sturgeon"
+      ],
+      "like": [
+        "Bread",
+        "Daffodil",
+        "Egg",
+        "Milk",
+        "Sweet Pea"
+      ],
+      "neutral": [
+        "Common Mushroom",
+        "Fried Egg",
+        "Quartz"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Willy's Fish Shop",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Willy's Fish Shop (Counter)",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Beach (Dock)",
+              "mapX": 2,
+              "mapY": 6
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Willy's Fish Shop (Back Room)",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Willy's Fish Shop Sleeping",
+              "mapX": 2,
+              "mapY": 5
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Willy's Fish Shop",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "9:00 AM",
+              "location": "Willy's Fish Shop (Counter)",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Beach (Dock)",
+              "mapX": 2,
+              "mapY": 6
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Willy's Fish Shop",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Willy's Fish Shop Sleeping",
+              "mapX": 2,
+              "mapY": 5
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Willy's Fish Shop",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Beach (Dock)",
+              "mapX": 2,
+              "mapY": 6
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Willy's Fish Shop (Counter)",
+              "mapX": 2,
+              "mapY": 5
+            },
+            {
+              "time": "5:00 PM",
+              "location": "Stardrop Saloon",
+              "mapX": 3,
+              "mapY": 4
+            },
+            {
+              "time": "10:00 PM",
+              "location": "Willy's Fish Shop Sleeping",
+              "mapX": 2,
+              "mapY": 5
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Enter Willy's Fish Shop",
+        "title": "Fishing Tales",
+        "description": "Willy shares stories of the legendary fish he has caught in his lifetime."
+      },
+      {
+        "hearts": 7,
+        "trigger": "Enter the Beach on a sunny day",
+        "title": "Boat Repair",
+        "description": "Willy shows you his old boat and talks about his dream of sailing the seas."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/8/82/Willy.png"
+  },
+  {
+    "id": "wizard",
+    "name": "Wizard",
+    "slug": "wizard",
+    "birthday": {
+      "season": "winter",
+      "day": 17
+    },
+    "family": [],
+    "residence": "Wizard's Tower",
+    "marriageable": false,
+    "bio": "The Wizard, also known as M. Rasmodius, lives in a mysterious tower in the forest. He studies the arcane and has knowledge of the valley's ancient magic.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Prismatic Shard",
+        "Purple Mushroom",
+        "Rabbit's Foot",
+        "Solar Essence",
+        "Super Cucumber",
+        "Void Essence"
+      ],
+      "like": [
+        "Bat Wing",
+        "Fire Quartz",
+        "Frozen Tear",
+        "Omni Geode",
+        "Quartz"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Daffodil",
+        "Egg",
+        "Fried Egg"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Wizard's Tower",
+              "mapX": 8,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Wizard's Tower (Study)",
+              "mapX": 8,
+              "mapY": 1
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Wizard's Tower (Basement)",
+              "mapX": 8,
+              "mapY": 1
+            },
+            {
+              "time": "4:00 PM",
+              "location": "Wizard's Tower (Study)",
+              "mapX": 8,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Wizard's Tower Sleeping",
+              "mapX": 8,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Wizard's Tower",
+              "mapX": 8,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Wizard's Tower (Study)",
+              "mapX": 8,
+              "mapY": 1
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Wizard's Tower (Basement)",
+              "mapX": 8,
+              "mapY": 1
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Wizard's Tower (Study)",
+              "mapX": 8,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Wizard's Tower Sleeping",
+              "mapX": 8,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "wednesday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Wizard's Tower",
+              "mapX": 8,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Forest (Gathering Ingredients)",
+              "mapX": 7,
+              "mapY": 3
+            },
+            {
+              "time": "1:00 PM",
+              "location": "Wizard's Tower (Study)",
+              "mapX": 8,
+              "mapY": 1
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Wizard's Tower (Basement)",
+              "mapX": 8,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Wizard's Tower Sleeping",
+              "mapX": 8,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 4,
+        "trigger": "Enter the Wizard's Tower",
+        "title": "Arcane Studies",
+        "description": "The Wizard reveals secrets about the valley's magical history and asks for your help."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Wizard.png"
+  },
+  {
+    "id": "krobus",
+    "name": "Krobus",
+    "slug": "krobus",
+    "birthday": {
+      "season": "winter",
+      "day": 1
+    },
+    "family": [],
+    "residence": "The Sewers",
+    "marriageable": false,
+    "bio": "Krobus is a friendly shadow monster who lives in the sewers. He sells rare items and loves cooking. He can become a roommate instead of a spouse.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Diamond",
+        "Iridium Bar",
+        "Lucky Lunch",
+        "Prismatic Shard",
+        "Pumpkin",
+        "Rabbit's Foot",
+        "Void Egg",
+        "Wild Horseradish"
+      ],
+      "like": [
+        "Gold Bar",
+        "Iron Bar",
+        "Quartz",
+        "Void Mayonnaise"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Daffodil",
+        "Egg",
+        "Fried Egg"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "The Sewers",
+              "mapX": 6,
+              "mapY": 2
+            },
+            {
+              "time": "9:00 AM",
+              "location": "The Sewers (Shop Area)",
+              "mapX": 6,
+              "mapY": 2
+            },
+            {
+              "time": "1:00 PM",
+              "location": "The Sewers (Back Room)",
+              "mapX": 6,
+              "mapY": 2
+            },
+            {
+              "time": "5:00 PM",
+              "location": "The Sewers (Shop Area)",
+              "mapX": 6,
+              "mapY": 2
+            },
+            {
+              "time": "8:00 PM",
+              "location": "The Sewers (Sleeping Area)",
+              "mapX": 6,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "The Sewers",
+              "mapX": 6,
+              "mapY": 2
+            },
+            {
+              "time": "10:00 AM",
+              "location": "The Sewers (Shop Area)",
+              "mapX": 6,
+              "mapY": 2
+            },
+            {
+              "time": "2:00 PM",
+              "location": "The Sewers (Back Room)",
+              "mapX": 6,
+              "mapY": 2
+            },
+            {
+              "time": "6:00 PM",
+              "location": "The Sewers (Shop Area)",
+              "mapX": 6,
+              "mapY": 2
+            },
+            {
+              "time": "8:00 PM",
+              "location": "The Sewers (Sleeping Area)",
+              "mapX": 6,
+              "mapY": 2
+            }
+          ]
+        },
+        {
+          "day": "friday",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "The Sewers",
+              "mapX": 6,
+              "mapY": 2
+            },
+            {
+              "time": "12:00 PM",
+              "location": "The Sewers (Shop Area)",
+              "mapX": 6,
+              "mapY": 2
+            },
+            {
+              "time": "5:00 PM",
+              "location": "The Sewers (Back Room)",
+              "mapX": 6,
+              "mapY": 2
+            },
+            {
+              "time": "8:00 PM",
+              "location": "The Sewers (Sleeping Area)",
+              "mapX": 6,
+              "mapY": 2
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Visit Krobus in the Sewers",
+        "title": "Shadow Friend",
+        "description": "Krobus shares his story about being a shadow person and living in the sewers."
+      },
+      {
+        "hearts": 7,
+        "trigger": "Visit Krobus on a rainy day",
+        "title": "Cooking Together",
+        "description": "Krobus asks you to try his special sewer truffle recipe."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/7/71/Krobus.png"
+  },
+  {
+    "id": "dwarf",
+    "name": "Dwarf",
+    "slug": "dwarf",
+    "birthday": {
+      "season": "summer",
+      "day": 22
+    },
+    "family": [],
+    "residence": "The Mines",
+    "marriageable": false,
+    "bio": "The Dwarf lives in the mines and sells rare minerals and bombs. He speaks in an ancient language and has a deep love for gems and artifacts.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Amethyst",
+        "Aquamarine",
+        "Emerald",
+        "Jade",
+        "Omni Geode",
+        "Prismatic Shard",
+        "Rabbit's Foot",
+        "Ruby",
+        "Topaz"
+      ],
+      "like": [
+        "Bread",
+        "Copper Bar",
+        "Gold Bar",
+        "Iron Bar",
+        "Quartz"
+      ],
+      "neutral": [
+        "Common Mushroom",
+        "Daffodil",
+        "Egg",
+        "Fried Egg"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "The Mines (Entrance)",
+              "mapX": 6,
+              "mapY": 0
+            },
+            {
+              "time": "9:00 AM",
+              "location": "The Mines (Dwarf Shop)",
+              "mapX": 6,
+              "mapY": 0
+            },
+            {
+              "time": "1:00 PM",
+              "location": "The Mines (Excavation)",
+              "mapX": 6,
+              "mapY": 0
+            },
+            {
+              "time": "4:00 PM",
+              "location": "The Mines (Dwarf Shop)",
+              "mapX": 6,
+              "mapY": 0
+            },
+            {
+              "time": "8:00 PM",
+              "location": "The Mines (Sleeping Area)",
+              "mapX": 6,
+              "mapY": 0
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "The Mines (Entrance)",
+              "mapX": 6,
+              "mapY": 0
+            },
+            {
+              "time": "10:00 AM",
+              "location": "The Mines (Dwarf Shop)",
+              "mapX": 6,
+              "mapY": 0
+            },
+            {
+              "time": "2:00 PM",
+              "location": "The Mines (Excavation)",
+              "mapX": 6,
+              "mapY": 0
+            },
+            {
+              "time": "6:00 PM",
+              "location": "The Mines (Dwarf Shop)",
+              "mapX": 6,
+              "mapY": 0
+            },
+            {
+              "time": "8:00 PM",
+              "location": "The Mines (Sleeping Area)",
+              "mapX": 6,
+              "mapY": 0
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Visit the Dwarf in the Mines",
+        "title": "Language Barrier",
+        "description": "The Dwarf tries to communicate with you. He teaches you some of his ancient language."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/ed/Dwarf.png"
+  },
+  {
+    "id": "leo",
+    "name": "Leo",
+    "slug": "leo",
+    "birthday": {
+      "season": "summer",
+      "day": 26
+    },
+    "family": [],
+    "residence": "Ginger Island Hut / Treehouse",
+    "marriageable": false,
+    "bio": "Leo is a young boy who grew up on Ginger Island raised by parrots. He is shy around people but deeply connected to nature and the jungle.",
+    "gender": "male",
+    "gifts": {
+      "love": [
+        "Duck Feather",
+        "Mango",
+        "Ostrich Egg",
+        "Poi",
+        "Prismatic Shard",
+        "Rabbit's Foot"
+      ],
+      "like": [
+        "Coconut",
+        "Daffodil",
+        "Mango Sticky Rice",
+        "Pineapple",
+        "Sweet Pea"
+      ],
+      "neutral": [
+        "Bread",
+        "Common Mushroom",
+        "Egg",
+        "Fried Egg",
+        "Milk"
+      ],
+      "dislike": [
+        "Artichoke",
+        "Baked Fish",
+        "Caviar",
+        "Pale Broth",
+        "Seaweed"
+      ],
+      "hate": [
+        "Broken Glasses",
+        "Joja Cola",
+        "Rotten Plant",
+        "Soggy Newspaper",
+        "Trash"
+      ]
+    },
+    "schedule": {
+      "spring": [
+        {
+          "day": "default",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Ginger Island (Hut)",
+              "mapX": 10,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 AM",
+              "location": "Ginger Island (Jungle)",
+              "mapX": 10,
+              "mapY": 2
+            },
+            {
+              "time": "12:00 PM",
+              "location": "Ginger Island (Beach)",
+              "mapX": 10,
+              "mapY": 3
+            },
+            {
+              "time": "3:00 PM",
+              "location": "Ginger Island (Treehouse)",
+              "mapX": 10,
+              "mapY": 2
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Ginger Island (Hut)",
+              "mapX": 10,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Ginger Island (Hut) Sleeping",
+              "mapX": 10,
+              "mapY": 1
+            }
+          ]
+        },
+        {
+          "day": "rainy",
+          "entries": [
+            {
+              "time": "6:00 AM",
+              "location": "Ginger Island (Hut)",
+              "mapX": 10,
+              "mapY": 1
+            },
+            {
+              "time": "10:00 AM",
+              "location": "Ginger Island (Jungle)",
+              "mapX": 10,
+              "mapY": 2
+            },
+            {
+              "time": "2:00 PM",
+              "location": "Ginger Island (Treehouse)",
+              "mapX": 10,
+              "mapY": 2
+            },
+            {
+              "time": "6:00 PM",
+              "location": "Ginger Island (Hut)",
+              "mapX": 10,
+              "mapY": 1
+            },
+            {
+              "time": "8:00 PM",
+              "location": "Ginger Island (Hut) Sleeping",
+              "mapX": 10,
+              "mapY": 1
+            }
+          ]
+        }
+      ],
+      "summer": [],
+      "fall": [],
+      "winter": []
+    },
+    "heartEvents": [
+      {
+        "hearts": 3,
+        "trigger": "Visit Leo on Ginger Island",
+        "title": "Parrot Friend",
+        "description": "Leo introduces you to his parrot family and shows you around the island."
+      },
+      {
+        "hearts": 6,
+        "trigger": "Visit Leo's Treehouse",
+        "title": "Leaving the Island",
+        "description": "Leo talks about his feelings about possibly moving to the mainland."
+      }
+    ],
+    "romance": null,
+    "img": "https://stardewvalleywiki.com/mediawiki/images/1/1d/Leo.png"
+  }
+]

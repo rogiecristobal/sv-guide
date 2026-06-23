@@ -1,0 +1,11 @@
+[
+  { "season": "🌸 Spring", "name": "Egg Festival", "date": "Spring 13", "where": "Town Square, 9 AM", "tips": "BUY STRAWBERRY SEEDS (100g each)! The most important thing you'll do this festival. Buy 10+ if you can afford it. Egg hunt for Star Tokens.", "emoji": "🥚" },
+  { "season": "🌸 Spring", "name": "Flower Dance", "date": "Spring 24", "where": "Cindersap Forest, 9 AM", "tips": "Dance with any villager if you have 4+ hearts. Talk to all NPCs for friendship boosts.", "emoji": "💐" },
+  { "season": "☀ Summer", "name": "Luau", "date": "Summer 11", "where": "Beach, 9 AM", "tips": "Add a Gold or Iridium quality item to the potluck soup. Iridium = Governor approves, big town friendship boost.", "emoji": "🌺" },
+  { "season": "☀ Summer", "name": "Dance of the Moonlight Jellies", "date": "Summer 28", "where": "Beach, 10 PM", "tips": "Just show up and enjoy the cinematic. All NPCs are there for easy friendship scenes.", "emoji": "🌊" },
+  { "season": "🍂 Fall", "name": "Stardew Valley Fair", "date": "Fall 16", "where": "Town Square, 9 AM", "tips": "Grange Display: place 9 Gold/Iridium quality items from different categories. Win Star Tokens for Stardrop or speed boosts!", "emoji": "🎪" },
+  { "season": "🍂 Fall", "name": "Spirit's Eve", "date": "Fall 27", "where": "Town Square, 10 PM", "tips": "Navigate the haunted maze. Reach the prize room for a Golden Pumpkin (rare crafting ingredient).", "emoji": "🎃" },
+  { "season": "❄ Winter", "name": "Festival of Ice", "date": "Winter 8", "where": "Town Square, 9 AM", "tips": "Ice fishing contest. Use Iridium Rod with Trap Bobber and Bait. Win for extra Star Token prizes.", "emoji": "⛸" },
+  { "season": "❄ Winter", "name": "Night Market", "date": "Winter 15–17", "where": "Beach Docks, 5 PM–2 AM", "tips": "Visit ALL 3 nights! Magic Shop Boat sells rare items (Pearl, rare furniture). Submarine Fishing gets Midnight Carp and rare fish.", "emoji": "🌙" },
+  { "season": "❄ Winter", "name": "Feast of Winter Star", "date": "Winter 25", "where": "Town Square, 9 AM", "tips": "You'll be assigned a secret gift recipient. Give a universally loved item (Golden Pumpkin, Pearl, Rabbit's Foot) for max friendship.", "emoji": "⭐" }
+]

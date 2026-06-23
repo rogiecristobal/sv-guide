@@ -1,0 +1,53 @@
+[
+  {
+    "tier": "S",
+    "color": "#f0c040",
+    "sub": "10,000g+/day passive",
+    "items": [
+      { "n": "Ancient Fruit Wine (Greenhouse)", "emoji": "🍷", "d": "54 plants × 3,465g Artisan Wine every 7 days ≈ 26,800g/day passive. Peak endgame income — requires Greenhouse + Kegs + Artisan profession." },
+      { "n": "Starfruit Wine (Summer bursts)", "emoji": "⭐", "d": "33 Kegs × Starfruit Wine (6,300g Artisan) per 7-day batch = 207,900g/batch. Best single-season burst income." },
+      { "n": "Pig Barn (Truffle Oil)", "emoji": "🐄", "d": "8 Pigs × ~2 Truffles/day × 1,491g Artisan Oil = ~23,000g/day in clear weather. Fully passive with Auto-Petter." }
+    ]
+  },
+  {
+    "tier": "A",
+    "color": "#e07820",
+    "sub": "2,000–10,000g/day",
+    "items": [
+      { "n": "Blueberry / Cranberry Wine", "emoji": "🫐", "d": "Best regrow crops → Kegs. Blueberry Wine ~1,500g Artisan per batch. Volume compensates for lower unit price." },
+      { "n": "Hops → Pale Ale", "emoji": "🌿", "d": "Hops regrow DAILY in Summer. 10 Kegs produce 4,200g Artisan Pale Ale every 7 days. Cheap seed → high output ratio." },
+      { "n": "Bee Houses (Fairy Rose honey)", "emoji": "🍯", "d": "Fairy Rose honey: 680g Artisan each. 40+ Bee Houses earns 27,000g per 4-day cycle — fully passive." },
+      { "n": "Crab Pots × 30 (Mariner)", "emoji": "🦞", "d": "Mariner removes all trash. 30 pots × ~100g avg catch = 3,000g/day completely passive with zero effort." }
+    ]
+  },
+  {
+    "tier": "B",
+    "color": "#5fa83a",
+    "sub": "500–2,000g/day",
+    "items": [
+      { "n": "Active Fishing (Legendary Fish days)", "emoji": "🎣", "d": "Best active income: Catfish on rainy days (200g+), Crimsonfish in Summer (1,500g). Expert session = 3,000–8,000g." },
+      { "n": "Artisan Animal Products", "emoji": "🧀", "d": "Cheese, Goat Cheese, Duck Mayo — consistent artisan income once Barn/Coop is fully upgraded with Auto-Petter." },
+      { "n": "Preserve Jars (mid-game)", "emoji": "🫙", "d": "Before Kegs, Preserve Jars double crop value. 20 jars running constantly = solid mid-game income." },
+      { "n": "Maple Syrup (large tapper forest)", "emoji": "🍁", "d": "30+ Maple Trees × 200g Artisan Syrup every 9 days = 600–800g/day passive with no maintenance." }
+    ]
+  },
+  {
+    "tier": "C",
+    "color": "#3d8bbf",
+    "sub": "100–500g/day",
+    "items": [
+      { "n": "Raw Crop Sales (Tiller)", "emoji": "🌾", "d": "Selling crops without processing. +10% with Tiller. Always better to process, but raw sales are better than nothing early." },
+      { "n": "Mining Gem Sales", "emoji": "💎", "d": "Inconsistent but big payouts. Diamonds (750g), Rubies/Emeralds (250g). Sell surplus after gifting needs are met." },
+      { "n": "Skull Cavern Iridium", "emoji": "⛏", "d": "Active income from deep runs. Iridium Bars (1,000g each), Gems, Prismatic Shards (2,000g). Luck-dependent." }
+    ]
+  },
+  {
+    "tier": "D",
+    "color": "#95a5a6",
+    "sub": "Under 100g/day",
+    "items": [
+      { "n": "Raw Forage Sales", "emoji": "🍄", "d": "Selling forage items without processing. Fine early but always use for bundles and gifts first. Botanist helps value." },
+      { "n": "Wood / Stone / Coal Sales", "emoji": "🪵", "d": "Almost never worth selling. You always need more of these than you think." }
+    ]
+  }
+]

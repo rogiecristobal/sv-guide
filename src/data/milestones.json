@@ -1,0 +1,66 @@
+[
+  { "stage": "early", "dayStart": 1, "dayEnd": 30, "title": "First Steps", "description": "The first month is all about survival and building a foundation.", "checklist": [
+    "Clear 20 tiles of your farm",
+    "Plant parsnips (15-20 seeds)",
+    "Craft a chest for storage",
+    "Upgrade backpack at Pierre's (2,000g)",
+    "Meet all 28 villagers at least once",
+    "Complete the Spring Crops Bundle",
+    "Reach Fishing Level 3",
+    "Reach Farming Level 2 (build Scarecrow)",
+    "Catch a Catfish in the rain",
+    "Save at least 5,000g for Summer seeds"
+  ]},
+  { "stage": "early", "dayStart": 1, "dayEnd": 30, "title": "First Week Checklist", "description": "A day-by-day guide for your first week in Stardew Valley.", "checklist": [
+    "Day 1: Clear 15 tiles, plant 15 parsnips, water them, talk to everyone you see",
+    "Day 2: Water crops, explore town, visit the Beach, meet Willy",
+    "Day 3: Water crops, enter the Museum, start fishing at the mountain lake",
+    "Day 4: Harvest parsnips! Plant second batch. Forage in Cindersap Forest",
+    "Day 5: Reach Fishing Level 2. Buy Fiberglass Rod from Willy",
+    "Day 6: Mine exploration - gather copper ore in the Mines (levels 1-10)",
+    "Day 7: Save energy. Craft Scarecrow if Farming Level 2. Check Traveling Cart"
+  ]},
+  { "stage": "mid", "dayStart": 31, "dayEnd": 180, "title": "Summer & Fall Foundations", "description": "Expand your farm, build animals, and prepare for the Skull Cavern.", "checklist": [
+    "Plant blueberries on Summer 1 (high profit, regrowth)",
+    "Build a Silo before getting animals",
+    "Build a Coop and get 4-6 chickens",
+    "Build a Barn and get 2-4 cows",
+    "Unlock the Bus (complete Vault bundles)",
+    "Reach the Bottom of the Mines (Level 120)",
+    "Obtain the Skull Key (from Level 120 chest)",
+    "Craft Quality Sprinklers (Farming Level 6)",
+    "Build a Barn for sheep/goats",
+    "Plant cranberries in Fall (best fall profit)",
+    "Build a Tapper operation on oak trees",
+    "Purchase the Greenhouse (Pantry bundles)",
+    "Save 25,000g for the bus repair"
+  ]},
+  { "stage": "late", "dayStart": 181, "dayEnd": 365, "title": "Winter & Year 1 Completion", "description": "Maximize Winter profits and complete Year 1 strong.", "checklist": [
+    "Upgrade axe to Gold or Iridium in Winter",
+    "Upgrade pickaxe to Gold or Iridium in Winter",
+    "Fill Greenhouse with Ancient Fruit or Starfruit",
+    "Build Deluxe Barn for pigs (truffle money)",
+    "Unlock and explore Skull Cavern",
+    "Reach Level 100 of Skull Cavern",
+    "Craft Lightning Rods (prepare for Summer storms)",
+    "Build Farm Computer to track production",
+    "Build a Slime Hutch (optional)",
+    "Reach Level 10 in at least 3 skills",
+    "Save 50,000g+ for Spring Year 2"
+  ]},
+  { "stage": "end", "dayStart": 365, "dayEnd": null, "title": "Year 2+ Perfection", "description": "Work toward 100% completion and the true endgame.", "checklist": [
+    "Complete all Community Center bundles",
+    "Obtain all 50 Monster Slayer rewards",
+    "Donate all 95+ items to the Museum",
+    "Cook all 80+ recipes",
+    "Craft every recipe",
+    "Catch every fish (including Legendary)",
+    "Reach 10 hearts with every villager",
+    "Ship every item (Full Shipment achievement)",
+    "Complete the Missing Bundle (Movie Theater)",
+    "Reach 100% Perfection on the farm tracker",
+    "Obtain all Stardrops and max energy",
+    "Build the Golden Clock (10,000,000g)",
+    "Obtain the Statue of True Perfection"
+  ]}
+]

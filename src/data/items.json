@@ -1,0 +1,4876 @@
+[
+  {
+    "id": 24,
+    "name": "Parsnip",
+    "slug": "parsnip",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "spring"
+    ],
+    "growthDays": 4,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 35,
+      "silver": 43,
+      "gold": 52,
+      "iridium": 70
+    },
+    "seedCost": 20,
+    "source": [
+      "Pierre's Store",
+      "Mixed Seeds"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Spring Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Parsnip Juice",
+        "value": 100,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Parsnips",
+        "value": 80,
+        "time": 3
+      }
+    },
+    "description": "A spring tuber closely related to the carrot.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/d/db/Parsnip.png"
+  },
+  {
+    "id": 20,
+    "name": "Cauliflower",
+    "slug": "cauliflower",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "spring"
+    ],
+    "growthDays": 12,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 175,
+      "silver": 218,
+      "gold": 262,
+      "iridium": 350
+    },
+    "seedCost": 80,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Maru"
+    ],
+    "usedIn": [
+      "Spring Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Cauliflower Juice",
+        "value": 450,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Cauliflower",
+        "value": 350,
+        "time": 3
+      }
+    },
+    "description": "Valuable, but slow-growing. Despite its pale appearance, the florets are packed with vitamins.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/aa/Cauliflower.png"
+  },
+  {
+    "id": 26,
+    "name": "Potato",
+    "slug": "potato",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "spring"
+    ],
+    "growthDays": 6,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 80,
+      "silver": 100,
+      "gold": 120,
+      "iridium": 160
+    },
+    "seedCost": 50,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Spring Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Potato Juice",
+        "value": 200,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Potatoes",
+        "value": 160,
+        "time": 3
+      }
+    },
+    "description": "A widely cultivated tuber. Yields up to 6 potatoes at harvest.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/c/c2/Potato.png"
+  },
+  {
+    "id": 28,
+    "name": "Green Bean",
+    "slug": "green-bean",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "spring"
+    ],
+    "growthDays": 10,
+    "regrowth": true,
+    "regrowthDays": 3,
+    "sellPrice": {
+      "base": 40,
+      "silver": 50,
+      "gold": 60,
+      "iridium": 80
+    },
+    "seedCost": 60,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Spring Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Green Bean Juice",
+        "value": 100,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Green Beans",
+        "value": 80,
+        "time": 3
+      }
+    },
+    "description": "A juicy little bean with a crisp snap. Grows on a trellis.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/5c/Green_Bean.png"
+  },
+  {
+    "id": 22,
+    "name": "Kale",
+    "slug": "kale",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "spring"
+    ],
+    "growthDays": 6,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 110,
+      "silver": 137,
+      "gold": 165,
+      "iridium": 220
+    },
+    "seedCost": 70,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Spring Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Kale Juice",
+        "value": 260,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Kale",
+        "value": 200,
+        "time": 3
+      }
+    },
+    "description": "The leaves are the width of an elephant's ear. It's a superfood rich in fiber and nutrients.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/d/d1/Kale.png"
+  },
+  {
+    "id": 248,
+    "name": "Garlic",
+    "slug": "garlic",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "spring"
+    ],
+    "growthDays": 4,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 60,
+      "silver": 75,
+      "gold": 90,
+      "iridium": 120
+    },
+    "seedCost": 40,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Harvey"
+    ],
+    "usedIn": [
+      "Quality Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Garlic Juice",
+        "value": 140,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Garlic",
+        "value": 110,
+        "time": 3
+      }
+    },
+    "description": "Adds a wonderful zest to dishes. High quality garlic can be quite pretty.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/c/cc/Garlic.png"
+  },
+  {
+    "id": 204,
+    "name": "Blue Jazz",
+    "slug": "blue-jazz",
+    "category": "crops",
+    "subcategory": "flower",
+    "season": [
+      "spring"
+    ],
+    "growthDays": 7,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "seedCost": 30,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Spring Crops Bundle"
+    ],
+    "processing": {},
+    "description": "The flower grows in a spherical formation to invite as many butterflies as possible.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Blue_Jazz.png"
+  },
+  {
+    "id": 208,
+    "name": "Tulip",
+    "slug": "tulip",
+    "category": "crops",
+    "subcategory": "flower",
+    "season": [
+      "spring"
+    ],
+    "growthDays": 6,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 30,
+      "silver": 37,
+      "gold": 45,
+      "iridium": 60
+    },
+    "seedCost": 20,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Evelyn"
+    ],
+    "usedIn": [],
+    "processing": {},
+    "description": "The most popular spring flower. A very sweet fragrance.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/c/cf/Tulip.png"
+  },
+  {
+    "id": 400,
+    "name": "Strawberry",
+    "slug": "strawberry",
+    "category": "crops",
+    "subcategory": "fruit",
+    "season": [
+      "spring"
+    ],
+    "growthDays": 8,
+    "regrowth": true,
+    "regrowthDays": 4,
+    "sellPrice": {
+      "base": 120,
+      "silver": 150,
+      "gold": 180,
+      "iridium": 240
+    },
+    "seedCost": 100,
+    "source": [
+      "Egg Festival"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Demetrius",
+      "Maru"
+    ],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Strawberry Wine",
+        "value": 360,
+        "time": 6
+      },
+      "jar": {
+        "product": "Strawberry Jam",
+        "value": 240,
+        "time": 3
+      }
+    },
+    "description": "A sweet, juicy favorite with an appealing red color. Grows in spring.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/6/6d/Strawberry.png"
+  },
+  {
+    "id": 478,
+    "name": "Rhubarb",
+    "slug": "rhubarb",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "spring"
+    ],
+    "growthDays": 13,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 220,
+      "silver": 275,
+      "gold": 330,
+      "iridium": 440
+    },
+    "seedCost": 100,
+    "source": [
+      "Oasis Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Rhubarb Wine",
+        "value": 660,
+        "time": 6
+      },
+      "jar": {
+        "product": "Rhubarb Jam",
+        "value": 440,
+        "time": 3
+      }
+    },
+    "description": "Tart, but makes a great dessert when sweetened. Grown in spring.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Rhubarb.png"
+  },
+  {
+    "id": 254,
+    "name": "Melon",
+    "slug": "melon",
+    "category": "crops",
+    "subcategory": "fruit",
+    "season": [
+      "summer"
+    ],
+    "growthDays": 12,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 250,
+      "silver": 312,
+      "gold": 375,
+      "iridium": 500
+    },
+    "seedCost": 80,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Penny"
+    ],
+    "usedIn": [
+      "Summer Crops Bundle",
+      "Quality Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Melon Wine",
+        "value": 750,
+        "time": 6
+      },
+      "jar": {
+        "product": "Melon Jam",
+        "value": 500,
+        "time": 3
+      }
+    },
+    "description": "A cool, sweet summer favorite. Grows in summer.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/1/19/Melon.png"
+  },
+  {
+    "id": 258,
+    "name": "Blueberry",
+    "slug": "blueberry",
+    "category": "crops",
+    "subcategory": "fruit",
+    "season": [
+      "summer"
+    ],
+    "growthDays": 13,
+    "regrowth": true,
+    "regrowthDays": 4,
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "seedCost": 80,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Summer Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Blueberry Wine",
+        "value": 150,
+        "time": 6
+      },
+      "jar": {
+        "product": "Blueberry Jam",
+        "value": 100,
+        "time": 3
+      }
+    },
+    "description": "A popular berry reported to have many health benefits. Yields multiple berries per harvest.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/9/9e/Blueberry.png"
+  },
+  {
+    "id": 244,
+    "name": "Starfruit",
+    "slug": "starfruit",
+    "category": "crops",
+    "subcategory": "fruit",
+    "season": [
+      "summer"
+    ],
+    "growthDays": 13,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 750,
+      "silver": 937,
+      "gold": 1125,
+      "iridium": 1500
+    },
+    "seedCost": 400,
+    "source": [
+      "Oasis Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Starfruit Wine",
+        "value": 2250,
+        "time": 6
+      },
+      "jar": {
+        "product": "Starfruit Jam",
+        "value": 1500,
+        "time": 3
+      }
+    },
+    "description": "An extremely succulent fruit that grows in hot, humid conditions. Slightly narcotic.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/d/db/Starfruit.png"
+  },
+  {
+    "id": 256,
+    "name": "Tomato",
+    "slug": "tomato",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "summer"
+    ],
+    "growthDays": 11,
+    "regrowth": true,
+    "regrowthDays": 4,
+    "sellPrice": {
+      "base": 60,
+      "silver": 75,
+      "gold": 90,
+      "iridium": 120
+    },
+    "seedCost": 50,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Summer Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Tomato Juice",
+        "value": 150,
+        "time": 4
+      },
+      "jar": {
+        "product": "Canned Tomatoes",
+        "value": 120,
+        "time": 3
+      }
+    },
+    "description": "Rich and slightly tangy. Has a very versatile texture. Grows on a vine.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/9/9d/Tomato.png"
+  },
+  {
+    "id": 260,
+    "name": "Hot Pepper",
+    "slug": "hot-pepper",
+    "category": "crops",
+    "subcategory": "fruit",
+    "season": [
+      "summer"
+    ],
+    "growthDays": 5,
+    "regrowth": true,
+    "regrowthDays": 3,
+    "sellPrice": {
+      "base": 40,
+      "silver": 50,
+      "gold": 60,
+      "iridium": 80
+    },
+    "seedCost": 40,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Lewis",
+      "Shane"
+    ],
+    "usedIn": [
+      "Summer Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Hot Pepper Wine",
+        "value": 120,
+        "time": 6
+      },
+      "jar": {
+        "product": "Pickled Hot Peppers",
+        "value": 80,
+        "time": 3
+      }
+    },
+    "description": "Fiery hot with a hint of sweetness. Grows in summer.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Hot_Pepper.png"
+  },
+  {
+    "id": 384,
+    "name": "Red Cabbage",
+    "slug": "red-cabbage",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "summer"
+    ],
+    "growthDays": 9,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 260,
+      "silver": 325,
+      "gold": 390,
+      "iridium": 520
+    },
+    "seedCost": 100,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Dye Bundle",
+      "Quality Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Red Cabbage Juice",
+        "value": 580,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Red Cabbage",
+        "value": 460,
+        "time": 3
+      }
+    },
+    "description": "Often used in coleslaw and other fine dishes. Grows in summer.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/2/2d/Red_Cabbage.png"
+  },
+  {
+    "id": 376,
+    "name": "Poppy",
+    "slug": "poppy",
+    "category": "crops",
+    "subcategory": "flower",
+    "season": [
+      "summer"
+    ],
+    "growthDays": 7,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 140,
+      "silver": 175,
+      "gold": 210,
+      "iridium": 280
+    },
+    "seedCost": 100,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Penny"
+    ],
+    "usedIn": [
+      "Chef's Bundle"
+    ],
+    "processing": {},
+    "description": "A vibrant, aromatic flower. Used in cooking and crafting.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/37/Poppy.png"
+  },
+  {
+    "id": 374,
+    "name": "Summer Spangle",
+    "slug": "summer-spangle",
+    "category": "crops",
+    "subcategory": "flower",
+    "season": [
+      "summer"
+    ],
+    "growthDays": 8,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 90,
+      "silver": 112,
+      "gold": 135,
+      "iridium": 180
+    },
+    "seedCost": 50,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A tropical-looking flower that blooms in the summer. Has a fiery glow.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/9/9f/Summer_Spangle.png"
+  },
+  {
+    "id": 270,
+    "name": "Corn",
+    "slug": "corn",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "growthDays": 14,
+    "regrowth": true,
+    "regrowthDays": 4,
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "seedCost": 150,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Fall Crops Bundle",
+      "Quality Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Corn Juice",
+        "value": 113,
+        "time": 4
+      },
+      "jar": {
+        "product": "Canned Corn",
+        "value": 90,
+        "time": 3
+      }
+    },
+    "description": "One of the most popular grains. Grows in summer and fall.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/f/f8/Corn.png"
+  },
+  {
+    "id": 280,
+    "name": "Sunflower",
+    "slug": "sunflower",
+    "category": "crops",
+    "subcategory": "flower",
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "growthDays": 8,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 80,
+      "silver": 100,
+      "gold": 120,
+      "iridium": 160
+    },
+    "seedCost": 200,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Evelyn"
+    ],
+    "usedIn": [
+      "Dye Bundle"
+    ],
+    "processing": {},
+    "description": "A bright, cheerful flower. Produces seeds that can be used for oil or bird feed.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/8/81/Sunflower.png"
+  },
+  {
+    "id": 262,
+    "name": "Radish",
+    "slug": "radish",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "summer"
+    ],
+    "growthDays": 6,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 90,
+      "silver": 112,
+      "gold": 135,
+      "iridium": 180
+    },
+    "seedCost": 40,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Radish Juice",
+        "value": 220,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Radish",
+        "value": 170,
+        "time": 3
+      }
+    },
+    "description": "A zesty, crunchy root vegetable. Grows quickly in summer.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/d/d5/Radish.png"
+  },
+  {
+    "id": 266,
+    "name": "Wheat",
+    "slug": "wheat",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "growthDays": 4,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 25,
+      "silver": 31,
+      "gold": 37,
+      "iridium": 50
+    },
+    "seedCost": 10,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Mead"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Beer",
+        "value": 200,
+        "time": 2
+      },
+      "jar": {
+        "product": "Wheat Flour",
+        "value": 50,
+        "time": 1
+      }
+    },
+    "description": "One of the most widely cultivated grains. Makes a great flour for bread and cakes.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png"
+  },
+  {
+    "id": 276,
+    "name": "Pumpkin",
+    "slug": "pumpkin",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "fall"
+    ],
+    "growthDays": 13,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 320,
+      "silver": 400,
+      "gold": 480,
+      "iridium": 640
+    },
+    "seedCost": 100,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Krobus",
+      "Willy"
+    ],
+    "usedIn": [
+      "Fall Crops Bundle",
+      "Quality Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Pumpkin Juice",
+        "value": 720,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Pumpkin",
+        "value": 560,
+        "time": 3
+      }
+    },
+    "description": "A favorite autumn crop. Grows in fall.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/6/64/Pumpkin.png"
+  },
+  {
+    "id": 282,
+    "name": "Cranberries",
+    "slug": "cranberries",
+    "category": "crops",
+    "subcategory": "fruit",
+    "season": [
+      "fall"
+    ],
+    "growthDays": 7,
+    "regrowth": true,
+    "regrowthDays": 5,
+    "sellPrice": {
+      "base": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "seedCost": 240,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Fall Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Cranberry Wine",
+        "value": 225,
+        "time": 6
+      },
+      "jar": {
+        "product": "Cranberry Jam",
+        "value": 150,
+        "time": 3
+      }
+    },
+    "description": "A tart red berry. Yields multiple berries per harvest.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Cranberries.png"
+  },
+  {
+    "id": 278,
+    "name": "Bok Choy",
+    "slug": "bok-choy",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "fall"
+    ],
+    "growthDays": 6,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 80,
+      "silver": 100,
+      "gold": 120,
+      "iridium": 160
+    },
+    "seedCost": 50,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Fall Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Bok Choy Juice",
+        "value": 200,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Bok Choy",
+        "value": 160,
+        "time": 3
+      }
+    },
+    "description": "A leafy green vegetable. Grows in fall.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/4/40/Bok_Choy.png"
+  },
+  {
+    "id": 272,
+    "name": "Eggplant",
+    "slug": "eggplant",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "fall"
+    ],
+    "growthDays": 7,
+    "regrowth": true,
+    "regrowthDays": 5,
+    "sellPrice": {
+      "base": 60,
+      "silver": 75,
+      "gold": 90,
+      "iridium": 120
+    },
+    "seedCost": 20,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Lewis"
+    ],
+    "usedIn": [
+      "Fall Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Eggplant Juice",
+        "value": 150,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Eggplant",
+        "value": 120,
+        "time": 3
+      }
+    },
+    "description": "A rich, purple vegetable. Grows in fall.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/8/8f/Eggplant.png"
+  },
+  {
+    "id": 260,
+    "name": "Yam",
+    "slug": "yam",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "fall"
+    ],
+    "growthDays": 10,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 160,
+      "silver": 200,
+      "gold": 240,
+      "iridium": 320
+    },
+    "seedCost": 60,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Linus"
+    ],
+    "usedIn": [
+      "Fall Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Yam Juice",
+        "value": 360,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Yams",
+        "value": 280,
+        "time": 3
+      }
+    },
+    "description": "A starchy root vegetable. Grows in fall.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/52/Yam.png"
+  },
+  {
+    "id": 274,
+    "name": "Artichoke",
+    "slug": "artichoke",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "fall"
+    ],
+    "growthDays": 8,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 160,
+      "silver": 200,
+      "gold": 240,
+      "iridium": 320
+    },
+    "seedCost": 30,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Artichoke Juice",
+        "value": 360,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Artichoke",
+        "value": 280,
+        "time": 3
+      }
+    },
+    "description": "A bud of a thistle plant. The meaty leaves are a delicious, nutritious snack. Grows in fall.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/d/dd/Artichoke.png"
+  },
+  {
+    "id": 284,
+    "name": "Coffee Bean",
+    "slug": "coffee-bean",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "growthDays": 10,
+    "regrowth": true,
+    "regrowthDays": 2,
+    "sellPrice": {
+      "base": 15,
+      "silver": 18,
+      "gold": 22,
+      "iridium": 30
+    },
+    "seedCost": 0,
+    "source": [
+      "Traveling Cart",
+      "Dust Sprite Drop"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Coffee",
+        "value": 150,
+        "time": 1
+      },
+      "jar": {}
+    },
+    "description": "Grows in spring and summer. Put 5 beans in a keg to make coffee.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/33/Coffee_Bean.png"
+  },
+  {
+    "id": 454,
+    "name": "Ancient Fruit",
+    "slug": "ancient-fruit",
+    "category": "crops",
+    "subcategory": "fruit",
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "growthDays": 28,
+    "regrowth": true,
+    "regrowthDays": 7,
+    "sellPrice": {
+      "base": 550,
+      "silver": 687,
+      "gold": 825,
+      "iridium": 1100
+    },
+    "seedCost": 0,
+    "source": [
+      "Ancient Seed Artifact",
+      "Traveling Cart"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Ancient Fruit Wine",
+        "value": 1650,
+        "time": 7
+      },
+      "jar": {
+        "product": "Ancient Fruit Jam",
+        "value": 1100,
+        "time": 4
+      }
+    },
+    "description": "It's been dormant for eons. Grows across all seasons.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/0/01/Ancient_Fruit.png"
+  },
+  {
+    "id": 417,
+    "name": "Sweet Gem Berry",
+    "slug": "sweet-gem-berry",
+    "category": "crops",
+    "subcategory": "fruit",
+    "season": [
+      "fall"
+    ],
+    "growthDays": 24,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 3000,
+      "silver": 3750,
+      "gold": 4500,
+      "iridium": 6000
+    },
+    "seedCost": 1000,
+    "source": [
+      "Traveling Cart"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Sweet Gem Berry Wine",
+        "value": 6000,
+        "time": 7
+      },
+      "jar": {
+        "product": "Sweet Gem Berry Jam",
+        "value": 4500,
+        "time": 4
+      }
+    },
+    "description": "It's incredibly sweet and popular among the villagers.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/8/88/Sweet_Gem_Berry.png"
+  },
+  {
+    "id": 302,
+    "name": "Amaranth",
+    "slug": "amaranth",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "fall"
+    ],
+    "growthDays": 7,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 150,
+      "silver": 187,
+      "gold": 225,
+      "iridium": 300
+    },
+    "seedCost": 70,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Dye Bundle",
+      "Maki Roll"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Amaranth Juice",
+        "value": 330,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Amaranth",
+        "value": 260,
+        "time": 3
+      }
+    },
+    "description": "A purple grain harvested in the fall.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/f/f6/Amaranth.png"
+  },
+  {
+    "id": 454,
+    "name": "Grape",
+    "slug": "grape",
+    "category": "crops",
+    "subcategory": "fruit",
+    "season": [
+      "fall"
+    ],
+    "growthDays": 10,
+    "regrowth": true,
+    "regrowthDays": 3,
+    "sellPrice": {
+      "base": 80,
+      "silver": 100,
+      "gold": 120,
+      "iridium": 160
+    },
+    "seedCost": 60,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Vincent"
+    ],
+    "usedIn": [
+      "Fall Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Grape Wine",
+        "value": 240,
+        "time": 6
+      },
+      "jar": {
+        "product": "Grape Jam",
+        "value": 160,
+        "time": 3
+      }
+    },
+    "description": "A sweet cluster of fruit. Grows on a trellis in fall.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/c/c2/Grape.png"
+  },
+  {
+    "id": 296,
+    "name": "Salmonberry",
+    "slug": "salmonberry",
+    "category": "crops",
+    "subcategory": "fruit",
+    "season": [
+      "spring"
+    ],
+    "growthDays": 0,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 5,
+      "silver": 6,
+      "gold": 7,
+      "iridium": 10
+    },
+    "seedCost": 0,
+    "source": [
+      "Foraging"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Salmonberry Wine",
+        "value": 15,
+        "time": 6
+      },
+      "jar": {
+        "product": "Salmonberry Jam",
+        "value": 10,
+        "time": 3
+      }
+    },
+    "description": "A spring berry that grows on bushes.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png"
+  },
+  {
+    "id": 410,
+    "name": "Blackberry",
+    "slug": "blackberry",
+    "category": "crops",
+    "subcategory": "fruit",
+    "season": [
+      "fall"
+    ],
+    "growthDays": 0,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 20,
+      "silver": 25,
+      "gold": 30,
+      "iridium": 40
+    },
+    "seedCost": 0,
+    "source": [
+      "Foraging"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Blackberry Wine",
+        "value": 60,
+        "time": 6
+      },
+      "jar": {
+        "product": "Blackberry Jam",
+        "value": 40,
+        "time": 3
+      }
+    },
+    "description": "A fall berry that grows on bushes.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/2/25/Blackberry.png"
+  },
+  {
+    "id": 88,
+    "name": "Coconut",
+    "slug": "coconut",
+    "category": "crops",
+    "subcategory": "fruit",
+    "season": [
+      "summer"
+    ],
+    "growthDays": 0,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "seedCost": 0,
+    "source": [
+      "Foraging - Calico Desert"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Coconut Wine",
+        "value": 300,
+        "time": 6
+      },
+      "jar": {
+        "product": "Coconut Jam",
+        "value": 200,
+        "time": 3
+      }
+    },
+    "description": "A large, tropical fruit. Grows on palm trees in the desert.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png"
+  },
+  {
+    "id": 90,
+    "name": "Cactus Fruit",
+    "slug": "cactus-fruit",
+    "category": "crops",
+    "subcategory": "fruit",
+    "season": [
+      "summer"
+    ],
+    "growthDays": 0,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "seedCost": 0,
+    "source": [
+      "Foraging - Calico Desert"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Linus",
+      "Pam"
+    ],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Cactus Fruit Wine",
+        "value": 225,
+        "time": 6
+      },
+      "jar": {
+        "product": "Cactus Fruit Jam",
+        "value": 150,
+        "time": 3
+      }
+    },
+    "description": "The fruit of the prickly pear cactus. Sweet and refreshing.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png"
+  },
+  {
+    "id": 399,
+    "name": "Hops",
+    "slug": "hops",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "summer"
+    ],
+    "growthDays": 11,
+    "regrowth": true,
+    "regrowthDays": 1,
+    "sellPrice": {
+      "base": 25,
+      "silver": 31,
+      "gold": 37,
+      "iridium": 50
+    },
+    "seedCost": 60,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Pale Ale",
+        "value": 300,
+        "time": 2
+      },
+      "jar": {}
+    },
+    "description": "A bitter flower used to flavor beer. Grows on a trellis.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png"
+  },
+  {
+    "id": 421,
+    "name": "Tea Leaves",
+    "slug": "tea-leaves",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "growthDays": 20,
+    "regrowth": true,
+    "regrowthDays": 1,
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "seedCost": 0,
+    "source": [
+      "Caroline's Tea Room"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Green Tea",
+        "value": 100,
+        "time": 1
+      },
+      "jar": {}
+    },
+    "description": "Young leaves of the tea plant. Can be brewed into tea.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/5b/Tea_Leaves.png"
+  },
+  {
+    "id": 591,
+    "name": "Fiber",
+    "slug": "fiber",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "growthDays": 7,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 1,
+      "silver": 1,
+      "gold": 1,
+      "iridium": 2
+    },
+    "seedCost": 30,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "Raw material sourced from plants.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/4/45/Fiber.png"
+  },
+  {
+    "id": 245,
+    "name": "Wheat",
+    "slug": "wheat",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "growthDays": 4,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 25,
+      "silver": 31,
+      "gold": 37,
+      "iridium": 50
+    },
+    "seedCost": 10,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Fall Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Beer",
+        "value": 200,
+        "time": 2
+      },
+      "jar": {}
+    },
+    "description": "One of the most widely cultivated grains. Makes a great flour for bread and cakes.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png"
+  },
+  {
+    "id": 304,
+    "name": "Beet",
+    "slug": "beet",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "fall"
+    ],
+    "growthDays": 6,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "seedCost": 20,
+    "source": [
+      "Oasis Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Beet Juice",
+        "value": 240,
+        "time": 4
+      },
+      "jar": {
+        "product": "Pickled Beets",
+        "value": 190,
+        "time": 3
+      }
+    },
+    "description": "A sweet root vegetable. Grows in fall.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/a4/Beet.png"
+  },
+  {
+    "id": 248,
+    "name": "Rice",
+    "slug": "rice",
+    "category": "crops",
+    "subcategory": "vegetable",
+    "season": [
+      "spring"
+    ],
+    "growthDays": 6,
+    "regrowth": false,
+    "sellPrice": {
+      "base": 30,
+      "silver": 37,
+      "gold": 45,
+      "iridium": 60
+    },
+    "seedCost": 40,
+    "source": [
+      "Pierre's Store"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Rice Wine",
+        "value": 150,
+        "time": 4
+      },
+      "jar": {}
+    },
+    "description": "A grain commonly grown in wetlands. Grows in spring.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/d/da/Rice.png"
+  },
+  {
+    "id": 128,
+    "name": "Anchovy",
+    "slug": "anchovy",
+    "category": "fish",
+    "subcategory": "ocean",
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "time": "Any",
+    "weather": "Any",
+    "location": "Ocean",
+    "difficulty": 30,
+    "sellPrice": {
+      "base": 30,
+      "silver": 37,
+      "gold": 45,
+      "iridium": 60
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A small silver fish found in the ocean.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/7/79/Anchovy.png"
+  },
+  {
+    "id": 129,
+    "name": "Tuna",
+    "slug": "tuna",
+    "category": "fish",
+    "subcategory": "ocean",
+    "season": [
+      "summer",
+      "winter"
+    ],
+    "time": "6am - 7pm",
+    "weather": "Any",
+    "location": "Ocean",
+    "difficulty": 70,
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Ocean Fish Bundle",
+      "Fish Taco"
+    ],
+    "processing": {},
+    "description": "A large ocean fish prized for its meat.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/c/c5/Tuna.png"
+  },
+  {
+    "id": 130,
+    "name": "Sardine",
+    "slug": "sardine",
+    "category": "fish",
+    "subcategory": "ocean",
+    "season": [
+      "spring",
+      "fall",
+      "winter"
+    ],
+    "time": "6am - 7pm",
+    "weather": "Any",
+    "location": "Ocean",
+    "difficulty": 30,
+    "sellPrice": {
+      "base": 40,
+      "silver": 50,
+      "gold": 60,
+      "iridium": 80
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Ocean Fish Bundle"
+    ],
+    "processing": {},
+    "description": "A common ocean fish.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/0/04/Sardine.png"
+  },
+  {
+    "id": 131,
+    "name": "Bream",
+    "slug": "bream",
+    "category": "fish",
+    "subcategory": "river",
+    "season": [
+      "all"
+    ],
+    "time": "6pm - 2am",
+    "weather": "Any",
+    "location": "River",
+    "difficulty": 35,
+    "sellPrice": {
+      "base": 45,
+      "silver": 56,
+      "gold": 67,
+      "iridium": 90
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Night Fishing Bundle"
+    ],
+    "processing": {},
+    "description": "A medium-sized fish found in rivers at night.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/8/82/Bream.png"
+  },
+  {
+    "id": 132,
+    "name": "Largemouth Bass",
+    "slug": "largemouth-bass",
+    "category": "fish",
+    "subcategory": "lake",
+    "season": [
+      "all"
+    ],
+    "time": "6am - 7pm",
+    "weather": "Any",
+    "location": "Mountain Lake",
+    "difficulty": 50,
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Lake Fish Bundle"
+    ],
+    "processing": {},
+    "description": "A popular freshwater fish found in lakes.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/1/11/Largemouth_Bass.png"
+  },
+  {
+    "id": 133,
+    "name": "Salmon",
+    "slug": "salmon",
+    "category": "fish",
+    "subcategory": "river",
+    "season": [
+      "fall"
+    ],
+    "time": "6am - 7pm",
+    "weather": "Any",
+    "location": "River",
+    "difficulty": 50,
+    "sellPrice": {
+      "base": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "River Fish Bundle",
+      "Salmon Dinner"
+    ],
+    "processing": {},
+    "description": "A migratory fish that swims upstream to reproduce.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/e0/Salmon.png"
+  },
+  {
+    "id": 134,
+    "name": "Catfish",
+    "slug": "catfish",
+    "category": "fish",
+    "subcategory": "river",
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "time": "6am - 12am",
+    "weather": "Rain",
+    "location": "River",
+    "difficulty": 75,
+    "sellPrice": {
+      "base": 200,
+      "silver": 250,
+      "gold": 300,
+      "iridium": 400
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "River Fish Bundle"
+    ],
+    "processing": {},
+    "description": "An uncommon river fish that prefers rainy weather.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png"
+  },
+  {
+    "id": 135,
+    "name": "Pike",
+    "slug": "pike",
+    "category": "fish",
+    "subcategory": "river",
+    "season": [
+      "summer",
+      "winter"
+    ],
+    "time": "Any",
+    "weather": "Any",
+    "location": "River",
+    "difficulty": 60,
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A freshwater predator fish.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/31/Pike.png"
+  },
+  {
+    "id": 136,
+    "name": "Sunfish",
+    "slug": "sunfish",
+    "category": "fish",
+    "subcategory": "river",
+    "season": [
+      "spring",
+      "summer"
+    ],
+    "time": "6am - 7pm",
+    "weather": "Sunny",
+    "location": "River",
+    "difficulty": 30,
+    "sellPrice": {
+      "base": 30,
+      "silver": 37,
+      "gold": 45,
+      "iridium": 60
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "River Fish Bundle"
+    ],
+    "processing": {},
+    "description": "A colorful river fish that loves sunny weather.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/56/Sunfish.png"
+  },
+  {
+    "id": 137,
+    "name": "Red Mullet",
+    "slug": "red-mullet",
+    "category": "fish",
+    "subcategory": "ocean",
+    "season": [
+      "summer",
+      "winter"
+    ],
+    "time": "6am - 7pm",
+    "weather": "Any",
+    "location": "Ocean",
+    "difficulty": 40,
+    "sellPrice": {
+      "base": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A long, thin ocean fish with a bright red color.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Red_Mullet.png"
+  },
+  {
+    "id": 138,
+    "name": "Herring",
+    "slug": "herring",
+    "category": "fish",
+    "subcategory": "ocean",
+    "season": [
+      "spring",
+      "summer",
+      "winter"
+    ],
+    "time": "Any",
+    "weather": "Any",
+    "location": "Ocean",
+    "difficulty": 25,
+    "sellPrice": {
+      "base": 30,
+      "silver": 37,
+      "gold": 45,
+      "iridium": 60
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A common ocean fish.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Herring.png"
+  },
+  {
+    "id": 139,
+    "name": "Eel",
+    "slug": "eel",
+    "category": "fish",
+    "subcategory": "ocean",
+    "season": [
+      "spring",
+      "fall"
+    ],
+    "time": "4pm - 2am",
+    "weather": "Rain",
+    "location": "Ocean",
+    "difficulty": 70,
+    "sellPrice": {
+      "base": 85,
+      "silver": 106,
+      "gold": 127,
+      "iridium": 170
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Spicy Eel"
+    ],
+    "processing": {},
+    "description": "A long, slippery ocean fish that comes out in rainy weather.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/9/91/Eel.png"
+  },
+  {
+    "id": 140,
+    "name": "Octopus",
+    "slug": "octopus",
+    "category": "fish",
+    "subcategory": "ocean",
+    "season": [
+      "summer"
+    ],
+    "time": "6am - 1pm",
+    "weather": "Any",
+    "location": "Ocean",
+    "difficulty": 95,
+    "sellPrice": {
+      "base": 150,
+      "silver": 187,
+      "gold": 225,
+      "iridium": 300
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A mysterious ocean creature. Difficult to catch.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png"
+  },
+  {
+    "id": 141,
+    "name": "Red Snapper",
+    "slug": "red-snapper",
+    "category": "fish",
+    "subcategory": "ocean",
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "time": "6am - 7pm",
+    "weather": "Rain",
+    "location": "Ocean",
+    "difficulty": 40,
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A popular ocean fish with a red color.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/d/d3/Red_Snapper.png"
+  },
+  {
+    "id": 142,
+    "name": "Squid",
+    "slug": "squid",
+    "category": "fish",
+    "subcategory": "ocean",
+    "season": [
+      "winter"
+    ],
+    "time": "6pm - 2am",
+    "weather": "Any",
+    "location": "Ocean",
+    "difficulty": 75,
+    "sellPrice": {
+      "base": 80,
+      "silver": 100,
+      "gold": 120,
+      "iridium": 160
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A deep-sea creature that can be caught in winter nights.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/8/81/Squid.png"
+  },
+  {
+    "id": 143,
+    "name": "Woodskip",
+    "slug": "woodskip",
+    "category": "fish",
+    "subcategory": "river",
+    "season": [
+      "all"
+    ],
+    "time": "Any",
+    "weather": "Any",
+    "location": "Secret Woods Pond",
+    "difficulty": 50,
+    "sellPrice": {
+      "base": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A shy fish that lives in ponds surrounded by woodland.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/9/97/Woodskip.png"
+  },
+  {
+    "id": 144,
+    "name": "Sturgeon",
+    "slug": "sturgeon",
+    "category": "fish",
+    "subcategory": "lake",
+    "season": [
+      "summer",
+      "winter"
+    ],
+    "time": "6am - 7pm",
+    "weather": "Any",
+    "location": "Mountain Lake",
+    "difficulty": 78,
+    "sellPrice": {
+      "base": 200,
+      "silver": 250,
+      "gold": 300,
+      "iridium": 400
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Lake Fish Bundle",
+      "Caviar"
+    ],
+    "processing": {},
+    "description": "A large fish prized for its eggs. Caviar is made from sturgeon roe.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/4/42/Sturgeon.png"
+  },
+  {
+    "id": 145,
+    "name": "Tiger Trout",
+    "slug": "tiger-trout",
+    "category": "fish",
+    "subcategory": "river",
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "time": "6am - 7pm",
+    "weather": "Any",
+    "location": "River",
+    "difficulty": 60,
+    "sellPrice": {
+      "base": 150,
+      "silver": 187,
+      "gold": 225,
+      "iridium": 300
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A sterile hybrid trout that cannot reproduce.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/0/01/Tiger_Trout.png"
+  },
+  {
+    "id": 146,
+    "name": "Bullhead",
+    "slug": "bullhead",
+    "category": "fish",
+    "subcategory": "lake",
+    "season": [
+      "all"
+    ],
+    "time": "Any",
+    "weather": "Any",
+    "location": "Mountain Lake",
+    "difficulty": 46,
+    "sellPrice": {
+      "base": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Lake Fish Bundle"
+    ],
+    "processing": {},
+    "description": "A catfish relative that lives in lakes.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/d/db/Bullhead.png"
+  },
+  {
+    "id": 147,
+    "name": "Tilapia",
+    "slug": "tilapia",
+    "category": "fish",
+    "subcategory": "ocean",
+    "season": [
+      "summer",
+      "fall"
+    ],
+    "time": "6am - 7pm",
+    "weather": "Any",
+    "location": "Ocean",
+    "difficulty": 50,
+    "sellPrice": {
+      "base": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A tropical ocean fish commonly raised in aquaculture.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/7/73/Tilapia.png"
+  },
+  {
+    "id": 148,
+    "name": "Chub",
+    "slug": "chub",
+    "category": "fish",
+    "subcategory": "river",
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "time": "Any",
+    "weather": "Any",
+    "location": "River",
+    "difficulty": 35,
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A common river fish.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/b/bd/Chub.png"
+  },
+  {
+    "id": 149,
+    "name": "Rainbow Trout",
+    "slug": "rainbow-trout",
+    "category": "fish",
+    "subcategory": "river",
+    "season": [
+      "summer"
+    ],
+    "time": "6am - 7pm",
+    "weather": "Sunny",
+    "location": "River",
+    "difficulty": 45,
+    "sellPrice": {
+      "base": 65,
+      "silver": 81,
+      "gold": 97,
+      "iridium": 130
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A colorful river trout that loves sunny summer weather.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/1/14/Rainbow_Trout.png"
+  },
+  {
+    "id": 150,
+    "name": "Shad",
+    "slug": "shad",
+    "category": "fish",
+    "subcategory": "river",
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "time": "9am - 2am",
+    "weather": "Rain",
+    "location": "River",
+    "difficulty": 45,
+    "sellPrice": {
+      "base": 60,
+      "silver": 75,
+      "gold": 90,
+      "iridium": 120
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A river fish that prefers rainy weather.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/ef/Shad.png"
+  },
+  {
+    "id": 151,
+    "name": "Lingcod",
+    "slug": "lingcod",
+    "category": "fish",
+    "subcategory": "river",
+    "season": [
+      "fall",
+      "winter"
+    ],
+    "time": "Any",
+    "weather": "Any",
+    "location": "River",
+    "difficulty": 85,
+    "sellPrice": {
+      "base": 120,
+      "silver": 150,
+      "gold": 180,
+      "iridium": 240
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A ferocious river predator with a long, eel-like body.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/8/87/Lingcod.png"
+  },
+  {
+    "id": 152,
+    "name": "Halibut",
+    "slug": "halibut",
+    "category": "fish",
+    "subcategory": "ocean",
+    "season": [
+      "spring",
+      "summer",
+      "winter"
+    ],
+    "time": "6am - 11am, 7pm - 2am",
+    "weather": "Any",
+    "location": "Ocean",
+    "difficulty": 50,
+    "sellPrice": {
+      "base": 90,
+      "silver": 112,
+      "gold": 135,
+      "iridium": 180
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A flat ocean fish that lives on the sandy bottom.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/0/02/Halibut.png"
+  },
+  {
+    "id": 153,
+    "name": "Legend",
+    "slug": "legend",
+    "category": "fish",
+    "subcategory": "legendary",
+    "season": [
+      "spring"
+    ],
+    "time": "6am - 7pm",
+    "weather": "Rain",
+    "location": "Mountain Lake",
+    "difficulty": 110,
+    "sellPrice": {
+      "base": 5000,
+      "silver": 6250,
+      "gold": 7500,
+      "iridium": 10000
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "The king of all fish! Said to be impossible to catch.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/1/10/Legend.png"
+  },
+  {
+    "id": 157,
+    "name": "Carp",
+    "slug": "carp",
+    "category": "fish",
+    "subcategory": "lake",
+    "season": [
+      "spring",
+      "summer",
+      "fall"
+    ],
+    "time": "Any",
+    "weather": "Any",
+    "location": "Mountain Lake, Sewer",
+    "difficulty": 15,
+    "sellPrice": {
+      "base": 30,
+      "silver": 37,
+      "gold": 45,
+      "iridium": 60
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A common bottom-feeding fish found in lakes.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/a8/Carp.png"
+  },
+  {
+    "id": 158,
+    "name": "Pufferfish",
+    "slug": "pufferfish",
+    "category": "fish",
+    "subcategory": "ocean",
+    "season": [
+      "summer"
+    ],
+    "time": "12pm - 4pm",
+    "weather": "Sunny",
+    "location": "Ocean",
+    "difficulty": 80,
+    "sellPrice": {
+      "base": 200,
+      "silver": 250,
+      "gold": 300,
+      "iridium": 400
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A tropical ocean fish that inflates when threatened.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/b/ba/Pufferfish.png"
+  },
+  {
+    "id": 159,
+    "name": "Ghostfish",
+    "slug": "ghostfish",
+    "category": "fish",
+    "subcategory": "mine",
+    "season": [
+      "all"
+    ],
+    "time": "Any",
+    "weather": "Any",
+    "location": "Mines",
+    "difficulty": 50,
+    "sellPrice": {
+      "base": 45,
+      "silver": 56,
+      "gold": 67,
+      "iridium": 90
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A translucent fish found deep in the mines.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/7/72/Ghostfish.png"
+  },
+  {
+    "id": 160,
+    "name": "Stonefish",
+    "slug": "stonefish",
+    "category": "fish",
+    "subcategory": "mine",
+    "season": [
+      "all"
+    ],
+    "time": "Any",
+    "weather": "Any",
+    "location": "Mines (Floors 20+)",
+    "difficulty": 65,
+    "sellPrice": {
+      "base": 300,
+      "silver": 375,
+      "gold": 450,
+      "iridium": 600
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A strange fish that looks like a stone. Found deep in the mines.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/0/03/Stonefish.png"
+  },
+  {
+    "id": 161,
+    "name": "Ice Pip",
+    "slug": "ice-pip",
+    "category": "fish",
+    "subcategory": "mine",
+    "season": [
+      "all"
+    ],
+    "time": "Any",
+    "weather": "Any",
+    "location": "Mines (Floors 60+)",
+    "difficulty": 75,
+    "sellPrice": {
+      "base": 500,
+      "silver": 625,
+      "gold": 750,
+      "iridium": 1000
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A rare fish that thrives in extreme cold.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/6/63/Ice_Pip.png"
+  },
+  {
+    "id": 162,
+    "name": "Lava Eel",
+    "slug": "lava-eel",
+    "category": "fish",
+    "subcategory": "mine",
+    "season": [
+      "all"
+    ],
+    "time": "Any",
+    "weather": "Any",
+    "location": "Mines (Floors 100+)",
+    "difficulty": 90,
+    "sellPrice": {
+      "base": 700,
+      "silver": 875,
+      "gold": 1050,
+      "iridium": 1400
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A mysterious eel that swims in pools of lava.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/1/12/Lava_Eel.png"
+  },
+  {
+    "id": 163,
+    "name": "Sandfish",
+    "slug": "sandfish",
+    "category": "fish",
+    "subcategory": "desert",
+    "season": [
+      "all"
+    ],
+    "time": "6am - 8pm",
+    "weather": "Any",
+    "location": "Calico Desert Pond",
+    "difficulty": 65,
+    "sellPrice": {
+      "base": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A fish that buries itself in the sand to avoid predators.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/b/bb/Sandfish.png"
+  },
+  {
+    "id": 164,
+    "name": "Scorpion Carp",
+    "slug": "scorpion-carp",
+    "category": "fish",
+    "subcategory": "desert",
+    "season": [
+      "all"
+    ],
+    "time": "6am - 8pm",
+    "weather": "Any",
+    "location": "Calico Desert Pond",
+    "difficulty": 90,
+    "sellPrice": {
+      "base": 150,
+      "silver": 187,
+      "gold": 225,
+      "iridium": 300
+    },
+    "source": [
+      "Fishing"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A dangerous desert fish with a venomous spine.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/7/76/Scorpion_Carp.png"
+  },
+  {
+    "id": 16,
+    "name": "Wild Horseradish",
+    "slug": "wild-horseradish",
+    "category": "forage",
+    "subcategory": "spring",
+    "season": [
+      "spring"
+    ],
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "source": [
+      "Foraging - Spring"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Spring Foraging Bundle",
+      "Wild Horseradish Juice"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Wild Horseradish Juice",
+        "value": 130,
+        "time": 4
+      },
+      "jar": {}
+    },
+    "description": "A spicy root found in the spring.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/9/90/Wild_Horseradish.png"
+  },
+  {
+    "id": 18,
+    "name": "Daffodil",
+    "slug": "daffodil",
+    "category": "forage",
+    "subcategory": "spring",
+    "season": [
+      "spring"
+    ],
+    "sellPrice": {
+      "base": 30,
+      "silver": 37,
+      "gold": 45,
+      "iridium": 60
+    },
+    "source": [
+      "Foraging - Spring"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Spring Foraging Bundle"
+    ],
+    "processing": {},
+    "description": "A traditional spring flower that makes a nice gift.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Daffodil.png"
+  },
+  {
+    "id": 20,
+    "name": "Leek",
+    "slug": "leek",
+    "category": "forage",
+    "subcategory": "spring",
+    "season": [
+      "spring"
+    ],
+    "sellPrice": {
+      "base": 60,
+      "silver": 75,
+      "gold": 90,
+      "iridium": 120
+    },
+    "source": [
+      "Foraging - Spring"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "George"
+    ],
+    "usedIn": [
+      "Spring Foraging Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Leek Juice",
+        "value": 140,
+        "time": 4
+      },
+      "jar": {}
+    },
+    "description": "A tasty relative of the onion.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/57/Leek.png"
+  },
+  {
+    "id": 22,
+    "name": "Dandelion",
+    "slug": "dandelion",
+    "category": "forage",
+    "subcategory": "spring",
+    "season": [
+      "spring"
+    ],
+    "sellPrice": {
+      "base": 40,
+      "silver": 50,
+      "gold": 60,
+      "iridium": 80
+    },
+    "source": [
+      "Foraging - Spring"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Spring Foraging Bundle",
+      "Salad"
+    ],
+    "processing": {},
+    "description": "Not the prettiest flower, but the leaves make a good salad.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/b/b1/Dandelion.png"
+  },
+  {
+    "id": 24,
+    "name": "Spring Onion",
+    "slug": "spring-onion",
+    "category": "forage",
+    "subcategory": "spring",
+    "season": [
+      "spring"
+    ],
+    "sellPrice": {
+      "base": 8,
+      "silver": 10,
+      "gold": 12,
+      "iridium": 16
+    },
+    "source": [
+      "Foraging - Spring (south of farm)"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Spring Onion Juice",
+        "value": 30,
+        "time": 4
+      },
+      "jar": {}
+    },
+    "description": "A small edible onion that sprouts in the spring.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/0/0c/Spring_Onion.png"
+  },
+  {
+    "id": 396,
+    "name": "Spice Berry",
+    "slug": "spice-berry",
+    "category": "forage",
+    "subcategory": "summer",
+    "season": [
+      "summer"
+    ],
+    "sellPrice": {
+      "base": 80,
+      "silver": 100,
+      "gold": 120,
+      "iridium": 160
+    },
+    "source": [
+      "Foraging - Summer"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Summer Foraging Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Spice Berry Wine",
+        "value": 240,
+        "time": 6
+      },
+      "jar": {
+        "product": "Spice Berry Jam",
+        "value": 160,
+        "time": 3
+      }
+    },
+    "description": "A spicy berry that grows in the summer.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/c/c6/Spice_Berry.png"
+  },
+  {
+    "id": 398,
+    "name": "Grape",
+    "slug": "grape-forage",
+    "category": "forage",
+    "subcategory": "summer",
+    "season": [
+      "summer"
+    ],
+    "sellPrice": {
+      "base": 80,
+      "silver": 100,
+      "gold": 120,
+      "iridium": 160
+    },
+    "source": [
+      "Foraging - Summer"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Vincent"
+    ],
+    "usedIn": [
+      "Summer Foraging Bundle",
+      "Fall Crops Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Grape Wine",
+        "value": 240,
+        "time": 6
+      },
+      "jar": {
+        "product": "Grape Jam",
+        "value": 160,
+        "time": 3
+      }
+    },
+    "description": "A sweet cluster of fruit found in the summer.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/c/c2/Grape.png"
+  },
+  {
+    "id": 402,
+    "name": "Sweet Pea",
+    "slug": "sweet-pea",
+    "category": "forage",
+    "subcategory": "summer",
+    "season": [
+      "summer"
+    ],
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "source": [
+      "Foraging - Summer"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Summer Foraging Bundle"
+    ],
+    "processing": {},
+    "description": "A fragrant summer flower.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/d/d9/Sweet_Pea.png"
+  },
+  {
+    "id": 404,
+    "name": "Common Mushroom",
+    "slug": "common-mushroom",
+    "category": "forage",
+    "subcategory": "fall",
+    "season": [
+      "fall",
+      "spring"
+    ],
+    "sellPrice": {
+      "base": 40,
+      "silver": 50,
+      "gold": 60,
+      "iridium": 80
+    },
+    "source": [
+      "Foraging - Fall",
+      "Cave Mushroom"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Fall Foraging Bundle",
+      "Stir Fry"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Common Mushroom Juice",
+        "value": 100,
+        "time": 4
+      },
+      "jar": {}
+    },
+    "description": "A firm mushroom with a nutty flavor.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/2/2e/Common_Mushroom.png"
+  },
+  {
+    "id": 406,
+    "name": "Wild Plum",
+    "slug": "wild-plum",
+    "category": "forage",
+    "subcategory": "fall",
+    "season": [
+      "fall"
+    ],
+    "sellPrice": {
+      "base": 80,
+      "silver": 100,
+      "gold": 120,
+      "iridium": 160
+    },
+    "source": [
+      "Foraging - Fall"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Fall Foraging Bundle",
+      "Plum Pudding"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Wild Plum Wine",
+        "value": 240,
+        "time": 6
+      },
+      "jar": {
+        "product": "Wild Plum Jam",
+        "value": 160,
+        "time": 3
+      }
+    },
+    "description": "A tart fruit that grows in bunches in the fall.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/3b/Wild_Plum.png"
+  },
+  {
+    "id": 408,
+    "name": "Hazelnut",
+    "slug": "hazelnut",
+    "category": "forage",
+    "subcategory": "fall",
+    "season": [
+      "fall"
+    ],
+    "sellPrice": {
+      "base": 90,
+      "silver": 112,
+      "gold": 135,
+      "iridium": 180
+    },
+    "source": [
+      "Foraging - Fall"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Fall Foraging Bundle",
+      "Roasted Hazelnuts"
+    ],
+    "processing": {},
+    "description": "A small, crunchy tree nut found in the fall.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/31/Hazelnut.png"
+  },
+  {
+    "id": 410,
+    "name": "Blackberry",
+    "slug": "blackberry-forage",
+    "category": "forage",
+    "subcategory": "fall",
+    "season": [
+      "fall"
+    ],
+    "sellPrice": {
+      "base": 20,
+      "silver": 25,
+      "gold": 30,
+      "iridium": 40
+    },
+    "source": [
+      "Foraging - Fall"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Fall Foraging Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Blackberry Wine",
+        "value": 60,
+        "time": 6
+      },
+      "jar": {
+        "product": "Blackberry Jam",
+        "value": 40,
+        "time": 3
+      }
+    },
+    "description": "A sweet fall berry that grows on bushes.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/2/25/Blackberry.png"
+  },
+  {
+    "id": 412,
+    "name": "Winter Root",
+    "slug": "winter-root",
+    "category": "forage",
+    "subcategory": "winter",
+    "season": [
+      "winter"
+    ],
+    "sellPrice": {
+      "base": 70,
+      "silver": 87,
+      "gold": 105,
+      "iridium": 140
+    },
+    "source": [
+      "Foraging - Winter"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Winter Foraging Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Winter Root Juice",
+        "value": 170,
+        "time": 4
+      },
+      "jar": {}
+    },
+    "description": "A starchy winter root vegetable.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/1/11/Winter_Root.png"
+  },
+  {
+    "id": 414,
+    "name": "Crystal Fruit",
+    "slug": "crystal-fruit",
+    "category": "forage",
+    "subcategory": "winter",
+    "season": [
+      "winter"
+    ],
+    "sellPrice": {
+      "base": 150,
+      "silver": 187,
+      "gold": 225,
+      "iridium": 300
+    },
+    "source": [
+      "Foraging - Winter"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Winter Foraging Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Crystal Fruit Wine",
+        "value": 450,
+        "time": 6
+      },
+      "jar": {
+        "product": "Crystal Fruit Jam",
+        "value": 300,
+        "time": 3
+      }
+    },
+    "description": "A delicate fruit that appears from the snow in winter.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/1/16/Crystal_Fruit.png"
+  },
+  {
+    "id": 416,
+    "name": "Snow Yam",
+    "slug": "snow-yam",
+    "category": "forage",
+    "subcategory": "winter",
+    "season": [
+      "winter"
+    ],
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "source": [
+      "Foraging - Winter"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Winter Foraging Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Snow Yam Juice",
+        "value": 240,
+        "time": 4
+      },
+      "jar": {}
+    },
+    "description": "A tuber found under the snow in winter.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/3f/Snow_Yam.png"
+  },
+  {
+    "id": 418,
+    "name": "Crocus",
+    "slug": "crocus",
+    "category": "forage",
+    "subcategory": "winter",
+    "season": [
+      "winter"
+    ],
+    "sellPrice": {
+      "base": 60,
+      "silver": 75,
+      "gold": 90,
+      "iridium": 120
+    },
+    "source": [
+      "Foraging - Winter"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Winter Foraging Bundle"
+    ],
+    "processing": {},
+    "description": "A winter flower that blooms in the snow.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Crocus.png"
+  },
+  {
+    "id": 420,
+    "name": "Red Mushroom",
+    "slug": "red-mushroom",
+    "category": "forage",
+    "subcategory": "cave",
+    "season": [
+      "all"
+    ],
+    "sellPrice": {
+      "base": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "source": [
+      "Foraging - Mines",
+      "Cave Mushroom"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Exotic Foraging Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Red Mushroom Juice",
+        "value": 190,
+        "time": 4
+      },
+      "jar": {}
+    },
+    "description": "A spotted mushroom found in caves and the mine.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/e1/Red_Mushroom.png"
+  },
+  {
+    "id": 422,
+    "name": "Purple Mushroom",
+    "slug": "purple-mushroom",
+    "category": "forage",
+    "subcategory": "cave",
+    "season": [
+      "all"
+    ],
+    "sellPrice": {
+      "base": 250,
+      "silver": 312,
+      "gold": 375,
+      "iridium": 500
+    },
+    "source": [
+      "Foraging - Mines",
+      "Cave Mushroom"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Exotic Foraging Bundle"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Purple Mushroom Juice",
+        "value": 560,
+        "time": 4
+      },
+      "jar": {}
+    },
+    "description": "A rare purple mushroom found deep in caves.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Purple_Mushroom.png"
+  },
+  {
+    "id": 424,
+    "name": "Magma Cap",
+    "slug": "magma-cap",
+    "category": "forage",
+    "subcategory": "cave",
+    "season": [
+      "all"
+    ],
+    "sellPrice": {
+      "base": 400,
+      "silver": 500,
+      "gold": 600,
+      "iridium": 800
+    },
+    "source": [
+      "Foraging - Volcano Dungeon"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Magma Cap Juice",
+        "value": 900,
+        "time": 4
+      },
+      "jar": {}
+    },
+    "description": "A fiery mushroom found in the Volcano on Ginger Island.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/7/77/Magma_Cap.png"
+  },
+  {
+    "id": 426,
+    "name": "Sea Urchin",
+    "slug": "sea-urchin",
+    "category": "forage",
+    "subcategory": "beach",
+    "season": [
+      "all"
+    ],
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "source": [
+      "Foraging - Beach"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A spiny ocean creature found on the beach.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/e7/Sea_Urchin.png"
+  },
+  {
+    "id": 428,
+    "name": "Rainbow Shell",
+    "slug": "rainbow-shell",
+    "category": "forage",
+    "subcategory": "beach",
+    "season": [
+      "summer"
+    ],
+    "sellPrice": {
+      "base": 300,
+      "silver": 375,
+      "gold": 450,
+      "iridium": 600
+    },
+    "source": [
+      "Foraging - Beach"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A beautiful, colorful shell found on the beach in summer.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/3d/Rainbow_Shell.png"
+  },
+  {
+    "id": 430,
+    "name": "Nautilus Shell",
+    "slug": "nautilus-shell",
+    "category": "forage",
+    "subcategory": "beach",
+    "season": [
+      "winter"
+    ],
+    "sellPrice": {
+      "base": 120,
+      "silver": 150,
+      "gold": 180,
+      "iridium": 240
+    },
+    "source": [
+      "Foraging - Beach"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A spiral seashell found on the beach in winter.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/a4/Nautilus_Shell.png"
+  },
+  {
+    "id": 432,
+    "name": "Cockle",
+    "slug": "cockle",
+    "category": "forage",
+    "subcategory": "beach",
+    "season": [
+      "all"
+    ],
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "source": [
+      "Foraging - Beach"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A common seashell found on the beach.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/ad/Cockle.png"
+  },
+  {
+    "id": 434,
+    "name": "Mussel",
+    "slug": "mussel",
+    "category": "forage",
+    "subcategory": "beach",
+    "season": [
+      "all"
+    ],
+    "sellPrice": {
+      "base": 30,
+      "silver": 37,
+      "gold": 45,
+      "iridium": 60
+    },
+    "source": [
+      "Foraging - Beach"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A common bivalve found on the beach.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/aa/Mussel.png"
+  },
+  {
+    "id": 436,
+    "name": "Clam",
+    "slug": "clam",
+    "category": "forage",
+    "subcategory": "beach",
+    "season": [
+      "all"
+    ],
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "source": [
+      "Foraging - Beach"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Ocean Fish Bundle",
+      "Chowder"
+    ],
+    "processing": {},
+    "description": "A clam that lives on the beach.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/ed/Clam.png"
+  },
+  {
+    "id": 2962,
+    "name": "Salmonberry",
+    "slug": "salmonberry",
+    "category": "forage",
+    "subcategory": "spring",
+    "season": [
+      "spring"
+    ],
+    "sellPrice": {
+      "base": 5,
+      "silver": 6,
+      "gold": 7,
+      "iridium": 10
+    },
+    "source": [
+      "Foraging - Salmonberry Bushes (Spring 15-18)"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {
+      "keg": {
+        "product": "Salmonberry Wine",
+        "value": 15,
+        "time": 6
+      },
+      "jar": {
+        "product": "Salmonberry Jam",
+        "value": 10,
+        "time": 3
+      }
+    },
+    "description": "A spring berry that grows on bushes for a few days in spring.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/59/Salmonberry.png"
+  },
+  {
+    "id": 72,
+    "name": "Diamond",
+    "slug": "diamond",
+    "category": "mineral",
+    "subcategory": "gem",
+    "sellPrice": {
+      "base": 750,
+      "silver": 937,
+      "gold": 1125,
+      "iridium": 1500
+    },
+    "source": [
+      "Mining",
+      "Panning",
+      "Fishing Treasure Chests"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "All villagers except Haley"
+    ],
+    "usedIn": [],
+    "processing": {},
+    "description": "A rare and valuable gemstone.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png"
+  },
+  {
+    "id": 74,
+    "name": "Prismatic Shard",
+    "slug": "prismatic-shard",
+    "category": "mineral",
+    "subcategory": "gem",
+    "sellPrice": {
+      "base": 2000,
+      "silver": 2500,
+      "gold": 3000,
+      "iridium": 4000
+    },
+    "source": [
+      "Mining (Floors 100+)",
+      "Iridium Node",
+      "Mystic Stone",
+      "Fishing Treasure Chests"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "All villagers"
+    ],
+    "usedIn": [
+      "Galaxy Sword"
+    ],
+    "processing": {},
+    "description": "A very rare and powerful gemstone. It radiates a prismatic light.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png"
+  },
+  {
+    "id": 66,
+    "name": "Amethyst",
+    "slug": "amethyst",
+    "category": "mineral",
+    "subcategory": "gem",
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "source": [
+      "Mining",
+      "Panning",
+      "Fishing Treasure Chests"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Abigail",
+      "Dwarf"
+    ],
+    "usedIn": [],
+    "processing": {},
+    "description": "A purple gemstone with a beautiful shine.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/2/2e/Amethyst.png"
+  },
+  {
+    "id": 68,
+    "name": "Topaz",
+    "slug": "topaz",
+    "category": "mineral",
+    "subcategory": "gem",
+    "sellPrice": {
+      "base": 80,
+      "silver": 100,
+      "gold": 120,
+      "iridium": 160
+    },
+    "source": [
+      "Mining",
+      "Panning"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Dwarf",
+      "Emily"
+    ],
+    "usedIn": [],
+    "processing": {},
+    "description": "A golden gemstone with a warm glow.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/a5/Topaz.png"
+  },
+  {
+    "id": 60,
+    "name": "Emerald",
+    "slug": "emerald",
+    "category": "mineral",
+    "subcategory": "gem",
+    "sellPrice": {
+      "base": 250,
+      "silver": 312,
+      "gold": 375,
+      "iridium": 500
+    },
+    "source": [
+      "Mining",
+      "Panning"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Dwarf",
+      "Penny"
+    ],
+    "usedIn": [],
+    "processing": {},
+    "description": "A precious green gemstone.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/6/6a/Emerald.png"
+  },
+  {
+    "id": 64,
+    "name": "Ruby",
+    "slug": "ruby",
+    "category": "mineral",
+    "subcategory": "gem",
+    "sellPrice": {
+      "base": 250,
+      "silver": 312,
+      "gold": 375,
+      "iridium": 500
+    },
+    "source": [
+      "Mining",
+      "Panning"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Dwarf",
+      "Emily"
+    ],
+    "usedIn": [],
+    "processing": {},
+    "description": "A fiery red gemstone with a brilliant glow.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/a9/Ruby.png"
+  },
+  {
+    "id": 70,
+    "name": "Jade",
+    "slug": "jade",
+    "category": "mineral",
+    "subcategory": "gem",
+    "sellPrice": {
+      "base": 200,
+      "silver": 250,
+      "gold": 300,
+      "iridium": 400
+    },
+    "source": [
+      "Mining",
+      "Panning"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Dwarf",
+      "Emily"
+    ],
+    "usedIn": [],
+    "processing": {},
+    "description": "A pale green gemstone with a soothing energy.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Jade.png"
+  },
+  {
+    "id": 62,
+    "name": "Aquamarine",
+    "slug": "aquamarine",
+    "category": "mineral",
+    "subcategory": "gem",
+    "sellPrice": {
+      "base": 180,
+      "silver": 225,
+      "gold": 270,
+      "iridium": 360
+    },
+    "source": [
+      "Mining",
+      "Panning"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Dwarf",
+      "Emily"
+    ],
+    "usedIn": [],
+    "processing": {},
+    "description": "A shimmering blue gemstone that sparkles like the sea.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/a2/Aquamarine.png"
+  },
+  {
+    "id": 80,
+    "name": "Quartz",
+    "slug": "quartz",
+    "category": "mineral",
+    "subcategory": "resource",
+    "sellPrice": {
+      "base": 25,
+      "silver": 31,
+      "gold": 37,
+      "iridium": 50
+    },
+    "source": [
+      "Mining",
+      "Panning"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A clear crystal found in the mines and all over the valley.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/c/cf/Quartz.png"
+  },
+  {
+    "id": 82,
+    "name": "Fire Quartz",
+    "slug": "fire-quartz",
+    "category": "mineral",
+    "subcategory": "gem",
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "source": [
+      "Mining (Floors 80+)",
+      "Panning"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A glowing red crystal found deep in the mines.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/5b/Fire_Quartz.png"
+  },
+  {
+    "id": 84,
+    "name": "Frozen Tear",
+    "slug": "frozen-tear",
+    "category": "mineral",
+    "subcategory": "gem",
+    "sellPrice": {
+      "base": 75,
+      "silver": 93,
+      "gold": 112,
+      "iridium": 150
+    },
+    "source": [
+      "Mining (Floors 40+)",
+      "Panning"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A frozen crystal that feels cold to the touch.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/ec/Frozen_Tear.png"
+  },
+  {
+    "id": 86,
+    "name": "Earth Crystal",
+    "slug": "earth-crystal",
+    "category": "mineral",
+    "subcategory": "gem",
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "source": [
+      "Mining (Floors 1-39)",
+      "Panning"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A crystalline mineral found in the earth.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/7/74/Earth_Crystal.png"
+  },
+  {
+    "id": 88,
+    "name": "Obsidian",
+    "slug": "obsidian",
+    "category": "mineral",
+    "subcategory": "gem",
+    "sellPrice": {
+      "base": 200,
+      "silver": 250,
+      "gold": 300,
+      "iridium": 400
+    },
+    "source": [
+      "Geodes",
+      "Fishing Treasure"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "Sebastian"
+    ],
+    "usedIn": [],
+    "processing": {},
+    "description": "A volcanic glass that forms when lava cools rapidly.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/2/23/Obsidian.png"
+  },
+  {
+    "id": 546,
+    "name": "Helvite",
+    "slug": "helvite",
+    "category": "mineral",
+    "subcategory": "gem",
+    "sellPrice": {
+      "base": 450,
+      "silver": 562,
+      "gold": 675,
+      "iridium": 900
+    },
+    "source": [
+      "Geodes"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A rare mineral that glows with a fiery light.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/3f/Helvite.png"
+  },
+  {
+    "id": 114,
+    "name": "Ancient Seed",
+    "slug": "ancient-seed",
+    "category": "artifact",
+    "subcategory": "seed",
+    "sellPrice": {
+      "base": 55,
+      "silver": 68,
+      "gold": 82,
+      "iridium": 110
+    },
+    "source": [
+      "Artifact Spots",
+      "Fishing Treasure",
+      "Bug Drop"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Ancient Fruit Plantable Seeds"
+    ],
+    "processing": {},
+    "description": "A mysterious ancient seed. Donate to the museum to receive plantable seeds.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/af/Ancient_Seed.png"
+  },
+  {
+    "id": 103,
+    "name": "Prehistoric Tool",
+    "slug": "prehistoric-tool",
+    "category": "artifact",
+    "subcategory": "tool",
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "source": [
+      "Artifact Spots"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A primitive tool made of stone and wood.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/2/26/Prehistoric_Tool.png"
+  },
+  {
+    "id": 107,
+    "name": "Dinosaur Egg",
+    "slug": "dinosaur-egg",
+    "category": "artifact",
+    "subcategory": "egg",
+    "sellPrice": {
+      "base": 350,
+      "silver": 437,
+      "gold": 525,
+      "iridium": 700
+    },
+    "source": [
+      "Artifact Spots",
+      "Fishing Treasure"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Incubator (Dinosaur)"
+    ],
+    "processing": {},
+    "description": "A giant prehistoric egg. Put it in an incubator to hatch a dinosaur.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/a1/Dinosaur_Egg.png"
+  },
+  {
+    "id": 105,
+    "name": "Rare Disc",
+    "slug": "rare-disc",
+    "category": "artifact",
+    "subcategory": "disc",
+    "sellPrice": {
+      "base": 300,
+      "silver": 375,
+      "gold": 450,
+      "iridium": 600
+    },
+    "source": [
+      "Artifact Spots",
+      "Fishing Treasure"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A strange disc with carvings that glow in the dark.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/e0/Rare_Disc.png"
+  },
+  {
+    "id": 104,
+    "name": "Prehistoric Vertebra",
+    "slug": "prehistoric-vertebra",
+    "category": "artifact",
+    "subcategory": "fossil",
+    "sellPrice": {
+      "base": 80,
+      "silver": 100,
+      "gold": 120,
+      "iridium": 160
+    },
+    "source": [
+      "Artifact Spots"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A bone from a prehistoric creature.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/e9/Prehistoric_Vertebra.png"
+  },
+  {
+    "id": 110,
+    "name": "Prehistoric Scapula",
+    "slug": "prehistoric-scapula",
+    "category": "artifact",
+    "subcategory": "fossil",
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "source": [
+      "Artifact Spots"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A shoulder blade bone from a prehistoric creature.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/ee/Prehistoric_Scapula.png"
+  },
+  {
+    "id": 108,
+    "name": "Prehistoric Rib",
+    "slug": "prehistoric-rib",
+    "category": "artifact",
+    "subcategory": "fossil",
+    "sellPrice": {
+      "base": 80,
+      "silver": 100,
+      "gold": 120,
+      "iridium": 160
+    },
+    "source": [
+      "Artifact Spots"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A rib bone from a prehistoric creature.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/6/62/Prehistoric_Rib.png"
+  },
+  {
+    "id": 111,
+    "name": "Skeletal Tail",
+    "slug": "skeletal-tail",
+    "category": "artifact",
+    "subcategory": "fossil",
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "source": [
+      "Artifact Spots"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "The tail bone from a prehistoric creature.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/2/29/Skeletal_Tail.png"
+  },
+  {
+    "id": 109,
+    "name": "Prehistoric Skull",
+    "slug": "prehistoric-skull",
+    "category": "artifact",
+    "subcategory": "fossil",
+    "sellPrice": {
+      "base": 120,
+      "silver": 150,
+      "gold": 180,
+      "iridium": 240
+    },
+    "source": [
+      "Artifact Spots"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "The skull of a prehistoric creature.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/5/58/Prehistoric_Skull.png"
+  },
+  {
+    "id": 106,
+    "name": "Ancient Doll",
+    "slug": "ancient-doll",
+    "category": "artifact",
+    "subcategory": "doll",
+    "sellPrice": {
+      "base": 60,
+      "silver": 75,
+      "gold": 90,
+      "iridium": 120
+    },
+    "source": [
+      "Artifact Spots",
+      "Fishing Treasure"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "An ancient doll covered in a dark, sticky substance.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/c/c0/Ancient_Doll.png"
+  },
+  {
+    "id": 102,
+    "name": "Chicken Statue",
+    "slug": "chicken-statue",
+    "category": "artifact",
+    "subcategory": "statue",
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "source": [
+      "Artifact Spots"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A small stone statue of a chicken.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/af/Chicken_Statue.png"
+  },
+  {
+    "id": 112,
+    "name": "Arrowhead",
+    "slug": "arrowhead",
+    "category": "artifact",
+    "subcategory": "tool",
+    "sellPrice": {
+      "base": 40,
+      "silver": 50,
+      "gold": 60,
+      "iridium": 80
+    },
+    "source": [
+      "Artifact Spots"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A sharp stone tip used for hunting.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/d/d1/Arrowhead.png"
+  },
+  {
+    "id": 113,
+    "name": "Dwarf Scroll I",
+    "slug": "dwarf-scroll-i",
+    "category": "artifact",
+    "subcategory": "scroll",
+    "sellPrice": {
+      "base": 1,
+      "silver": 1,
+      "gold": 2,
+      "iridium": 2
+    },
+    "source": [
+      "Mining"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [],
+    "processing": {},
+    "description": "A scroll written in the Dwarvish language. Donate to the museum.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/b/b9/Dwarf_Scroll_I.png"
+  },
+  {
+    "id": 178,
+    "name": "Hay",
+    "slug": "hay",
+    "category": "other",
+    "subcategory": "resource",
+    "sellPrice": {
+      "base": 5,
+      "silver": 6,
+      "gold": 7,
+      "iridium": 10
+    },
+    "source": [
+      "Marnie's Ranch",
+      "Harvesting Grass"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Animal Feed"
+    ],
+    "processing": {},
+    "description": "Dried grass used as animal feed.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/aa/Hay.png"
+  },
+  {
+    "id": 709,
+    "name": "Hardwood",
+    "slug": "hardwood",
+    "category": "other",
+    "subcategory": "resource",
+    "sellPrice": {
+      "base": 15,
+      "silver": 18,
+      "gold": 22,
+      "iridium": 30
+    },
+    "source": [
+      "Secret Woods",
+      "Mahogany Tree",
+      "Lumberjack Profession"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Fence",
+      "Home Upgrade",
+      "Crafting"
+    ],
+    "processing": {},
+    "description": "A dense, durable wood used for crafting and building.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/ed/Hardwood.png"
+  },
+  {
+    "id": 771,
+    "name": "Fiber",
+    "slug": "fiber",
+    "category": "other",
+    "subcategory": "resource",
+    "sellPrice": {
+      "base": 1,
+      "silver": 1,
+      "gold": 2,
+      "iridium": 2
+    },
+    "source": [
+      "Weeds",
+      "Fiber Seeds"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Grass Starter",
+      "Crafting"
+    ],
+    "processing": {},
+    "description": "Raw material sourced from plants.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/4/45/Fiber.png"
+  },
+  {
+    "id": 330,
+    "name": "Clay",
+    "slug": "clay",
+    "category": "other",
+    "subcategory": "resource",
+    "sellPrice": {
+      "base": 20,
+      "silver": 25,
+      "gold": 30,
+      "iridium": 40
+    },
+    "source": [
+      "Artifact Spots",
+      "Tilling Soil",
+      "Geodes"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Garden Pot",
+      "Crafting"
+    ],
+    "processing": {},
+    "description": "A soft, moldable clay used for pottery and crafting.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/a2/Clay.png"
+  },
+  {
+    "id": 390,
+    "name": "Stone",
+    "slug": "stone",
+    "category": "other",
+    "subcategory": "resource",
+    "sellPrice": {
+      "base": 2,
+      "silver": 2,
+      "gold": 3,
+      "iridium": 4
+    },
+    "source": [
+      "Mining",
+      "Fishing Treasure",
+      "Rocks on Farm"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Stone Fence",
+      "Crafting",
+      "Building"
+    ],
+    "processing": {},
+    "description": "A common building material found throughout the valley.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/d/d4/Stone.png"
+  },
+  {
+    "id": 388,
+    "name": "Wood",
+    "slug": "wood",
+    "category": "other",
+    "subcategory": "resource",
+    "sellPrice": {
+      "base": 2,
+      "silver": 2,
+      "gold": 3,
+      "iridium": 4
+    },
+    "source": [
+      "Chopping Trees",
+      "Fishing Treasure"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Wood Fence",
+      "Crafting",
+      "Building",
+      "Fuel"
+    ],
+    "processing": {},
+    "description": "A sturdy building material harvested from trees.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/d/df/Wood.png"
+  },
+  {
+    "id": 382,
+    "name": "Coal",
+    "slug": "coal",
+    "category": "other",
+    "subcategory": "resource",
+    "sellPrice": {
+      "base": 15,
+      "silver": 18,
+      "gold": 22,
+      "iridium": 30
+    },
+    "source": [
+      "Mining",
+      "Charcoal Kiln",
+      "Dust Sprite Drop"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Furnace",
+      "Smelting",
+      "Crafting"
+    ],
+    "processing": {},
+    "description": "A combustible rock used for fuel and smelting.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/a/a7/Coal.png"
+  },
+  {
+    "id": 378,
+    "name": "Copper Ore",
+    "slug": "copper-ore",
+    "category": "other",
+    "subcategory": "resource",
+    "sellPrice": {
+      "base": 5,
+      "silver": 6,
+      "gold": 7,
+      "iridium": 10
+    },
+    "source": [
+      "Mines (Floors 1-39)"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Copper Bar",
+      "Smelting"
+    ],
+    "processing": {},
+    "description": "A common ore found in the mines. Smelt into bars for crafting.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/7/78/Copper_Ore.png"
+  },
+  {
+    "id": 380,
+    "name": "Iron Ore",
+    "slug": "iron-ore",
+    "category": "other",
+    "subcategory": "resource",
+    "sellPrice": {
+      "base": 10,
+      "silver": 12,
+      "gold": 15,
+      "iridium": 20
+    },
+    "source": [
+      "Mines (Floors 40-79)"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Iron Bar",
+      "Smelting"
+    ],
+    "processing": {},
+    "description": "A moderately common ore found in the mines. Smelt into bars.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/8/87/Iron_Ore.png"
+  },
+  {
+    "id": 384,
+    "name": "Gold Ore",
+    "slug": "gold-ore",
+    "category": "other",
+    "subcategory": "resource",
+    "sellPrice": {
+      "base": 25,
+      "silver": 31,
+      "gold": 37,
+      "iridium": 50
+    },
+    "source": [
+      "Mines (Floors 80-119)"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Gold Bar",
+      "Smelting"
+    ],
+    "processing": {},
+    "description": "A valuable ore found deep in the mines. Smelt into bars.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/f/f7/Gold_Ore.png"
+  },
+  {
+    "id": 386,
+    "name": "Iridium Ore",
+    "slug": "iridium-ore",
+    "category": "other",
+    "subcategory": "resource",
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "source": [
+      "Skull Cavern",
+      "Iridium Node",
+      "Magma Geode"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Iridium Bar",
+      "Smelting"
+    ],
+    "processing": {},
+    "description": "An extremely rare ore found deep underground.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/e/e9/Iridium_Ore.png"
+  },
+  {
+    "id": 334,
+    "name": "Copper Bar",
+    "slug": "copper-bar",
+    "category": "other",
+    "subcategory": "metal",
+    "sellPrice": {
+      "base": 60,
+      "silver": 75,
+      "gold": 90,
+      "iridium": 120
+    },
+    "source": [
+      "Smelting 5 Copper Ore + 1 Coal"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Crafting",
+      "Tool Upgrades",
+      "Machines"
+    ],
+    "processing": {},
+    "description": "A bar of pure copper. Used for crafting and tool upgrades.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Copper_Bar.png"
+  },
+  {
+    "id": 335,
+    "name": "Iron Bar",
+    "slug": "iron-bar",
+    "category": "other",
+    "subcategory": "metal",
+    "sellPrice": {
+      "base": 120,
+      "silver": 150,
+      "gold": 180,
+      "iridium": 240
+    },
+    "source": [
+      "Smelting 5 Iron Ore + 1 Coal"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Crafting",
+      "Tool Upgrades",
+      "Machines"
+    ],
+    "processing": {},
+    "description": "A bar of pure iron. Used for crafting and tool upgrades.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/6/6c/Iron_Bar.png"
+  },
+  {
+    "id": 336,
+    "name": "Gold Bar",
+    "slug": "gold-bar",
+    "category": "other",
+    "subcategory": "metal",
+    "sellPrice": {
+      "base": 250,
+      "silver": 312,
+      "gold": 375,
+      "iridium": 500
+    },
+    "source": [
+      "Smelting 5 Gold Ore + 1 Coal"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Crafting",
+      "Tool Upgrades",
+      "Machines"
+    ],
+    "processing": {},
+    "description": "A bar of pure gold. Used for crafting and tool upgrades.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png"
+  },
+  {
+    "id": 337,
+    "name": "Iridium Bar",
+    "slug": "iridium-bar",
+    "category": "other",
+    "subcategory": "metal",
+    "sellPrice": {
+      "base": 1000,
+      "silver": 1250,
+      "gold": 1500,
+      "iridium": 2000
+    },
+    "source": [
+      "Smelting 5 Iridium Ore + 1 Coal"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Crafting",
+      "Tool Upgrades",
+      "Machines"
+    ],
+    "processing": {},
+    "description": "A bar of pure iridium. Used for the highest quality crafting and tool upgrades.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png"
+  },
+  {
+    "id": 766,
+    "name": "Slime",
+    "slug": "slime",
+    "category": "other",
+    "subcategory": "monster",
+    "sellPrice": {
+      "base": 5,
+      "silver": 6,
+      "gold": 7,
+      "iridium": 10
+    },
+    "source": [
+      "Slime Drop",
+      "Slime Hutch"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Slime Egg",
+      "Crafting"
+    ],
+    "processing": {},
+    "description": "A gooey substance dropped by slimes.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/38/Slime.png"
+  },
+  {
+    "id": 78,
+    "name": "Bat Wing",
+    "slug": "bat-wing",
+    "category": "other",
+    "subcategory": "monster",
+    "sellPrice": {
+      "base": 15,
+      "silver": 18,
+      "gold": 22,
+      "iridium": 30
+    },
+    "source": [
+      "Bat Drop",
+      "Frost Bat Drop",
+      "Lava Bat Drop"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Crafting"
+    ],
+    "processing": {},
+    "description": "A translucent wing from a bat.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/35/Bat_Wing.png"
+  },
+  {
+    "id": 684,
+    "name": "Bug Meat",
+    "slug": "bug-meat",
+    "category": "other",
+    "subcategory": "monster",
+    "sellPrice": {
+      "base": 8,
+      "silver": 10,
+      "gold": 12,
+      "iridium": 16
+    },
+    "source": [
+      "Bug Drop",
+      "Cave Fly Drop",
+      "Grub Drop"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Crafting",
+      "Bait"
+    ],
+    "processing": {},
+    "description": "A wad of bug flesh. Gross.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/b/b6/Bug_Meat.png"
+  },
+  {
+    "id": 74,
+    "name": "Solar Essence",
+    "slug": "solar-essence",
+    "category": "other",
+    "subcategory": "monster",
+    "sellPrice": {
+      "base": 40,
+      "silver": 50,
+      "gold": 60,
+      "iridium": 80
+    },
+    "source": [
+      "Ghost Drop",
+      "Metal Head Drop",
+      "Squid Kid Drop"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Crafting"
+    ],
+    "processing": {},
+    "description": "A glowing essence imbued with solar power.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/f/f4/Solar_Essence.png"
+  },
+  {
+    "id": 768,
+    "name": "Void Essence",
+    "slug": "void-essence",
+    "category": "other",
+    "subcategory": "monster",
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "source": [
+      "Shadow Brute Drop",
+      "Shadow Shaman Drop",
+      "Serpent Drop"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Crafting"
+    ],
+    "processing": {},
+    "description": "A dark essence imbued with shadowy power.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/1/1f/Void_Essence.png"
+  },
+  {
+    "id": 338,
+    "name": "Refined Quartz",
+    "slug": "refined-quartz",
+    "category": "other",
+    "subcategory": "resource",
+    "sellPrice": {
+      "base": 50,
+      "silver": 62,
+      "gold": 75,
+      "iridium": 100
+    },
+    "source": [
+      "Smelting 1 Quartz or Fire Quartz"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Crafting",
+      "Machines"
+    ],
+    "processing": {},
+    "description": "A refined form of quartz used in crafting.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/9/98/Refined_Quartz.png"
+  },
+  {
+    "id": 340,
+    "name": "Honey",
+    "slug": "honey",
+    "category": "other",
+    "subcategory": "artisan",
+    "sellPrice": {
+      "base": 100,
+      "silver": 125,
+      "gold": 150,
+      "iridium": 200
+    },
+    "source": [
+      "Bee House"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Mead"
+    ],
+    "processing": {
+      "keg": {
+        "product": "Mead",
+        "value": 300,
+        "time": 4
+      },
+      "jar": {}
+    },
+    "description": "A sweet liquid produced by bees.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/c/c6/Honey.png"
+  },
+  {
+    "id": 432,
+    "name": "Truffle",
+    "slug": "truffle",
+    "category": "other",
+    "subcategory": "artisan",
+    "sellPrice": {
+      "base": 625,
+      "silver": 781,
+      "gold": 937,
+      "iridium": 1250
+    },
+    "source": [
+      "Pig"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Truffle Oil"
+    ],
+    "processing": {
+      "keg": {},
+      "jar": {
+        "product": "Truffle Oil",
+        "value": 1065,
+        "time": 3
+      }
+    },
+    "description": "A rare underground fungus with a strong aroma.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Truffle.png"
+  },
+  {
+    "id": 438,
+    "name": "Wool",
+    "slug": "wool",
+    "category": "other",
+    "subcategory": "artisan",
+    "sellPrice": {
+      "base": 340,
+      "silver": 425,
+      "gold": 510,
+      "iridium": 680
+    },
+    "source": [
+      "Rabbit",
+      "Sheep"
+    ],
+    "giftLikes": [],
+    "giftLoves": [],
+    "usedIn": [
+      "Cloth"
+    ],
+    "processing": {},
+    "description": "Soft, fluffy wool from a rabbit or sheep.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/3/34/Wool.png"
+  },
+  {
+    "id": 440,
+    "name": "Rabbit's Foot",
+    "slug": "rabbits-foot",
+    "category": "other",
+    "subcategory": "artisan",
+    "sellPrice": {
+      "base": 565,
+      "silver": 706,
+      "gold": 847,
+      "iridium": 1130
+    },
+    "source": [
+      "Rabbit"
+    ],
+    "giftLikes": [],
+    "giftLoves": [
+      "All villagers except Penny"
+    ],
+    "usedIn": [],
+    "processing": {},
+    "description": "A lucky rabbit's foot. Said to bring good fortune.",
+    "img": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png"
+  }
+]

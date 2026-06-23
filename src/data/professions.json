@@ -1,0 +1,117 @@
+[
+  {
+    "skill": "Farming",
+    "emoji": "🌾",
+    "color": "#5fa83a",
+    "levels": [
+      {
+        "lv": 5,
+        "opts": [
+          { "name": "Tiller", "effect": "Crops sell for 10% more.", "best": true, "why": "More gold from everything you grow. Always pick this." },
+          { "name": "Rancher", "effect": "Animal products sell for 20% more.", "best": false, "why": "Only good if you focus exclusively on animal husbandry early." }
+        ]
+      },
+      {
+        "lv": 10,
+        "opts": [
+          { "name": "Artisan (needs Tiller)", "effect": "Artisan goods (wine, mayo, cheese, etc.) sell for 40% more.", "best": true, "why": "Best profession in the game. Wine/mayo income becomes astronomical." },
+          { "name": "Agriculturist (needs Tiller)", "effect": "All crops grow 10% faster.", "best": false, "why": "Decent, but Artisan's money boost far outweighs growth speed." },
+          { "name": "Coopmaster (needs Rancher)", "effect": "Coops befriended faster, duck mayo and rabbit's foot more frequent.", "best": false, "why": "Niche — only if you're coop-focused and skipped Tiller." },
+          { "name": "Shepherd (needs Rancher)", "effect": "Barns befriended faster, sheep wool grows faster.", "best": false, "why": "Good for wool/cloth farming, but still loses to Artisan overall." }
+        ]
+      }
+    ]
+  },
+  {
+    "skill": "Mining",
+    "emoji": "⛏",
+    "color": "#95a5a6",
+    "levels": [
+      {
+        "lv": 5,
+        "opts": [
+          { "name": "Miner", "effect": "+1 ore per vein.", "best": true, "why": "Consistently more ore for upgrades and selling." },
+          { "name": "Geologist", "effect": "Chance for gem nodes to have 2 gems; Coal appears in pairs.", "best": false, "why": "Good for gem selling, but Miner's ore bonus is more universally useful." }
+        ]
+      },
+      {
+        "lv": 10,
+        "opts": [
+          { "name": "Blacksmith (needs Miner)", "effect": "Metal bars sell for 50% more.", "best": false, "why": "Good mid-game, but you need bars for crafting more than selling late." },
+          { "name": "Prospector (needs Miner)", "effect": "Coal found twice as often.", "best": true, "why": "Coal is needed constantly for smelting. Pays off every single day." },
+          { "name": "Excavator (needs Geologist)", "effect": "Chance to find geodes doubled.", "best": false, "why": "Fun for completionists hunting minerals for the museum." },
+          { "name": "Gemologist (needs Geologist)", "effect": "Gems sell for 30% more.", "best": false, "why": "Late-game gems are worth a lot but you need most for gifting." }
+        ]
+      }
+    ]
+  },
+  {
+    "skill": "Fishing",
+    "emoji": "🎣",
+    "color": "#3d8bbf",
+    "levels": [
+      {
+        "lv": 5,
+        "opts": [
+          { "name": "Fisher", "effect": "Fish sell for 25% more.", "best": false, "why": "Solid baseline income boost if you fish frequently." },
+          { "name": "Trapper", "effect": "Resources needed for crab pots reduced. Ore not required.", "best": true, "why": "Makes building a large crab pot network much cheaper." }
+        ]
+      },
+      {
+        "lv": 10,
+        "opts": [
+          { "name": "Angler (needs Fisher)", "effect": "Fish sell for 50% more.", "best": true, "why": "With high-value fish like Legend (5,000g+) this is massive." },
+          { "name": "Pirate (needs Fisher)", "effect": "Chance to find treasure in fishing treasure chests doubled.", "best": false, "why": "Fun for getting rare items, but Angler makes more consistent gold." },
+          { "name": "Mariner (needs Trapper)", "effect": "Crab pots never produce junk.", "best": true, "why": "Transforms crab pots into pure profit with zero wasted bait." },
+          { "name": "Luremaster (needs Trapper)", "effect": "Crab pots need no bait.", "best": false, "why": "Saves bait costs, but Mariner's no-junk perk is far more valuable." }
+        ]
+      }
+    ]
+  },
+  {
+    "skill": "Foraging",
+    "emoji": "🍄",
+    "color": "#e07820",
+    "levels": [
+      {
+        "lv": 5,
+        "opts": [
+          { "name": "Forester", "effect": "Wood drops 50% more from trees.", "best": false, "why": "Great early when you need tons of wood, less relevant later." },
+          { "name": "Gatherer", "effect": "Chance to get double forage items.", "best": true, "why": "Double forage = double income. Snowballs massively with Botanist at 10." }
+        ]
+      },
+      {
+        "lv": 10,
+        "opts": [
+          { "name": "Lumberjack (needs Forester)", "effect": "Trees can drop Hardwood.", "best": false, "why": "Hardwood is useful, but Mahogany Trees on Ginger Island are better." },
+          { "name": "Tapper (needs Forester)", "effect": "Tapper products worth 25% more.", "best": false, "why": "Decent if you have 50+ tappers — niche but not the best pick." },
+          { "name": "Botanist (needs Gatherer)", "effect": "Foraged items are always Iridium quality.", "best": true, "why": "Absolute best. Every foraged item = maximum sell price, every time." },
+          { "name": "Tracker (needs Gatherer)", "effect": "Shows location of forageable items on the edges of screen.", "best": false, "why": "Useful for finding forage, but Botanist wins for raw income." }
+        ]
+      }
+    ]
+  },
+  {
+    "skill": "Combat",
+    "emoji": "⚔",
+    "color": "#d94040",
+    "levels": [
+      {
+        "lv": 5,
+        "opts": [
+          { "name": "Fighter", "effect": "All attacks do 10% more damage. +15 max HP.", "best": true, "why": "Consistent damage boost in all combat situations, plus survivability." },
+          { "name": "Scout", "effect": "Critical strike chance increased.", "best": false, "why": "Crit builds are inconsistent unless you also stack crit gear." }
+        ]
+      },
+      {
+        "lv": 10,
+        "opts": [
+          { "name": "Brute (needs Fighter)", "effect": "Damage increased by 15% more.", "best": false, "why": "Good raw damage, but Defender's HP bonus keeps you alive longer." },
+          { "name": "Defender (needs Fighter)", "effect": "+25 max HP.", "best": true, "why": "75 total extra HP means surviving harder hits in Skull Cavern." },
+          { "name": "Acrobat (needs Scout)", "effect": "Special move cooldown halved.", "best": false, "why": "Situationally fun but overall weaker than Fighter path." },
+          { "name": "Desperado (needs Scout)", "effect": "Critical strikes are deadly.", "best": false, "why": "Glass cannon that requires crit stacking gear to shine." }
+        ]
+      }
+    ]
+  }
+]

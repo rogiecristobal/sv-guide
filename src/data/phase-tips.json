@@ -1,0 +1,187 @@
+[
+  {
+    "id": "early",
+    "label": "Early Game",
+    "badge": "Y1 Days 1\u201356",
+    "icon": "\uD83C\uDF31",
+    "color": "#5fa83a",
+    "cats": [
+      {
+        "id": "farming",
+        "icon": "\uD83C\uDF3E",
+        "label": "Farming",
+        "color": "#5fa83a",
+        "tips": [
+          { "p": "\uD83D\uDD34", "t": "Parsnips First", "b": "Spend all starting gold on Parsnip seeds (50g). They grow in 4 days and net ~35g profit each \u2014 the fastest early XP and income." },
+          { "p": "\uD83D\uDD34", "t": "Strawberries at Egg Festival", "b": "Spring 13, Town Square: buy Strawberry Seeds for 100g each. Regrows every 4 days \u2014 Spring's best crop. Buy as many as you can afford!" },
+          { "p": "\uD83D\uDD34", "t": "Copper Watering Can ASAP", "b": "Get 5 Copper Bars + 2,000g to Clint for the upgrade. It waters 3 tiles in one swing \u2014 cuts your daily energy cost in half." },
+          { "p": "\uD83D\uDFE1", "t": "Scarecrow by Day 8", "b": "Craft after harvesting 8 crops. Without one, crows can destroy your entire field overnight." },
+          { "p": "\uD83D\uDFE1", "t": "Cauliflower for Giant Crops", "b": "Cauliflowers can merge into a Giant Crop (3\u00d73) giving 15\u201321 items. Worth planting a few alongside your main crops." },
+          { "p": "\uD83D\uDFE2", "t": "Never Trash Mixed Seeds", "b": "Plant all Mixed Seeds you find \u2014 you'll get a random seasonal crop for free." }
+        ]
+      },
+      {
+        "id": "mining",
+        "icon": "\u26CF",
+        "label": "Mining",
+        "color": "#95a5a6",
+        "tips": [
+          { "p": "\uD83D\uDD34", "t": "Rush Floors 40 & 80", "b": "Floor 40 = Iron Ore (for tool upgrades). Floor 80 = Gold Ore (best mid-game tools). Make this your Spring Y1 priority alongside farming." },
+          { "p": "\uD83D\uDD34", "t": "Always Bring Food", "b": "Fried Eggs (cook at home), Bread from Gus (120g), or Salmonberries from foraging. Pass out at midnight and you lose items and gold." },
+          { "p": "\uD83D\uDFE1", "t": "Smelt Before Selling", "b": "Copper/Iron bars sell for 2\u20133\u00d7 more than raw ore. Keep first batches for tool upgrades, sell the rest as bars not ore." },
+          { "p": "\uD83D\uDFE1", "t": "Stairs Over Fighting", "b": "99 Stone = 1 Staircase. Craft 5\u201310 to skip floors when time is short. Speed-running the mine beats fighting monsters in Y1." },
+          { "p": "\uD83D\uDFE2", "t": "Donate Minerals First", "b": "Send your FIRST of each mineral/gem to Gunther. He rewards you \u2014 sometimes with useful furniture or artifacts." },
+          { "p": "\uD83D\uDFE2", "t": "Save 99 Bat Wings", "b": "Don't sell Bat Wings! You'll need 99 for Lightning Rods (mid-game must-have). Same for Bug Meat (25 for Bug Steak later)." }
+        ]
+      },
+      {
+        "id": "fishing",
+        "icon": "\uD83C\uDFA3",
+        "label": "Fishing",
+        "color": "#3d8bbf",
+        "tips": [
+          { "p": "\uD83D\uDD34", "t": "Fish Starting Day 2", "b": "Willy gives you a free Bamboo Rod on Day 2. Fishing beats farming income in early Spring \u2014 Catfish sell for 200g each on rainy days." },
+          { "p": "\uD83D\uDD34", "t": "Fiberglass Rod ASAP", "b": "Save 1,800g for Willy's Fiberglass Rod. Lets you use Bait (30% faster bites). Biggest early fishing upgrade." },
+          { "p": "\uD83D\uDFE1", "t": "Best Early Fish Spots", "b": "River: Catfish (rainy). Ocean pier: Tuna, Sardine, Eel. Mountain Lake: Bullhead, Carp. Secret Woods pond: Woodskip (anytime)." },
+          { "p": "\uD83D\uDFE1", "t": "Crab Pots at Level 3", "b": "Craft Crab Pots (3 Iron Bars + 3 Wood each) for passive daily income. Check and rebait every morning." },
+          { "p": "\uD83D\uDFE2", "t": "Keep One of Each Fish", "b": "Community Center needs specific fish for bundles. Keep your first Catfish, Largemouth Bass, Pufferfish etc. in a chest." }
+        ]
+      },
+      {
+        "id": "foraging",
+        "icon": "\uD83C\uDF44",
+        "label": "Foraging",
+        "color": "#e07820",
+        "tips": [
+          { "p": "\uD83D\uDD34", "t": "Pick Everything Daily", "b": "Daffodils, Leeks, Dandelions \u2014 all free money. Walk every path each morning before other activities. They vanish at season end!" },
+          { "p": "\uD83D\uDD34", "t": "Salmonberry Season: Spring 15\u201318", "b": "Pick every single Salmonberry bush in town. 30 energy + 13 health each \u2014 the best mining fuel you'll have all spring." },
+          { "p": "\uD83D\uDFE1", "t": "Beach Every Morning", "b": "Nautilus Shells, Coral, Sea Urchins spawn daily. A 2-minute beach stop adds hundreds of gold per week." },
+          { "p": "\uD83D\uDFE1", "t": "Chop Trees Daily for Wood", "b": "You'll need 300\u20131,000+ Wood for buildings and fences. Start cutting trees early." },
+          { "p": "\uD83D\uDFE2", "t": "Plant Tree Seeds", "b": "Oak Seeds, Maple Seeds, Pine Cones \u2192 plant on farm borders. Future Tappers on these = daily passive income." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mid",
+    "label": "Mid Game",
+    "badge": "Y1 Summer \u2013 Y2",
+    "icon": "\uD83C\uDFE1",
+    "color": "#f0c040",
+    "cats": [
+      {
+        "id": "farming",
+        "icon": "\uD83C\uDF3E",
+        "label": "Farming",
+        "color": "#5fa83a",
+        "tips": [
+          { "p": "\uD83D\uDD34", "t": "Blueberries Rule Summer", "b": "Plant Blueberries on Day 1 of Summer. They produce 3 berries each harvest, regrow every 4 days. The single best Summer crop." },
+          { "p": "\uD83D\uDD34", "t": "Build Kegs & Preserve Jars", "b": "Kegs: 2\u20133\u00d7 crop value (fruit \u2192 wine is amazing). Preserve Jars: 2\u00d7 for most crops. A shed of 33 Kegs is your primary income engine." },
+          { "p": "\uD83D\uDD34", "t": "Fall: Cranberries + Pumpkins", "b": "Cranberries = best Fall regrow crop (3 berries, regrows every 5 days). Pumpkins for bundles + Giant Crop chance." },
+          { "p": "\uD83D\uDFE1", "t": "Quality Sprinklers (Level 6)", "b": "Craft: 1 Iron Bar + 1 Gold Bar + 1 Refined Quartz. Waters 8 tiles in a 3\u00d73 pattern. Eliminates most manual watering." },
+          { "p": "\uD83D\uDFE1", "t": "Animals for Artisan Goods", "b": "Coop \u2192 Chickens \u2192 Eggs \u2192 Mayo (190g). Barn \u2192 Cows \u2192 Milk \u2192 Cheese (230g). Upgrade to Deluxe for auto-feeding." },
+          { "p": "\uD83D\uDFE2", "t": "Seed Maker for Rare Seeds", "b": "Buy Rare Seeds from Traveling Merchant (Mon/Fri south of farm). Put one in Seed Maker to duplicate \u2192 Sweet Gem Berry = 3,000g+ each." }
+        ]
+      },
+      {
+        "id": "mining",
+        "icon": "\u26CF",
+        "label": "Mining",
+        "color": "#95a5a6",
+        "tips": [
+          { "p": "\uD83D\uDD34", "t": "Reach Floor 120", "b": "Defeat 3 bosses (Floor 40, 80, 120) to get the Skull Key and unlock Skull Cavern in the desert. Essential for Iridium." },
+          { "p": "\uD83D\uDD34", "t": "Skull Cavern Prep", "b": "Only enter on HIGH LUCK days (Fortune Teller on TV at 6 AM). Bring: 20+ Bombs, Spicy Eel/Lucky Lunch, 10 Staircases, best sword." },
+          { "p": "\uD83D\uDFE1", "t": "Lightning Rods Now", "b": "Craft Lightning Rods (99 Bat Wings + 1 Iron Bar + 1 Refined Quartz). Thunderstorms make Battery Packs for Iridium Sprinklers." },
+          { "p": "\uD83D\uDFE1", "t": "60 Museum Donations", "b": "Reach 60 artifacts/minerals donated \u2192 Gunther gives you the Rusty Key \u2192 Sewers \u2192 Krobus (Void Eggs, Iridium Band for 500g!)." },
+          { "p": "\uD83D\uDFE2", "t": "Check Luck Every Morning", "b": "Fortune Teller channel (TV, 6 AM) shows daily luck. High luck = more ladders, better gem drops, faster Skull Cavern diving." }
+        ]
+      },
+      {
+        "id": "fishing",
+        "icon": "\uD83C\uDFA3",
+        "label": "Fishing",
+        "color": "#3d8bbf",
+        "tips": [
+          { "p": "\uD83D\uDD34", "t": "Iridium Rod at Level 6", "b": "Buy from Willy for 3,500g. Lets you use Bait AND Tackle simultaneously. The single biggest fishing upgrade." },
+          { "p": "\uD83D\uDD34", "t": "Legendary Fish per Season", "b": "Spring: Catfish (river, rainy). Summer: Crimsonfish (east ocean pier). Fall: Angler (north bridge). Winter: Glacierfish (south Arrowhead Island pier)." },
+          { "p": "\uD83D\uDFE1", "t": "Use Trap Bobber Tackle", "b": "Craft: 1 Copper Bar + 1 Bait. Prevents fish from escaping while you pause reeling. Makes tough fish manageable." },
+          { "p": "\uD83D\uDFE1", "t": "30+ Crab Pots = Free Income", "b": "With Mariner profession (Level 10 Fishing), crab pots NEVER produce trash \u2014 only seafood. Set 30+ and check daily." },
+          { "p": "\uD83D\uDFE2", "t": "Night Fishing Specials", "b": "Walleye: Fall, rainy, 12PM\u20132AM. Eel: Spring/Fall, rainy, 4PM\u20132AM. Woodskip: Secret Woods pond, any time." }
+        ]
+      },
+      {
+        "id": "foraging",
+        "icon": "\uD83C\uDF44",
+        "label": "Foraging",
+        "color": "#e07820",
+        "tips": [
+          { "p": "\uD83D\uDD34", "t": "Oak Resin for Kegs", "b": "Every Keg needs 1 Oak Resin (from Tapper on Oak Tree, every 7 days). You need 33\u2013100+ Oak Resins for a full Keg setup. Tap everything now." },
+          { "p": "\uD83D\uDD34", "t": "Mushroom Cave > Fruit Bat", "b": "When Demetrius visits (after first house upgrade), pick Mushroom Cave. Daily mushrooms for cooking/gifting beats random fruit." },
+          { "p": "\uD83D\uDFE1", "t": "Blackberry Season: Fall 8\u201311", "b": "Pick every Blackberry bush in town. Restores 20+ energy each. Stock 50\u2013100 for winter mining sessions." },
+          { "p": "\uD83D\uDFE1", "t": "Wild Seeds for Foraging XP", "b": "Craft Wild Seeds each season from foraged materials. Harvesting them gives Foraging XP toward Level 10 Botanist." },
+          { "p": "\uD83D\uDFE2", "t": "Pine Tar via Tappers", "b": "Pine Tar (5-day cycle) is needed for Cork Bobbers and Bee Houses. Set tappers on every Pine Tree you own." }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "end",
+    "label": "End Game",
+    "badge": "Y3+ \u00b7 Perfection",
+    "icon": "\u2B50",
+    "color": "#d94040",
+    "cats": [
+      {
+        "id": "farming",
+        "icon": "\uD83C\uDF3E",
+        "label": "Farming",
+        "color": "#5fa83a",
+        "tips": [
+          { "p": "\uD83D\uDD34", "t": "Ancient Fruit Wine = Peak Income", "b": "Ancient Fruit (7-day regrow, year-round in Greenhouse) \u2192 Keg = 2,310g base / 3,465g Artisan. Fill Greenhouse with 54 plants + 2 Iridium Sprinklers." },
+          { "p": "\uD83D\uDD34", "t": "Starfruit Wine for Burst Income", "b": "Starfruit (Summer, 2,250g each) \u2192 Keg \u2192 Artisan Wine = 6,300g per bottle. Highest value single-crop wine in the game." },
+          { "p": "\uD83D\uDD34", "t": "Greenhouse = Year-Round Power", "b": "Complete the Pantry bundles to unlock it. Fill 100% with Ancient Fruit \u2014 no seasons, regrows forever. Iridium Sprinklers cover everything." },
+          { "p": "\uD83D\uDFE1", "t": "Iridium Sprinklers", "b": "Craft: 1 Gold Bar + 1 Iridium Bar + 1 Battery Pack. Waters a 5\u00d75 area (24 tiles). Replace every other sprinkler type you have." },
+          { "p": "\uD83D\uDFE1", "t": "Junimo Huts = Auto Harvest", "b": "After the Community Center, buy Junimo Huts from Wizard (20,000g). Junimos auto-harvest ALL crops in range every morning." },
+          { "p": "\uD83D\uDFE2", "t": "Pigs \u2192 Truffle Oil", "b": "Deluxe Barn of Pigs \u2192 Daily Truffles \u2192 Truffle Oil = 1,491g Artisan each. 8 pigs = enormous daily income with zero effort." }
+        ]
+      },
+      {
+        "id": "mining",
+        "icon": "\u26CF",
+        "label": "Mining",
+        "color": "#95a5a6",
+        "tips": [
+          { "p": "\uD83D\uDD34", "t": "Skull Cavern Floor 100+", "b": "Max luck day + Lucky Lunch + 30 Bombs + 20 Staircases + Ginger Ale. Floor 100+ = guaranteed Prismatic Shard chance every few floors." },
+          { "p": "\uD83D\uDD34", "t": "Galaxy \u2192 Infinity Blade", "b": "3 Prismatic Shards at 3 pillars in Calico Desert = Galaxy Sword (60 DMG). Combine with 3 Galaxy Souls at Volcano Forge = Infinity Blade (80 DMG)!" },
+          { "p": "\uD83D\uDFE1", "t": "Best Ring Combo", "b": "Iridium Band (from Dwarf/Krobus, 5,000g) + Lucky Ring (Skull Cavern drop) = best general combo. Or Iridium Band + Napalm Ring for AoE." },
+          { "p": "\uD83D\uDFE1", "t": "Complete Monster Eradication", "b": "All goals at Adventurer's Guild give ring rewards: Slime Charmer, Savage Ring, Burglar's Ring (double monster drops)." },
+          { "p": "\uD83D\uDFE2", "t": "Radioactive Bars", "b": "Available after Mr. Qi's quest chain. Used for special late crafting recipes and Hyper Speed-Gro. Very rare \u2014 don't sell raw." }
+        ]
+      },
+      {
+        "id": "fishing",
+        "icon": "\uD83C\uDFA3",
+        "label": "Fishing",
+        "color": "#3d8bbf",
+        "tips": [
+          { "p": "\uD83D\uDD34", "t": "Qi's Extended Family Quest", "b": "Mr. Qi's challenge: catch all 5 legendary fish variants in Ginger Island waters. Different season requirements than the originals!" },
+          { "p": "\uD83D\uDD34", "t": "Complete All 80 Fish", "b": "Required for Perfection. Check Collections tab. Some fish are hyper-specific: season + weather + time + location required." },
+          { "p": "\uD83D\uDFE1", "t": "Special Orders Fishing", "b": "Mr. Qi's Special Orders board has weekly fishing challenges. Complete for Qi Gems \u2192 spend in Walnut Room for exclusive items." },
+          { "p": "\uD83D\uDFE2", "t": "Angler Profession + Cork Bobber", "b": "Level 10 Angler profession (fish worth 50% more) + Iridium Rod + Cork Bobber = maximum profit per trip. The Legend fish sells for 5,000g+." }
+        ]
+      },
+      {
+        "id": "foraging",
+        "icon": "\uD83C\uDF44",
+        "label": "Foraging",
+        "color": "#e07820",
+        "tips": [
+          { "p": "\uD83D\uDD34", "t": "Ginger Island Foraging", "b": "Island has unique items: Taro Root, Ginger, Pineapple, Mango. Set up the Island Farm. Some items exist ONLY here \u2014 needed for full Perfection." },
+          { "p": "\uD83D\uDD34", "t": "Heavy Tappers", "b": "Upgrade regular Tappers \u2192 Heavy Tappers at the Volcano Forge on Ginger Island. Produces sap TWICE as fast." },
+          { "p": "\uD83D\uDFE1", "t": "Botanist + Tracker Combo", "b": "Botanist (Foraging 10): all foraged items = Iridium quality (max price). Tracker: see forage icons on screen edges. Together = the best setup." },
+          { "p": "\uD83D\uDFE2", "t": "Mushroom Tree Tappers", "b": "Let trees become Mushroom Trees (random event). Tap them for daily Red/Purple Mushrooms worth 250\u2013280g each." }
+        ]
+      }
+    ]
+  }
+]
