@@ -1,5 +1,6 @@
 # 🌾 Stardew Valley Ultimate Guide
 
+![Banner](image.png)
 A comprehensive, interactive single-page guide for Stardew Valley players — from first-time farmers to 100% Perfection seekers. Covers every crop, NPC, monster, secret, fish, and bundle in the game.
 
 ## Features
@@ -17,13 +18,13 @@ A comprehensive, interactive single-page guide for Stardew Valley players — fr
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Build | [Vite 6](https://vitejs.dev/) — fast dev server, optimized production builds |
-| Language | Vanilla JavaScript (ES Modules) — no frameworks |
-| Styling | [Tailwind CSS](https://tailwindcss.com/) via CDN + custom CSS |
-| Data | Static JSON imported at build time — zero runtime API calls |
-| Interactive | CSS transitions, vanilla JS modals, localStorage persistence |
+| Layer       | Technology                                                                   |
+| ----------- | ---------------------------------------------------------------------------- |
+| Build       | [Vite 6](https://vitejs.dev/) — fast dev server, optimized production builds |
+| Language    | Vanilla JavaScript (ES Modules) — no frameworks                              |
+| Styling     | [Tailwind CSS](https://tailwindcss.com/) via CDN + custom CSS                |
+| Data        | Static JSON imported at build time — zero runtime API calls                  |
+| Interactive | CSS transitions, vanilla JS modals, localStorage persistence                 |
 
 ## Getting Started
 
@@ -62,12 +63,12 @@ npm run preview
 
 Static site — deploy `dist/` anywhere:
 
-| Platform | Instructions |
-|----------|-------------|
-| **Netlify** | Drag `dist/` onto [app.netlify.com](https://app.netlify.com) |
-| **Vercel** | Connect repo → auto-detects Vite |
+| Platform             | Instructions                                                     |
+| -------------------- | ---------------------------------------------------------------- |
+| **Netlify**          | Drag `dist/` onto [app.netlify.com](https://app.netlify.com)     |
+| **Vercel**           | Connect repo → auto-detects Vite                                 |
 | **Cloudflare Pages** | Connect repo → set build command `npm run build`, output `dist/` |
-| **GitHub Pages** | Push `dist/` to `gh-pages` branch |
+| **GitHub Pages**     | Push `dist/` to `gh-pages` branch                                |
 
 ## License
 
