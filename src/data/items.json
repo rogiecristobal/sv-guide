@@ -1038,7 +1038,7 @@
     "img": "https://stardewvalleywiki.com/mediawiki/images/8/8f/Eggplant.png"
   },
   {
-    "id": 260,
+    "id": 5001,
     "name": "Yam",
     "slug": "yam",
     "category": "crops",
@@ -1282,7 +1282,7 @@
     "img": "https://stardewvalleywiki.com/mediawiki/images/f/f6/Amaranth.png"
   },
   {
-    "id": 454,
+    "id": 5002,
     "name": "Grape",
     "slug": "grape",
     "category": "crops",
@@ -1589,7 +1589,7 @@
     "img": "https://stardewvalleywiki.com/mediawiki/images/4/45/Fiber.png"
   },
   {
-    "id": 245,
+    "id": 5003,
     "name": "Wheat",
     "slug": "wheat",
     "category": "crops",
@@ -1666,7 +1666,7 @@
     "img": "https://stardewvalleywiki.com/mediawiki/images/a/a4/Beet.png"
   },
   {
-    "id": 248,
+    "id": 5000,
     "name": "Rice",
     "slug": "rice",
     "category": "crops",

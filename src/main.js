@@ -1,5 +1,6 @@
 import { initTheme } from './scripts/theme.js';
-import { showModal } from './scripts/modal.js';
+import { showModal, initModalDismiss } from './scripts/modal.js';
+import { initChecklists } from './scripts/progress-tracker.js';
 import { renderAccurateFarm, LAYOUTS, FARM_DEFAULTS } from './scripts/farm-renderer.js';
 
 import professionsData from './data/professions.json';
@@ -321,8 +322,6 @@ function renderMilestones() {
 
 function renderAchievements() {
   const container = document.getElementById('achievementsChecklist');
-  const label = document.getElementById('achvProgressLabel');
-  const bar = document.getElementById('achvProgressBar');
   if (!container) return;
   let html = '';
   for (const a of achievementsData) {
@@ -330,13 +329,10 @@ function renderAchievements() {
   }
   container.innerHTML = html;
   document.getElementById('achvCount').textContent = `(${achievementsData.length})`;
-  setTimeout(() => initChecklistsSub('achievementsChecklist', label, bar), 50);
 }
 
 function renderBundlesChecklist() {
   const container = document.getElementById('bundlesChecklist');
-  const label = document.getElementById('bundleProgressLabel');
-  const bar = document.getElementById('bundleProgressBar');
   if (!container) return;
   let html = '';
   for (const b of bundlesData) {
@@ -344,7 +340,6 @@ function renderBundlesChecklist() {
   }
   container.innerHTML = html;
   document.getElementById('bundleCount').textContent = `(${bundlesData.length})`;
-  setTimeout(() => initChecklistsSub('bundlesChecklist', label, bar), 50);
 }
 
 function renderFishChecklist() {
@@ -357,13 +352,10 @@ function renderFishChecklist() {
   }
   container.innerHTML = html;
   document.getElementById('fishCount').textContent = `(${fish.length})`;
-  setTimeout(() => initChecklistsSub('fishChecklist', document.getElementById('fishProgressLabel'), document.getElementById('fishProgressBar')), 50);
 }
 
 function renderMuseumChecklist() {
   const container = document.getElementById('museumChecklist');
-  const label = document.getElementById('museumProgressLabel');
-  const bar = document.getElementById('museumProgressBar');
   if (!container) return;
   const minerals = itemsData.filter(i => i.category === 'mineral');
   const artifacts = itemsData.filter(i => i.category === 'artifact');
@@ -374,7 +366,6 @@ function renderMuseumChecklist() {
   }
   container.innerHTML = html;
   document.getElementById('museumCount').textContent = `(${donations.length})`;
-  setTimeout(() => initChecklistsSub('museumChecklist', label, bar), 50);
 }
 
 function renderStardropChecklist() {
@@ -395,34 +386,6 @@ function renderStardropChecklist() {
   }
   container.innerHTML = html;
   document.getElementById('stardropCount').textContent = `(${stardrops.length})`;
-}
-
-function initChecklistsSub(listId, labelEl, barEl) {
-  const list = document.getElementById(listId);
-  if (!list) return;
-  const STORAGE_PREFIX = 'sdv-progress-';
-  const cbs = list.querySelectorAll('input[type="checkbox"]');
-  cbs.forEach(cb => {
-    const key = STORAGE_PREFIX + cb.id;
-    if (localStorage.getItem(key) === 'true') {
-      cb.checked = true;
-      cb.closest('.checklist-item')?.classList.add('checked');
-    }
-    cb.addEventListener('change', () => {
-      localStorage.setItem(STORAGE_PREFIX + cb.id, cb.checked);
-      cb.closest('.checklist-item')?.classList.toggle('checked', cb.checked);
-      updateProgressSub(cbs, labelEl, barEl);
-    });
-  });
-  updateProgressSub(cbs, labelEl, barEl);
-}
-
-function updateProgressSub(cbs, labelEl, barEl) {
-  const all = cbs.length;
-  const checked = [...cbs].filter(cb => cb.checked).length;
-  const pct = all > 0 ? Math.round((checked / all) * 100) : 0;
-  if (labelEl) labelEl.textContent = `${checked}/${all} (${pct}%)`;
-  if (barEl) barEl.style.width = pct + '%';
 }
 
 function renderItemsDatabase() {
@@ -490,12 +453,30 @@ function initExpandables() {
     const content = el.querySelector('.expandable-content');
     if (!btn || !content) return;
     btn.removeAttribute('onclick');
+
+    // Reconcile state if inline onclick already toggled open before JS loaded
+    if (el.classList.contains('open') && !content.style.height) {
+      const h = content.scrollHeight;
+      if (h > 0) {
+        content.style.height = h + 'px';
+        requestAnimationFrame(() => { content.style.height = ''; });
+      }
+    }
+
     let animating = false;
     btn.addEventListener('click', () => {
       if (animating) return;
       const isOpen = el.classList.contains('open');
       animating = true;
-      const h = content.scrollHeight;
+
+      let h = content.scrollHeight;
+      if (h === 0 && content.children.length > 0) {
+        content.style.height = 'auto';
+        h = content.scrollHeight;
+        content.style.height = '0px';
+        void content.offsetHeight;
+      }
+
       function done() {
         content.removeEventListener('transitionend', done);
         content.removeEventListener('transitioncancel', done);
@@ -521,6 +502,7 @@ function initExpandables() {
 
 async function init() {
   initTheme();
+  initModalDismiss();
   window.showModal = showModal;
   window.switchLayout = switchLayout;
   window.switchFarmType = switchFarmType;
@@ -565,14 +547,7 @@ async function init() {
     }, 200);
   });
 
-  document.querySelectorAll('.checklist[data-auto]').forEach(list => {
-    const cbs = list.querySelectorAll('input[type="checkbox"]');
-    const parent = list.closest('[data-progress]');
-    if (!parent) return;
-    const label = parent.querySelector('.progress-label');
-    const bar = parent.querySelector('.progress-bar-fill');
-    initChecklistsSub(list.id, label, bar);
-  });
+  initChecklists();
 }
 
 init().catch(err => {
